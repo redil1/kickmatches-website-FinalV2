@@ -1,0 +1,427 @@
+{
+  "success": true,
+  "data": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Champions League, Playoff Round",
+        "slug": "uefa-champions-league-playoff-round",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 692,
+        "isGroup": false,
+        "roundPrefix": "Qualification",
+        "competitionType": 2,
+        "isLive": false,
+        "id": 119880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا، الدور الفاصل",
+            "hi": "यूईएफए चैंपियंस लीग, प्लेऑफ राउंड",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, প্লে অফ রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 636,
+        "name": "Playoff round",
+        "slug": "playoff-round"
+      },
+      "customId": "cXsxdc",
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "venue": {
+        "city": {
+          "name": "Glasgow"
+        },
+        "venueCoordinates": {
+          "latitude": 55.850181,
+          "longitude": -4.206823
+        },
+        "hidden": false,
+        "slug": "celtic-park",
+        "name": "Celtic Park",
+        "capacity": 60411,
+        "id": 916,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اسكتلندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك بارك",
+            "hi": "सेल्टिक पार्क",
+            "bn": "সেল্টিক পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Celtic Park",
+          "capacity": 60411
+        }
+      },
+      "referee": {
+        "name": "Espen Eskas",
+        "slug": "espen-eskas",
+        "yellowCards": 1020,
+        "redCards": 15,
+        "yellowRedCards": 20,
+        "games": 298,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 92295,
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "النرويج"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسبن إسكاس",
+            "hi": "एस्पेन एस्कास",
+            "bn": "এসপেন এসকাস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Celtic",
+        "slug": "celtic",
+        "shortName": "Celtic",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 453949,
+        "manager": {
+          "name": "Brendan Rodgers",
+          "slug": "brendan-rodgers",
+          "shortName": "B. Rodgers",
+          "id": 74479,
+          "country": {
+            "alpha2": "NX",
+            "alpha3": "NIR",
+            "name": "Northern Ireland",
+            "slug": "northern-ireland",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أيرلندا الشمالية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برندان رودجرز",
+              "hi": "ब्रेंडन रॉजर्स",
+              "bn": "ব্রেন্ডন রজার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. رودجرز",
+              "hi": "बी. रॉजर्स",
+              "bn": "বি. রজার্স"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Glasgow"
+          },
+          "venueCoordinates": {
+            "latitude": 55.850181,
+            "longitude": -4.206823
+          },
+          "hidden": false,
+          "slug": "celtic-park",
+          "name": "Celtic Park",
+          "capacity": 60411,
+          "id": 916,
+          "country": {
+            "alpha2": "SX",
+            "alpha3": "SCO",
+            "name": "Scotland",
+            "slug": "scotland",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "اسكتلندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك بارك",
+              "hi": "सेल्टिक पार्क",
+              "bn": "সেল্টিক পার্ক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Celtic Park",
+            "capacity": 60411
+          }
+        },
+        "nameCode": "CEL",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2352,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اسكتلندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Celtic",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#009933",
+          "text": "#009933"
+        },
+        "foundationDateTimestamp": -2592518400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك",
+            "ru": "Селтик Глазго",
+            "hi": "सेल्टिक",
+            "bn": "সেল্টিক"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Kairat Almaty",
+        "slug": "kairat-almaty",
+        "shortName": "Kairat",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 20001,
+        "manager": {
+          "name": "Rafael Urazbakhtin",
+          "slug": "rafael-urazbakhtin",
+          "shortName": "R. Urazbakhtin",
+          "id": 805008,
+          "country": {
+            "alpha2": "KZ",
+            "alpha3": "KAZ",
+            "name": "Kazakhstan",
+            "slug": "kazakhstan",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كازاخستان"
+              },
+              "shortNameTranslation": {}
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Almaty"
+          },
+          "venueCoordinates": {
+            "latitude": 43.21796,
+            "longitude": 76.317016
+          },
+          "hidden": true,
+          "slug": "central-stadium",
+          "name": "Central Stadium",
+          "capacity": 23804,
+          "id": 952,
+          "country": {
+            "alpha2": "KZ",
+            "alpha3": "KAZ",
+            "name": "Kazakhstan",
+            "slug": "kazakhstan",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كازاخستان"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الملعب المركزي",
+              "hi": "सेंट्रल स्टेडियम",
+              "bn": "সেন্ট্রাল স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Central Stadium",
+            "capacity": 23804
+          }
+        },
+        "nameCode": "KAL",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5172,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كازاخستان"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Kairat Almaty",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffeb3b",
+          "text": "#ffeb3b"
+        },
+        "foundationDateTimestamp": -504921600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كايرات ألماتي",
+            "ru": "Кайрат Алматы"
+          },
+          "shortNameTranslation": {
+            "ar": "كايرات",
+            "hi": "कैरात",
+            "bn": "কাইরাত"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {},
+      "awayScore": {},
+      "time": {},
+      "changes": {
+        "changes": [
+          "cardsCode"
+        ],
+        "changeTimestamp": 1755712450
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14348664,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "kairat-almaty-celtic",
+      "startTimestamp": 1755716400,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

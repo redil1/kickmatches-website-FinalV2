@@ -1,0 +1,461 @@
+{
+  "success": true,
+  "data": {
+    "event": {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "UEFA Champions League, Playoff Round",
+        "slug": "uefa-champions-league-playoff-round",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 692,
+        "isGroup": false,
+        "roundPrefix": "Qualification",
+        "competitionType": 2,
+        "isLive": false,
+        "id": 119880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا، الدور الفاصل",
+            "hi": "यूईएफए चैंपियंस लीग, प्लेऑफ राउंड",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, প্লে অফ রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 636,
+        "name": "Playoff round",
+        "slug": "playoff-round"
+      },
+      "customId": "ANsmuc",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "venue": {
+        "city": {
+          "name": "Budapest"
+        },
+        "venueCoordinates": {
+          "latitude": 47.475405,
+          "longitude": 19.095213
+        },
+        "hidden": true,
+        "slug": "groupama-ar-na",
+        "name": "Groupama Aréna",
+        "capacity": 22000,
+        "id": 15347,
+        "country": {
+          "alpha2": "HU",
+          "alpha3": "HUN",
+          "name": "Hungary",
+          "slug": "hungary",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هنغاريا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جروباما أرينا",
+            "hi": "ग्रुपामा एरिना",
+            "bn": "গ্রুপমা এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Groupama Aréna",
+          "capacity": 22000
+        }
+      },
+      "referee": {
+        "name": "Joao Pedro Pinheiro",
+        "slug": "joao-pedro-pinheiro",
+        "yellowCards": 1590,
+        "redCards": 38,
+        "yellowRedCards": 25,
+        "games": 341,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 222742,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو بيدرو بينهيرو",
+            "hi": "जोआओ पेड्रो पिनहेइरो",
+            "bn": "জোয়াও পেড্রো পিনহেইরো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Ferencváros TC",
+        "slug": "ferencvaros-tc",
+        "shortName": "Ferencváros",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 112514,
+        "manager": {
+          "name": "Robbie Keane",
+          "slug": "robbie-keane",
+          "shortName": "R. Keane",
+          "id": 789853,
+          "country": {
+            "alpha2": "IE",
+            "alpha3": "IRL",
+            "name": "Ireland",
+            "slug": "ireland",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أيرلندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روبي كين",
+              "hi": "रोबी कीन",
+              "bn": "রবি কিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. كين",
+              "hi": "आर. कीन",
+              "bn": "আর. কিন"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Budapest"
+          },
+          "venueCoordinates": {
+            "latitude": 47.475405,
+            "longitude": 19.095213
+          },
+          "hidden": true,
+          "slug": "groupama-ar-na",
+          "name": "Groupama Aréna",
+          "capacity": 22000,
+          "id": 15347,
+          "country": {
+            "alpha2": "HU",
+            "alpha3": "HUN",
+            "name": "Hungary",
+            "slug": "hungary",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هنغاريا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جروباما أرينا",
+              "hi": "ग्रुपामा एरिना",
+              "bn": "গ্রুপমা এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Groupama Aréna",
+            "capacity": 22000
+          }
+        },
+        "nameCode": "FTC",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1925,
+        "country": {
+          "alpha2": "HU",
+          "alpha3": "HUN",
+          "name": "Hungary",
+          "slug": "hungary",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هنغاريا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Ferencváros TC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#339900",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -2229984000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرينتسفاروش تي سي",
+            "ru": "Ференцварош"
+          },
+          "shortNameTranslation": {
+            "ar": "فيرينتسفاروش",
+            "hi": "फेरेन्कवरोस",
+            "bn": "ফেরেনকাভারস"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Qarabağ",
+        "slug": "qarabag",
+        "shortName": "Qarabağ",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 224743,
+        "manager": {
+          "name": "Gurban Gurbanov",
+          "slug": "gurban-gurbanov",
+          "shortName": "G. Gurbanov",
+          "id": 11090,
+          "country": {
+            "alpha2": "AZ",
+            "alpha3": "AZE",
+            "name": "Azerbaijan",
+            "slug": "azerbaijan",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أذربيجان"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غوربان غوربانوف",
+              "hi": "गुरबन गुरबानोव",
+              "bn": "গুরবান গুরবানভ"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. غوربانوف",
+              "hi": "जी. गुरबानोव",
+              "bn": "জি. গুরবানভ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Baku"
+          },
+          "venueCoordinates": {
+            "latitude": 40.421532,
+            "longitude": 49.99633
+          },
+          "hidden": true,
+          "slug": "az-rsun-arena",
+          "name": "Azərsun Arena",
+          "capacity": 5800,
+          "id": 16513,
+          "country": {
+            "alpha2": "AZ",
+            "alpha3": "AZE",
+            "name": "Azerbaijan",
+            "slug": "azerbaijan",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أذربيجان"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أذرسون أرينا",
+              "hi": "अज़ेर्सुन एरिना",
+              "bn": "আজারসুন এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Azərsun Arena",
+            "capacity": 5800
+          }
+        },
+        "nameCode": "QAR",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5962,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أذربيجان"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Qarabağ",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -586569600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاراباخ",
+            "ru": "Карабах",
+            "hi": "करबाख",
+            "bn": "কারাবাগ"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 0,
+        "period2": 3,
+        "normaltime": 3
+      },
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1755633824
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1755636893
+      },
+      "hasGlobalHighlights": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14348666,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "qarabag-ferencvaros-tc",
+      "currentPeriodStartTimestamp": 1755633824,
+      "startTimestamp": 1755630000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

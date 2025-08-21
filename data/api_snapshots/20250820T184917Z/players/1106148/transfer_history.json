@@ -1,0 +1,885 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Troyes",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2402024,
+        "transferDateTimestamp": 1752710400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sparta Rotterdam",
+          "slug": "sparta-rotterdam",
+          "shortName": "Sparta",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 35733,
+          "nameCode": "SPA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2960,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبارتا روتيردام",
+              "ru": "Спарта Роттердам",
+              "hi": "स्पार्टा रॉटरडैम"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Sparta Rotterdam",
+        "toTeamName": "Troyes",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2047973,
+        "transferDateTimestamp": 1751241600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Troyes",
+        "toTeamName": "Basel",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2258439,
+        "transferDateTimestamp": 1737936000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sparta Rotterdam",
+          "slug": "sparta-rotterdam",
+          "shortName": "Sparta",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 35733,
+          "nameCode": "SPA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2960,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبارتا روتيردام",
+              "ru": "Спарта Роттердам",
+              "hi": "स्पार्टा रॉटरडैम"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Sparta Rotterdam",
+        "toTeamName": "Troyes",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2258440,
+        "transferDateTimestamp": 1737849600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Sparta Rotterdam",
+          "slug": "sparta-rotterdam",
+          "shortName": "Sparta",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 35733,
+          "nameCode": "SPA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2960,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبارتا روتيردام",
+              "ru": "Спарта Роттердам",
+              "hi": "स्पार्टा रॉटरडैम"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Troyes",
+        "toTeamName": "Sparta Rotterdam",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1674656,
+        "transferDateTimestamp": 1693440000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Lommel SK",
+          "slug": "lommel-sk",
+          "shortName": "Lommel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6285,
+          "nameCode": "LOM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5046,
+          "teamColors": {
+            "primary": "#008000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوميل إس كي",
+              "ru": "Ломмел СК"
+            },
+            "shortNameTranslation": {
+              "ar": "لوميل"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Lommel SK",
+        "toTeamName": "Troyes",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1442912,
+        "transferDateTimestamp": 1688083200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Lommel SK",
+          "slug": "lommel-sk",
+          "shortName": "Lommel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6285,
+          "nameCode": "LOM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5046,
+          "teamColors": {
+            "primary": "#008000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوميل إس كي",
+              "ru": "Ломмел СК"
+            },
+            "shortNameTranslation": {
+              "ar": "لوميل"
+            }
+          }
+        },
+        "fromTeamName": "Troyes",
+        "toTeamName": "Lommel SK",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1432796,
+        "transferDateTimestamp": 1656720000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Fluminense",
+          "slug": "fluminense",
+          "shortName": "Fluminense",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 365846,
+          "nameCode": "FLU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1961,
+          "teamColors": {
+            "primary": "#660000",
+            "secondary": "#006633",
+            "text": "#006633"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فلومينينسي",
+              "ru": "Флуминенсе"
+            },
+            "shortNameTranslation": {
+              "ar": "فلومينينسي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Troyes",
+          "slug": "troyes",
+          "shortName": "Troyes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14052,
+          "nameCode": "EST",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1652,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروا",
+              "ru": "Труа",
+              "hi": "ट्रोयस",
+              "bn": "ট্রয়েস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Fluminense",
+        "toTeamName": "Troyes",
+        "type": 3,
+        "transferFee": 5000000,
+        "transferFeeDescription": "5M €",
+        "id": 1267008,
+        "transferDateTimestamp": 1626998400,
+        "transferFeeRaw": {
+          "value": 5000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Metinho",
+          "firstName": "Metinho",
+          "lastName": "",
+          "slug": "metinho",
+          "shortName": "Metinho",
+          "position": "M",
+          "jerseyNumber": "5",
+          "userCount": 467,
+          "id": 1106148,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            },
+            "shortNameTranslation": {
+              "ar": "ميتينهو",
+              "hi": "मेटिन्हो",
+              "bn": "মেতিনহো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Fluminense U17",
+          "slug": "fluminense-u17",
+          "shortName": "Fluminense U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 936,
+          "nameCode": "FU1",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 504352,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فلومينينسي تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "فلومينينسي تحت 17"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Fluminense",
+          "slug": "fluminense",
+          "shortName": "Fluminense",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 365846,
+          "nameCode": "FLU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1961,
+          "teamColors": {
+            "primary": "#660000",
+            "secondary": "#006633",
+            "text": "#006633"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فلومينينسي",
+              "ru": "Флуминенсе"
+            },
+            "shortNameTranslation": {
+              "ar": "فلومينينسي"
+            }
+          }
+        },
+        "fromTeamName": "Fluminense U17",
+        "toTeamName": "Fluminense",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1309005,
+        "transferDateTimestamp": 1614556800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

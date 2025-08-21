@@ -1,0 +1,791 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bristol City",
+          "slug": "bristol-city",
+          "shortName": "Bristol City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31265,
+          "nameCode": "BRC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 58,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بريستول ستي",
+              "ru": "Бристоль Сити",
+              "hi": "ब्रिस्टल सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bristol City",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1581752,
+        "transferDateTimestamp": 1679356800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bristol City",
+          "slug": "bristol-city",
+          "shortName": "Bristol City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31265,
+          "nameCode": "BRC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 58,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بريستول ستي",
+              "ru": "Бристоль Сити",
+              "hi": "ब्रिस्टल सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bodø/Glimt",
+        "toTeamName": "Bristol City",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1549981,
+        "transferDateTimestamp": 1674604800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "No team",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 744130,
+        "transferDateTimestamp": 1552262400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Hapoel Kfar Saba",
+          "slug": "hapoel-kfar-saba",
+          "shortName": "H. Kfar Saba",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2913,
+          "nameCode": "HKS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5200,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#008000",
+            "text": "#008000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هابوئيل كفار سابا"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. كفار سابا"
+            }
+          }
+        },
+        "fromTeamName": "Hapoel Kfar Saba",
+        "toTeamName": "No team",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 620576,
+        "transferDateTimestamp": 1530403200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bnei Yehuda Tel Aviv",
+          "slug": "bnei-yehuda-tel-aviv",
+          "shortName": "Bnei Yehuda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 4090,
+          "nameCode": "BYE",
+          "national": false,
+          "type": 0,
+          "id": 5203,
+          "teamColors": {
+            "primary": "#ff8000",
+            "secondary": "#ff8000",
+            "text": "#ff8000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بني يهودا تل أبيب",
+              "ru": "Бней Иегуда Тель-Авив"
+            },
+            "shortNameTranslation": {
+              "ar": "بني يهودا",
+              "hi": "बनी येहुदा",
+              "bn": "বনে ইয়েহুদা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Hapoel Kfar Saba",
+          "slug": "hapoel-kfar-saba",
+          "shortName": "H. Kfar Saba",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2913,
+          "nameCode": "HKS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5200,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#008000",
+            "text": "#008000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هابوئيل كفار سابا"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. كفار سابا"
+            }
+          }
+        },
+        "fromTeamName": "Bnei Yehuda Tel Aviv",
+        "toTeamName": "Hapoel Kfar Saba",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 401931,
+        "transferDateTimestamp": 1498867200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Kuban-2 Krasnodar",
+          "slug": "kuban-krasnodar-ii",
+          "shortName": "Kuban-2",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 23,
+          "nameCode": "KU2",
+          "national": false,
+          "type": 0,
+          "id": 201558,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبان كراسنودار 2",
+              "ru": "Кубань-2 Краснодар"
+            },
+            "shortNameTranslation": {
+              "ar": "كوبان 2"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bnei Yehuda Tel Aviv",
+          "slug": "bnei-yehuda-tel-aviv",
+          "shortName": "Bnei Yehuda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 4090,
+          "nameCode": "BYE",
+          "national": false,
+          "type": 0,
+          "id": 5203,
+          "teamColors": {
+            "primary": "#ff8000",
+            "secondary": "#ff8000",
+            "text": "#ff8000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بني يهودا تل أبيب",
+              "ru": "Бней Иегуда Тель-Авив"
+            },
+            "shortNameTranslation": {
+              "ar": "بني يهودا",
+              "hi": "बनी येहुदा",
+              "bn": "বনে ইয়েহুদা"
+            }
+          }
+        },
+        "fromTeamName": "Kuban Krasnodar II",
+        "toTeamName": "Bnei Yehuda Tel Aviv",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 401932,
+        "transferDateTimestamp": 1470355200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Kuban-2 Krasnodar",
+          "slug": "kuban-krasnodar-ii",
+          "shortName": "Kuban-2",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 23,
+          "nameCode": "KU2",
+          "national": false,
+          "type": 0,
+          "id": 201558,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبان كراسنودار 2",
+              "ru": "Кубань-2 Краснодар"
+            },
+            "shortNameTranslation": {
+              "ar": "كوبان 2"
+            }
+          }
+        },
+        "fromTeamName": "Kuban II",
+        "toTeamName": "Kuban Krasnodar II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 401933,
+        "transferDateTimestamp": 1467331200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "fromTeamName": "Mordovia II",
+        "toTeamName": "Kuban II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 401934,
+        "transferDateTimestamp": 1436918400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Marbella FC",
+          "slug": "marbella-fc",
+          "shortName": "Marbella",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3332,
+          "nameCode": "MAR",
+          "national": false,
+          "type": 0,
+          "id": 24348,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماربييا",
+              "ru": "Марбелья ФК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Marbella FC",
+        "toTeamName": "Mordovia II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 401935,
+        "transferDateTimestamp": 1426118400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nikita Haikin",
+          "firstName": "",
+          "lastName": "",
+          "slug": "haikin-nikita",
+          "shortName": "N. Haikin",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 449,
+          "id": 792624,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هايكين، نيكيتا",
+              "hi": "हाइकिन, निकिता",
+              "bn": "হাইকিন, নিকিতা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. هايكين",
+              "hi": "एन. हाइकिन",
+              "bn": "এন. হাইকিন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "CD Nacional U19",
+          "slug": "cd-nacional-u19",
+          "shortName": "Nacional U19",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 388,
+          "nameCode": "CNU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 78141,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي دي ناسيونال تحت 19",
+              "ru": "КД Насьонал Мадейра"
+            },
+            "shortNameTranslation": {
+              "ar": "ناسيونال"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Marbella FC",
+          "slug": "marbella-fc",
+          "shortName": "Marbella",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3332,
+          "nameCode": "MAR",
+          "national": false,
+          "type": 0,
+          "id": 24348,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماربييا",
+              "ru": "Марбелья ФК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "CD Nacional U19",
+        "toTeamName": "Marbella FC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 401983,
+        "transferDateTimestamp": 1404172800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

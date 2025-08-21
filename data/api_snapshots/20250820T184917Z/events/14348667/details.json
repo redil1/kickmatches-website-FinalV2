@@ -1,0 +1,435 @@
+{
+  "success": true,
+  "data": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Champions League, Playoff Round",
+        "slug": "uefa-champions-league-playoff-round",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 692,
+        "isGroup": false,
+        "roundPrefix": "Qualification",
+        "competitionType": 2,
+        "isLive": false,
+        "id": 119880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا، الدور الفاصل",
+            "hi": "यूईएफए चैंपियंस लीग, प्लेऑफ राउंड",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, প্লে অফ রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 636,
+        "name": "Playoff round",
+        "slug": "playoff-round"
+      },
+      "customId": "JAsbab",
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "venue": {
+        "city": {
+          "name": "Basel"
+        },
+        "venueCoordinates": {
+          "latitude": 47.541646,
+          "longitude": 7.620125
+        },
+        "hidden": true,
+        "slug": "st-jakob-park",
+        "name": "St. Jakob-Park",
+        "capacity": 37994,
+        "id": 764,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سويسرا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارك سانت جاكوب",
+            "hi": "सेंट जैकब-पार्क",
+            "bn": "সেন্ট জ্যাকব-পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "St. Jakob-Park",
+          "capacity": 37994
+        }
+      },
+      "referee": {
+        "name": "Anthony Taylor",
+        "slug": "taylor-anthony",
+        "yellowCards": 2180,
+        "redCards": 61,
+        "yellowRedCards": 43,
+        "games": 577,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 69853,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايلور، أنتوني",
+            "hi": "टेलर, एंथनी",
+            "bn": "টেলর, অ্যান্টনি"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Basel",
+        "slug": "basel",
+        "shortName": "Basel",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 73753,
+        "manager": {
+          "name": "Ludovic Magnin",
+          "slug": "ludovic-magnin",
+          "shortName": "L. Magnin",
+          "id": 789790,
+          "country": {
+            "alpha2": "CH",
+            "alpha3": "CHE",
+            "name": "Switzerland",
+            "slug": "switzerland",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سويسرا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لودوفيك ماغنين"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماغنين"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Basel"
+          },
+          "venueCoordinates": {
+            "latitude": 47.541646,
+            "longitude": 7.620125
+          },
+          "hidden": true,
+          "slug": "st-jakob-park",
+          "name": "St. Jakob-Park",
+          "capacity": 37994,
+          "id": 764,
+          "country": {
+            "alpha2": "CH",
+            "alpha3": "CHE",
+            "name": "Switzerland",
+            "slug": "switzerland",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سويسرا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارك سانت جاكوب",
+              "hi": "सेंट जैकब-पार्क",
+              "bn": "সেন্ট জ্যাকব-পার্ক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "St. Jakob-Park",
+            "capacity": 37994
+          }
+        },
+        "nameCode": "BAS",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2501,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سويسرا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Basel",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000099",
+          "secondary": "#990000",
+          "text": "#990000"
+        },
+        "foundationDateTimestamp": -2402352000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بازل",
+            "ru": "Базель",
+            "hi": "बेसल",
+            "bn": "বাসেল"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "FC København",
+        "slug": "fc-kobenhavn",
+        "shortName": "København",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 215767,
+        "manager": {
+          "name": "Jacob Neestrup",
+          "slug": "jacob-neestrup",
+          "shortName": "J. Neestrup",
+          "id": 793010,
+          "country": {
+            "alpha2": "DK",
+            "alpha3": "DNK",
+            "name": "Denmark",
+            "slug": "denmark",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدانمرك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكوب نيستروب",
+              "hi": "जैकब नीस्ट्रुप",
+              "bn": "জ্যাকব নেস্ট্রাপ"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. نيستروب",
+              "hi": "जे. नीस्ट्रुप",
+              "bn": "জে. নেস্ট্রাপ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Copenhagen"
+          },
+          "venueCoordinates": {
+            "latitude": 55.702704,
+            "longitude": 12.572264
+          },
+          "hidden": true,
+          "slug": "parken",
+          "name": "Parken",
+          "capacity": 38190,
+          "id": 936,
+          "country": {
+            "alpha2": "DK",
+            "alpha3": "DNK",
+            "name": "Denmark",
+            "slug": "denmark",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدانمرك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باركن",
+              "hi": "पारकेन",
+              "bn": "পার্ক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Parken",
+            "capacity": 38190
+          }
+        },
+        "nameCode": "FKB",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1284,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدانمرك"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "FC København",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#0066ff",
+          "text": "#0066ff"
+        },
+        "foundationDateTimestamp": 709862400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي كوبنهاغن",
+            "ru": "Копенгаген"
+          },
+          "shortNameTranslation": {
+            "ar": "كوبنهاغن",
+            "hi": "कोबेनह्वान",
+            "bn": "কোবেনহাভন"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {},
+      "awayScore": {},
+      "time": {},
+      "changes": {
+        "changes": [
+          "cardsCode"
+        ],
+        "changeTimestamp": 1755712426
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14348667,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "basel-fc-kobenhavn",
+      "startTimestamp": 1755716400,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

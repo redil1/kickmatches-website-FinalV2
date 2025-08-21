@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "data": {
+    "event": {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "UEFA Champions League, Playoff Round",
+        "slug": "uefa-champions-league-playoff-round",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 692,
+        "isGroup": false,
+        "roundPrefix": "Qualification",
+        "competitionType": 2,
+        "isLive": false,
+        "id": 119880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا، الدور الفاصل",
+            "hi": "यूईएफए चैंपियंस लीग, प्लेऑफ राउंड",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, প্লে অফ রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 636,
+        "name": "Playoff round",
+        "slug": "playoff-round"
+      },
+      "customId": "ZccsBHtb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "venue": {
+        "city": {
+          "name": "Belgrade"
+        },
+        "venueCoordinates": {
+          "latitude": 44.78322,
+          "longitude": 20.464675
+        },
+        "hidden": true,
+        "slug": "stadium-rajko-miti-",
+        "name": "Stadium Rajko Mitić",
+        "capacity": 51755,
+        "id": 26868,
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صربيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب رايكو ميتيتش",
+            "hi": "स्टेडियम राजको मिटिक",
+            "bn": "স্টেডিয়াম রাজকো মিটিক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadium Rajko Mitić",
+          "capacity": 51755
+        }
+      },
+      "referee": {
+        "name": "Alejandro Hernandez",
+        "slug": "alejandro-hernandez",
+        "yellowCards": 1814,
+        "redCards": 39,
+        "yellowRedCards": 50,
+        "games": 334,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 86571,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إسبانيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليخاندرو هيرنانديز",
+            "hi": "एलेजांद्रो हर्नांडेज़",
+            "bn": "আলেজান্দ্রো হার্নান্দেজ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "FK Crvena zvezda",
+        "slug": "fk-crvena-zvezda",
+        "shortName": "Crvena zvezda",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 256162,
+        "manager": {
+          "name": "Vladan Milojević",
+          "slug": "vladan-milojevic",
+          "shortName": "V. Milojević",
+          "id": 155356,
+          "country": {
+            "alpha2": "RS",
+            "alpha3": "SRB",
+            "name": "Serbia",
+            "slug": "serbia",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "صربيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فلادان ميلويفيتش",
+              "hi": "व्लादान मिलोजेविक",
+              "bn": "ভ্লাদান মিলোজেভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. ميلويفيتش",
+              "hi": "वी. मिलोजेविक",
+              "bn": "ভি. মিলোজেভিচ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Belgrade"
+          },
+          "venueCoordinates": {
+            "latitude": 44.78322,
+            "longitude": 20.464675
+          },
+          "hidden": true,
+          "slug": "stadium-rajko-miti-",
+          "name": "Stadium Rajko Mitić",
+          "capacity": 51755,
+          "id": 26868,
+          "country": {
+            "alpha2": "RS",
+            "alpha3": "SRB",
+            "name": "Serbia",
+            "slug": "serbia",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "صربيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب رايكو ميتيتش",
+              "hi": "स्टेडियम राजको मिटिक",
+              "bn": "স্টেডিয়াম রাজকো মিটিক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Stadium Rajko Mitić",
+            "capacity": 51755
+          }
+        },
+        "nameCode": "FCZ",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5149,
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صربيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "FK Crvena zvezda",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#d90512",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -783561600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف كيه كرفينا زفيزدا",
+            "ru": "Црвена Звезда"
+          },
+          "shortNameTranslation": {
+            "ar": "كرفينا زفيزدا",
+            "hi": "क्रवेना ज़्वेज़्दा",
+            "bn": "ক্রভেনা জেভেজদা"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Pafos FC",
+        "slug": "pafos-fc",
+        "shortName": "Pafos",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 46425,
+        "manager": {
+          "name": "Juan Carlos Carcedo",
+          "slug": "juan-carlos-carcedo",
+          "shortName": "J. C. Carcedo",
+          "id": 794723,
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا"
+              },
+              "shortNameTranslation": {}
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Paphos"
+          },
+          "venueCoordinates": {
+            "latitude": 34.77679,
+            "longitude": 32.42451
+          },
+          "hidden": true,
+          "slug": "stelios-kyriakidis",
+          "name": "Stelios Kyriakidis",
+          "capacity": 9394,
+          "id": 3425,
+          "country": {
+            "alpha2": "CY",
+            "alpha3": "CYP",
+            "name": "Cyprus",
+            "slug": "cyprus",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "قبرص"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيليوس كيرياكيديس",
+              "hi": "स्टेलियोस किरियाकिडिस",
+              "bn": "স্টেলিওস কিরিয়াকিডিস"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Stelios Kyriakidis",
+            "capacity": 9394
+          }
+        },
+        "nameCode": "PAF",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 171626,
+        "country": {
+          "alpha2": "CY",
+          "alpha3": "CYP",
+          "name": "Cyprus",
+          "slug": "cyprus",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قبرص"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Pafos FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": 1402358400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بافوس",
+            "ru": "ФК Пафос",
+            "hi": "पाफोस एफसी"
+          },
+          "shortNameTranslation": {
+            "ar": "بافوس"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 4,
+        "injuryTime2": 6,
+        "currentPeriodStartTimestamp": 1755634124
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1755637192
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14348669,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "pafos-fc-fk-crvena-zvezda",
+      "currentPeriodStartTimestamp": 1755634124,
+      "startTimestamp": 1755630000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

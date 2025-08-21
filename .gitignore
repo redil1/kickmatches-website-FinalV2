@@ -1,0 +1,241 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+.next/
+out/
+dist/
+
+# Env
+.env
+.env.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Misc
+coverage/
+.idea/
+.vscode/
+*.swp
+
+# Database
+*.sqlite
+*.db
+
+# Docker
+*.pid
+
+# Test
+coverage/
+
+# Others
+*.sublime-workspace
+*.sublime-project
+
+# VSCode
+.history/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ===========================
+# Dependencies
+# ===========================
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ===========================
+# Testing
+# ===========================
+/coverage
+*.lcov
+.nyc_output
+
+# ===========================
+# Next.js
+# ===========================
+/.next/
+/out/
+
+# ===========================
+# Production
+# ===========================
+/build
+/dist
+
+# ===========================
+# Environment Variables
+# ===========================
+.env*
+!.env.example
+
+# ===========================
+# Logs
+# ===========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+dev.log
+
+# ===========================
+# Docker
+# ===========================
+.dockerignore
+docker-compose.override.yml
+.docker/
+volumes/
+*.tar
+
+# ===========================
+# Database
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+/postgres-data/
+/mysql-data/
+/mongodb-data/
+*.dump
+*.sql.gz
+backups/
+
+# ===========================
+# OS Generated Files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================
+# IDE and Editor Files
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# Security and Certificates
+# ===========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+
+# ===========================
+# Monitoring and Analytics
+# ===========================
+.nyc_output
+coverage/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ===========================
+# Deployment
+# ===========================
+.vercel
+.netlify
+.firebase/
+.serverless/
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+next-env.d.ts
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# ===========================
+# Package Managers
+# ===========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store/
+
+# ===========================
+# Development Tools
+# ===========================
+.eslintcache
+.stylelintcache
+.sass-cache/
+.grunt/
+.bower_components/
+
+# ===========================
+# Runtime Data
+# ===========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================
+# Optional npm cache directory
+# ===========================
+.npm
+
+# ===========================
+# Optional REPL history
+# ===========================
+.node_repl_history
+
+# ===========================
+# Output of 'npm pack'
+# ===========================
+*.tgz
+
+# ===========================
+# Yarn Integrity file
+# ===========================
+.yarn-integrity

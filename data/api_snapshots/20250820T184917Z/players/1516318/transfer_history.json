@@ -1,0 +1,284 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Mahmudu Bajo",
+          "slug": "bajo",
+          "shortName": "M. Bajo",
+          "position": "M",
+          "jerseyNumber": "6",
+          "userCount": 939,
+          "id": 1516318,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمود باجو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. باجو"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "DAC 1904",
+          "slug": "dac-1904",
+          "shortName": "DAC 1904",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8330,
+          "nameCode": "D19",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 23833,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#3300cc",
+            "text": "#3300cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داك 1904",
+              "ru": "Дунайска Стреда",
+              "hi": "डीएसी 1904",
+              "bn": "ডিএসিএ 1904"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "DAC 1904",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFee": 3500000,
+        "transferFeeDescription": "3.5M €",
+        "id": 2421309,
+        "transferDateTimestamp": 1754006400,
+        "transferFeeRaw": {
+          "value": 3500000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Mahmudu Bajo",
+          "slug": "bajo",
+          "shortName": "M. Bajo",
+          "position": "M",
+          "jerseyNumber": "6",
+          "userCount": 939,
+          "id": 1516318,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمود باجو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. باجو"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FK Železiarne Podbrezová",
+          "slug": "fk-zeleziarne-podbrezova",
+          "shortName": "Podbrezová",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3943,
+          "nameCode": "ZEP",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 7887,
+          "teamColors": {
+            "primary": "#990000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه زيلزيارني بودبريزوفا",
+              "ru": "Железьярне Подбрезова"
+            },
+            "shortNameTranslation": {
+              "ar": "بودبريزوفا"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "DAC 1904",
+          "slug": "dac-1904",
+          "shortName": "DAC 1904",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8330,
+          "nameCode": "D19",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 23833,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#3300cc",
+            "text": "#3300cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داك 1904",
+              "ru": "Дунайска Стреда",
+              "hi": "डीएसी 1904",
+              "bn": "ডিএসিএ 1904"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FK Železiarne Podbrezová",
+        "toTeamName": "DAC 1904",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2078002,
+        "transferDateTimestamp": 1721260800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Mahmudu Bajo",
+          "slug": "bajo",
+          "shortName": "M. Bajo",
+          "position": "M",
+          "jerseyNumber": "6",
+          "userCount": 939,
+          "id": 1516318,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمود باجو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. باجو"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Granada CF U19",
+          "slug": "granada-cf-u19",
+          "shortName": "Granada CF U19",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 327,
+          "nameCode": "GRA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 299640,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غرناطة سي إف تحت 19"
+            },
+            "shortNameTranslation": {
+              "ar": "غرناطة سي إف تحت 19"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FK Železiarne Podbrezová",
+          "slug": "fk-zeleziarne-podbrezova",
+          "shortName": "Podbrezová",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3943,
+          "nameCode": "ZEP",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 7887,
+          "teamColors": {
+            "primary": "#990000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه زيلزيارني بودبريزوفا",
+              "ru": "Железьярне Подбрезова"
+            },
+            "shortNameTranslation": {
+              "ar": "بودبريزوفا"
+            }
+          }
+        },
+        "fromTeamName": "Granada CF U19",
+        "toTeamName": "FK Železiarne Podbrezová",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1603689,
+        "transferDateTimestamp": 1688169600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

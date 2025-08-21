@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Fredrik André Bjørkan",
+          "slug": "fredrik-andre-bjorkan",
+          "shortName": "F. A. Bjørkan",
+          "position": "D",
+          "jerseyNumber": "15",
+          "userCount": 310,
+          "id": 795154,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك أندريه بيوركان",
+              "hi": "फ़्रेड्रिक आंद्रे ब्योर्कान",
+              "bn": "ফ্রেডরিক আন্দ্রে বজরকান"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. أندريه بيوركان",
+              "hi": "एफ.ए. ब्योर्कान",
+              "bn": "এফ. এ. বজরকান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Hertha BSC",
+          "slug": "hertha-bsc",
+          "shortName": "Hertha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45050,
+          "nameCode": "BSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2528,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0131ad",
+            "text": "#0131ad"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيرتا برلين",
+              "ru": "Герта",
+              "hi": "हर्था बीएससी"
+            },
+            "shortNameTranslation": {
+              "ar": "هيرتا",
+              "hi": "हर्था",
+              "bn": "হের্থা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Hertha BSC",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1535775,
+        "transferDateTimestamp": 1672790400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Fredrik André Bjørkan",
+          "slug": "fredrik-andre-bjorkan",
+          "shortName": "F. A. Bjørkan",
+          "position": "D",
+          "jerseyNumber": "15",
+          "userCount": 310,
+          "id": 795154,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك أندريه بيوركان",
+              "hi": "फ़्रेड्रिक आंद्रे ब्योर्कान",
+              "bn": "ফ্রেডরিক আন্দ্রে বজরকান"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. أندريه بيوركان",
+              "hi": "एफ.ए. ब्योर्कान",
+              "bn": "এফ. এ. বজরকান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Feyenoord",
+          "slug": "feyenoord",
+          "shortName": "Feyenoord",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 457998,
+          "nameCode": "FEY",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2959,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فينورد",
+              "ru": "Фейеноорд Роттердам",
+              "hi": "फ़ेनोर्ड",
+              "bn": "ফেইনুর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Hertha BSC",
+          "slug": "hertha-bsc",
+          "shortName": "Hertha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45050,
+          "nameCode": "BSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2528,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0131ad",
+            "text": "#0131ad"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيرتا برلين",
+              "ru": "Герта",
+              "hi": "हर्था बीएससी"
+            },
+            "shortNameTranslation": {
+              "ar": "هيرتا",
+              "hi": "हर्था",
+              "bn": "হের্থা"
+            }
+          }
+        },
+        "fromTeamName": "Feyenoord",
+        "toTeamName": "Hertha BSC",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1535776,
+        "transferDateTimestamp": 1672704000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Fredrik André Bjørkan",
+          "slug": "fredrik-andre-bjorkan",
+          "shortName": "F. A. Bjørkan",
+          "position": "D",
+          "jerseyNumber": "15",
+          "userCount": 310,
+          "id": 795154,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك أندريه بيوركان",
+              "hi": "फ़्रेड्रिक आंद्रे ब्योर्कान",
+              "bn": "ফ্রেডরিক আন্দ্রে বজরকান"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. أندريه بيوركان",
+              "hi": "एफ.ए. ब्योर्कान",
+              "bn": "এফ. এ. বজরকান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Hertha BSC",
+          "slug": "hertha-bsc",
+          "shortName": "Hertha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45050,
+          "nameCode": "BSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2528,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0131ad",
+            "text": "#0131ad"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيرتا برلين",
+              "ru": "Герта",
+              "hi": "हर्था बीएससी"
+            },
+            "shortNameTranslation": {
+              "ar": "هيرتا",
+              "hi": "हर्था",
+              "bn": "হের্থা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Feyenoord",
+          "slug": "feyenoord",
+          "shortName": "Feyenoord",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 457998,
+          "nameCode": "FEY",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2959,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فينورد",
+              "ru": "Фейеноорд Роттердам",
+              "hi": "फ़ेनोर्ड",
+              "bn": "ফেইনুর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Hertha BSC",
+        "toTeamName": "Feyenoord",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1474487,
+        "transferDateTimestamp": 1661731200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Fredrik André Bjørkan",
+          "slug": "fredrik-andre-bjorkan",
+          "shortName": "F. A. Bjørkan",
+          "position": "D",
+          "jerseyNumber": "15",
+          "userCount": 310,
+          "id": 795154,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك أندريه بيوركان",
+              "hi": "फ़्रेड्रिक आंद्रे ब्योर्कान",
+              "bn": "ফ্রেডরিক আন্দ্রে বজরকান"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. أندريه بيوركان",
+              "hi": "एफ.ए. ब्योर्कान",
+              "bn": "এফ. এ. বজরকান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Hertha BSC",
+          "slug": "hertha-bsc",
+          "shortName": "Hertha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45050,
+          "nameCode": "BSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2528,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0131ad",
+            "text": "#0131ad"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيرتا برلين",
+              "ru": "Герта",
+              "hi": "हर्था बीएससी"
+            },
+            "shortNameTranslation": {
+              "ar": "هيرتا",
+              "hi": "हर्था",
+              "bn": "হের্থা"
+            }
+          }
+        },
+        "fromTeamName": "Bodø/Glimt",
+        "toTeamName": "Hertha BSC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1329487,
+        "transferDateTimestamp": 1640995200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Fredrik André Bjørkan",
+          "slug": "fredrik-andre-bjorkan",
+          "shortName": "F. A. Bjørkan",
+          "position": "D",
+          "jerseyNumber": "15",
+          "userCount": 310,
+          "id": 795154,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك أندريه بيوركان",
+              "hi": "फ़्रेड्रिक आंद्रे ब्योर्कान",
+              "bn": "ফ্রেডরিক আন্দ্রে বজরকান"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. أندريه بيوركان",
+              "hi": "एफ.ए. ब्योर्कान",
+              "bn": "এফ. এ. বজরকান"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bodø/Glimt Y.",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 60392,
+        "transferDateTimestamp": 1440720000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

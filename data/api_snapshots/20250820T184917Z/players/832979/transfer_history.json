@@ -1,0 +1,548 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Servette FC",
+          "slug": "servette-fc",
+          "shortName": "Servette",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 50488,
+          "nameCode": "SER",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2448,
+          "teamColors": {
+            "primary": "#660000",
+            "secondary": "#660000",
+            "text": "#660000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيرفيت إف سي",
+              "ru": "Серветт ФК"
+            },
+            "shortNameTranslation": {
+              "ar": "سيرفيت",
+              "hi": "सर्वेट",
+              "bn": "সার্ভেট"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Servette FC",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2370984,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Kashima Antlers",
+          "slug": "kashima-antlers",
+          "shortName": "Kashima",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 17948,
+          "nameCode": "KAS",
+          "national": false,
+          "type": 0,
+          "id": 3134,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#1b2c70",
+            "text": "#1b2c70"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاشيما انتلرز",
+              "ru": "Кашима Антлерс",
+              "hi": "कशिमा अन्त्लेर्स"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Servette FC",
+          "slug": "servette-fc",
+          "shortName": "Servette",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 50488,
+          "nameCode": "SER",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2448,
+          "teamColors": {
+            "primary": "#660000",
+            "secondary": "#660000",
+            "text": "#660000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيرفيت إف سي",
+              "ru": "Серветт ФК"
+            },
+            "shortNameTranslation": {
+              "ar": "سيرفيت",
+              "hi": "सर्वेट",
+              "bn": "সার্ভেট"
+            }
+          }
+        },
+        "fromTeamName": "Kashima Antlers",
+        "toTeamName": "Servette FC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1630351,
+        "transferDateTimestamp": 1689379200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Meiji University",
+          "slug": "meiji-university",
+          "shortName": "Meiji University",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 63,
+          "nameCode": "MUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 35306,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جامعة ميجي",
+              "ru": "Мейдзи Университет"
+            },
+            "shortNameTranslation": {
+              "ar": "جامعة ميجي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Kashima Antlers",
+          "slug": "kashima-antlers",
+          "shortName": "Kashima",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 17948,
+          "nameCode": "KAS",
+          "national": false,
+          "type": 0,
+          "id": 3134,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#1b2c70",
+            "text": "#1b2c70"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاشيما انتلرز",
+              "ru": "Кашима Антлерс",
+              "hi": "कशिमा अन्त्लेर्स"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Meiji University",
+        "toTeamName": "Kashima Antlers",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1017075,
+        "transferDateTimestamp": 1612137600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Kashima Antlers",
+          "slug": "kashima-antlers",
+          "shortName": "Kashima",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 17948,
+          "nameCode": "KAS",
+          "national": false,
+          "type": 0,
+          "id": 3134,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#1b2c70",
+            "text": "#1b2c70"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاشيما انتلرز",
+              "ru": "Кашима Антлерс",
+              "hi": "कशिमा अन्त्लेर्स"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Meiji University",
+          "slug": "meiji-university",
+          "shortName": "Meiji University",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 63,
+          "nameCode": "MUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 35306,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جامعة ميجي",
+              "ru": "Мейдзи Университет"
+            },
+            "shortNameTranslation": {
+              "ar": "جامعة ميجي"
+            }
+          }
+        },
+        "fromTeamName": "Kashima Antlers",
+        "toTeamName": "Meiji University",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1083169,
+        "transferDateTimestamp": 1612051200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Meiji University",
+          "slug": "meiji-university",
+          "shortName": "Meiji University",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 63,
+          "nameCode": "MUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 35306,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جامعة ميجي",
+              "ru": "Мейдзи Университет"
+            },
+            "shortNameTranslation": {
+              "ar": "جامعة ميجي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Kashima Antlers",
+          "slug": "kashima-antlers",
+          "shortName": "Kashima",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 17948,
+          "nameCode": "KAS",
+          "national": false,
+          "type": 0,
+          "id": 3134,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#1b2c70",
+            "text": "#1b2c70"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاشيما انتلرز",
+              "ru": "Кашима Антлерс",
+              "hi": "कशिमा अन्त्लेर्स"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Meiji University",
+        "toTeamName": "Kashima Antlers",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1083170,
+        "transferDateTimestamp": 1599782400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Keigo Tsunemoto",
+          "slug": "keigo-tsunemoto",
+          "shortName": "K. Tsunemoto",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 431,
+          "id": 832979,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كييجو تسونيموتو",
+              "hi": "केइगो सुनामोतो",
+              "bn": "কেইগো সুনেমোটো"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تسونيموتو",
+              "hi": "के. सुनामोतो",
+              "bn": "কে. সুনেমোটো"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Meiji University",
+          "slug": "meiji-university",
+          "shortName": "Meiji University",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 63,
+          "nameCode": "MUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 35306,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جامعة ميجي",
+              "ru": "Мейдзи Университет"
+            },
+            "shortNameTranslation": {
+              "ar": "جامعة ميجي"
+            }
+          }
+        },
+        "fromTeamName": "Y F. M Youth",
+        "toTeamName": "Meiji University",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 493014,
+        "transferDateTimestamp": 1485907200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

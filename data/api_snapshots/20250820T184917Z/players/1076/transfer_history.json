@@ -1,0 +1,1427 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "No team",
+          "slug": "no-team",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10,
+          "nameCode": "NTE",
+          "disabled": true,
+          "national": false,
+          "type": 0,
+          "id": 241802,
+          "teamColors": {
+            "primary": "#d0d0d0",
+            "secondary": "#000000",
+            "text": "#000000"
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "No team",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2078528,
+        "transferDateTimestamp": 1721260800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Nice",
+          "slug": "nice",
+          "shortName": "Nice",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 196303,
+          "nameCode": "OGCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1661,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيس",
+              "ru": "Ницца",
+              "hi": "नाइस",
+              "bn": "নাইস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "RSC Anderlecht",
+          "slug": "anderlecht",
+          "shortName": "Anderlecht",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123991,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2900,
+          "teamColors": {
+            "primary": "#330066",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أندرلخت",
+              "ru": "Андерлехт",
+              "hi": "आरएससी एंडरलेक्ट"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Nice",
+        "toTeamName": "RSC Anderlecht",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1685463,
+        "transferDateTimestamp": 1693872000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Leicester City",
+          "slug": "leicester-city",
+          "shortName": "Leicester",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 472850,
+          "nameCode": "LCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 31,
+          "teamColors": {
+            "primary": "#003090",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليستر سيتي",
+              "ru": "Лестер Сити",
+              "hi": "लैस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "ليستر",
+              "hi": "लीसेस्टर",
+              "bn": "লেস্টার"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Nice",
+          "slug": "nice",
+          "shortName": "Nice",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 196303,
+          "nameCode": "OGCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1661,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيس",
+              "ru": "Ницца",
+              "hi": "नाइस",
+              "bn": "নাইস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Leicester City",
+        "toTeamName": "Nice",
+        "type": 3,
+        "transferFee": 1000000,
+        "transferFeeDescription": "1M €",
+        "id": 1519967,
+        "transferDateTimestamp": 1659484800,
+        "transferFeeRaw": {
+          "value": 1000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Leeds United",
+          "slug": "leeds-united",
+          "shortName": "Leeds",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 244715,
+          "nameCode": "LUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 34,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#1d4189",
+            "text": "#1d4189"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليدز يونايتد",
+              "ru": "Лидс",
+              "hi": "लीड्स यूनाइटेड",
+              "bn": "লিডস"
+            },
+            "shortNameTranslation": {
+              "ar": "ليدز",
+              "hi": "लीड्स"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Leicester City",
+          "slug": "leicester-city",
+          "shortName": "Leicester",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 472850,
+          "nameCode": "LCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 31,
+          "teamColors": {
+            "primary": "#003090",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليستر سيتي",
+              "ru": "Лестер Сити",
+              "hi": "लैस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "ليستر",
+              "hi": "लीसेस्टर",
+              "bn": "লেস্টার"
+            }
+          }
+        },
+        "fromTeamName": "Leeds United",
+        "toTeamName": "Leicester City",
+        "type": 3,
+        "transferFee": 1680000,
+        "transferFeeDescription": "1.7M €",
+        "id": 1519968,
+        "transferDateTimestamp": 1309478400,
+        "transferFeeRaw": {
+          "value": 1680000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Notts County",
+          "slug": "notts-county",
+          "shortName": "Notts County",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 12490,
+          "nameCode": "NCO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 56,
+          "teamColors": {
+            "primary": "#84754e",
+            "secondary": "#222226",
+            "text": "#222226"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوتس كاونتي",
+              "ru": "Ноттс Каунти",
+              "hi": "नोट्ट्स काउंटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Leeds United",
+          "slug": "leeds-united",
+          "shortName": "Leeds",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 244715,
+          "nameCode": "LUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 34,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#1d4189",
+            "text": "#1d4189"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليدز يونايتد",
+              "ru": "Лидс",
+              "hi": "लीड्स यूनाइटेड",
+              "bn": "লিডস"
+            },
+            "shortNameTranslation": {
+              "ar": "ليدز",
+              "hi": "लीड्स"
+            }
+          }
+        },
+        "fromTeamName": "Notts County",
+        "toTeamName": "Leeds United",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1519969,
+        "transferDateTimestamp": 1277942400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Notts County",
+          "slug": "notts-county",
+          "shortName": "Notts County",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 12490,
+          "nameCode": "NCO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 56,
+          "teamColors": {
+            "primary": "#84754e",
+            "secondary": "#222226",
+            "text": "#222226"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوتس كاونتي",
+              "ru": "Ноттс Каунти",
+              "hi": "नोट्ट्स काउंटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Manchester City",
+        "toTeamName": "Notts County",
+        "type": 3,
+        "transferFee": 1750000,
+        "transferFeeDescription": "1.8M €",
+        "id": 1519970,
+        "transferDateTimestamp": 1250208000,
+        "transferFeeRaw": {
+          "value": 1750000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Coventry City",
+          "slug": "coventry-city",
+          "shortName": "Coventry",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45738,
+          "nameCode": "COC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 11,
+          "teamColors": {
+            "primary": "#0099cc",
+            "secondary": "#999999",
+            "text": "#999999"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوفنتري ستي",
+              "ru": "Ковентри Сити",
+              "hi": "कोवेंट्री सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "fromTeamName": "Coventry City",
+        "toTeamName": "Manchester City",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519971,
+        "transferDateTimestamp": 1212192000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Coventry City",
+          "slug": "coventry-city",
+          "shortName": "Coventry",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 45738,
+          "nameCode": "COC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 11,
+          "teamColors": {
+            "primary": "#0099cc",
+            "secondary": "#999999",
+            "text": "#999999"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوفنتري ستي",
+              "ru": "Ковентри Сити",
+              "hi": "कोवेंट्री सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Manchester City",
+        "toTeamName": "Coventry City",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519972,
+        "transferDateTimestamp": 1205366400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Cardiff City",
+          "slug": "cardiff-city",
+          "shortName": "Cardiff",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 26646,
+          "nameCode": "CCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 61,
+          "teamColors": {
+            "primary": "#0000eb",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاردف ستي",
+              "ru": "Кардифф Сити",
+              "hi": "कार्डिफ सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "fromTeamName": "Cardiff City",
+        "toTeamName": "Manchester City",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519973,
+        "transferDateTimestamp": 1199232000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Cardiff City",
+          "slug": "cardiff-city",
+          "shortName": "Cardiff",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 26646,
+          "nameCode": "CCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 61,
+          "teamColors": {
+            "primary": "#0000eb",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاردف ستي",
+              "ru": "Кардифф Сити",
+              "hi": "कार्डिफ सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Manchester City",
+        "toTeamName": "Cardiff City",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519974,
+        "transferDateTimestamp": 1193270400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City U21",
+          "slug": "manchester-city-u21",
+          "shortName": "Man City U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10203,
+          "nameCode": "MAC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36544,
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي تحت 21",
+              "ru": "Манчестер Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Manchester City",
+          "slug": "manchester-city",
+          "shortName": "Man City",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3176668,
+          "nameCode": "MCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 17,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي",
+              "ru": "Манчестер Сити",
+              "hi": "मेनचेस्टर सिटी ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي",
+              "hi": "मैन सिटी",
+              "bn": "ম্যান সিটি"
+            }
+          }
+        },
+        "fromTeamName": "Manchester City U21",
+        "toTeamName": "Manchester City",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519975,
+        "transferDateTimestamp": 1183248000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City U21",
+          "slug": "manchester-city-u21",
+          "shortName": "Man City U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10203,
+          "nameCode": "MAC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36544,
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي تحت 21",
+              "ru": "Манчестер Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Falkirk FC",
+          "slug": "falkirk-fc",
+          "shortName": "Falkirk",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10479,
+          "nameCode": "FAL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2363,
+          "teamColors": {
+            "primary": "#333399",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فالكيرك إف سي",
+              "ru": "ФК Фалкирк",
+              "hi": "फोलकिर्क ऍफ़सी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Manchester City U21",
+        "toTeamName": "Falkirk FC",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519977,
+        "transferDateTimestamp": 1168473600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City U21",
+          "slug": "manchester-city-u21",
+          "shortName": "Man City U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10203,
+          "nameCode": "MAC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36544,
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي تحت 21",
+              "ru": "Манчестер Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bury FC",
+          "slug": "bury-afc",
+          "shortName": "Bury",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 972,
+          "nameCode": "BFC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 52,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوري إف سي",
+              "ru": "ФК Бери"
+            },
+            "shortNameTranslation": {
+              "ar": "بوري"
+            }
+          }
+        },
+        "fromTeamName": "Manchester City U21",
+        "toTeamName": "Bury AFC",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519979,
+        "transferDateTimestamp": 1156291200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City U21",
+          "slug": "manchester-city-u21",
+          "shortName": "Man City U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10203,
+          "nameCode": "MAC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36544,
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي تحت 21",
+              "ru": "Манчестер Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bury FC",
+          "slug": "bury-afc",
+          "shortName": "Bury",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 972,
+          "nameCode": "BFC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 52,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوري إف سي",
+              "ru": "ФК Бери"
+            },
+            "shortNameTranslation": {
+              "ar": "بوري"
+            }
+          }
+        },
+        "fromTeamName": "Manchester City U21",
+        "toTeamName": "Bury AFC",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519981,
+        "transferDateTimestamp": 1140480000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kasper Schmeichel",
+          "slug": "kasper-schmeichel",
+          "shortName": "K. Schmeichel",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 3896,
+          "id": 1076,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسبر شمايكل",
+              "hi": "कैस्पर श्माइचेल",
+              "bn": "ক্যাসপার স্মিচেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. شمايكل",
+              "hi": "के. श्माइचेल",
+              "bn": "কে. স্মিচেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Manchester City U21",
+          "slug": "manchester-city-u21",
+          "shortName": "Man City U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10203,
+          "nameCode": "MAC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36544,
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانشستر سيتي تحت 21",
+              "ru": "Манчестер Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "مان سيتي تحت 21"
+            }
+          }
+        },
+        "fromTeamName": "Manchester City U21",
+        "toTeamName": "Darlington",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1519983,
+        "transferDateTimestamp": 1137110400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

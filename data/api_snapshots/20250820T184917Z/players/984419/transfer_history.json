@@ -1,0 +1,1022 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "CF Montréal",
+          "slug": "cf-montreal",
+          "shortName": "Montréal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 18513,
+          "nameCode": "MON",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 22006,
+          "teamColors": {
+            "primary": "#0033ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونتريال",
+              "ru": "Монреаль"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "CF Montréal",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 3500000,
+        "transferFeeDescription": "3.5M €",
+        "id": 1819880,
+        "transferDateTimestamp": 1672531200,
+        "transferFeeRaw": {
+          "value": 3500000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Nashville SC",
+          "slug": "nashville-sc",
+          "shortName": "Nashville",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21937,
+          "nameCode": "NSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 337612,
+          "teamColors": {
+            "primary": "#0f1545",
+            "secondary": "#ece83a",
+            "text": "#ece83a"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي ناشفيل أس سي",
+              "ru": "Нэшвилл",
+              "hi": "नैशविल ऐससी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "CF Montréal",
+          "slug": "cf-montreal",
+          "shortName": "Montréal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 18513,
+          "nameCode": "MON",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 22006,
+          "teamColors": {
+            "primary": "#0033ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونتريال",
+              "ru": "Монреаль"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Nashville SC",
+        "toTeamName": "CF Montréal",
+        "type": 3,
+        "transferFee": 909000,
+        "transferFeeDescription": "909k €",
+        "id": 1819881,
+        "transferDateTimestamp": 1640563200,
+        "transferFeeRaw": {
+          "value": 909000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Nashville SC",
+          "slug": "nashville-sc",
+          "shortName": "Nashville",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21937,
+          "nameCode": "NSC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 337612,
+          "teamColors": {
+            "primary": "#0f1545",
+            "secondary": "#ece83a",
+            "text": "#ece83a"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي ناشفيل أس سي",
+              "ru": "Нэшвилл",
+              "hi": "नैशविल ऐससी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Wake Forest",
+        "toTeamName": "Nashville SC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819882,
+        "transferDateTimestamp": 1578528000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Vaughan Azzurri",
+        "toTeamName": "Wake Forest",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819883,
+        "transferDateTimestamp": 1564617600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Wake Forest",
+        "toTeamName": "Vaughan Azzurri",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819885,
+        "transferDateTimestamp": 1556668800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "fromTeamName": "Red Storm",
+        "toTeamName": "Wake Forest",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1819888,
+        "transferDateTimestamp": 1533081600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Vaughan Azzurri",
+        "toTeamName": "Red Storm",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819891,
+        "transferDateTimestamp": 1532995200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Red Storm",
+        "toTeamName": "Vaughan Azzurri",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819894,
+        "transferDateTimestamp": 1525132800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Vaughan Azzurri",
+        "toTeamName": "Red Storm",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819897,
+        "transferDateTimestamp": 1501545600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Red Storm",
+        "toTeamName": "Vaughan Azzurri",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819901,
+        "transferDateTimestamp": 1493596800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Vaughan Azzurri",
+        "toTeamName": "Red Storm",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819905,
+        "transferDateTimestamp": 1470009600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Red Storm",
+        "toTeamName": "Vaughan Azzurri",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1819909,
+        "transferDateTimestamp": 1462060800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "Vaughan Azzurri",
+        "toTeamName": "Red Storm",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1819912,
+        "transferDateTimestamp": 1451606400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vaughan Azzurri",
+          "slug": "vaughan-azzurri",
+          "shortName": "Vaughan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 257,
+          "nameCode": "VAU",
+          "national": false,
+          "type": 0,
+          "id": 309891,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فوهان أزوري"
+            },
+            "shortNameTranslation": {
+              "ar": "فوهان"
+            }
+          }
+        },
+        "fromTeamName": "ANB Futbol",
+        "toTeamName": "Vaughan Azzurri",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1819916,
+        "transferDateTimestamp": 1420070400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "fromTeamName": "Aurora FC",
+        "toTeamName": "ANB Futbol",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1819920,
+        "transferDateTimestamp": 1388534400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Alistair Johnston",
+          "firstName": "",
+          "lastName": "",
+          "slug": "alistair-johnston",
+          "shortName": "A. Johnston",
+          "position": "D",
+          "jerseyNumber": "2",
+          "userCount": 927,
+          "id": 984419,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليستير جونستون",
+              "hi": "एलिस्टेयर जॉनस्टन",
+              "bn": "অ্যালিস্টার জনস্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. جونستون",
+              "hi": "ए. जॉनस्टन",
+              "bn": "এ. জনস্টন"
+            }
+          }
+        },
+        "fromTeamName": "Lakeshore SC",
+        "toTeamName": "Aurora FC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1819923,
+        "transferDateTimestamp": 1136073600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

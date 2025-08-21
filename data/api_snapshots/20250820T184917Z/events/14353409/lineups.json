@@ -1,0 +1,342 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "4-3-3",
+      "starting_eleven": [
+        {
+          "name": "Jack Butland",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "England",
+          "player_id": 98448
+        },
+        {
+          "name": "Max Aarons",
+          "position": "D",
+          "shirt_number": 3,
+          "country": "England",
+          "player_id": 943645
+        },
+        {
+          "name": "Nasser Djiga",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Burkina Faso",
+          "player_id": 1127169
+        },
+        {
+          "name": "John Souttar",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Scotland",
+          "player_id": 287563
+        },
+        {
+          "name": "Jayden Meghoma",
+          "position": "M",
+          "shirt_number": 30,
+          "country": "England",
+          "player_id": 1410201
+        },
+        {
+          "name": "Mohammed Diomande",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Côte d'Ivoire",
+          "player_id": 1018785
+        },
+        {
+          "name": "Nicolas Raskin",
+          "position": "M",
+          "shirt_number": 43,
+          "country": "Belgium",
+          "player_id": 889378
+        },
+        {
+          "name": "Joe Rothwell",
+          "position": "M",
+          "shirt_number": 6,
+          "country": "England",
+          "player_id": 190853
+        },
+        {
+          "name": "Oliver Antman",
+          "position": "M",
+          "shirt_number": 18,
+          "country": "Finland",
+          "player_id": 975743
+        },
+        {
+          "name": "Danilo",
+          "position": "F",
+          "shirt_number": 99,
+          "country": "Brazil",
+          "player_id": 940647
+        },
+        {
+          "name": "Djeidi Gassama",
+          "position": "F",
+          "shirt_number": 23,
+          "country": "France",
+          "player_id": 1142674
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Thelo Aasgaard",
+          "position": "M",
+          "shirt_number": 11,
+          "country": "Norway",
+          "player_id": 1065989
+        },
+        {
+          "name": "Hamza Igamane",
+          "position": "F",
+          "shirt_number": 29,
+          "country": "Morocco",
+          "player_id": 1140859
+        },
+        {
+          "name": "James Tavernier",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "England",
+          "player_id": 126074
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "F",
+          "shirt_number": 47,
+          "country": "England",
+          "player_id": 1403192
+        },
+        {
+          "name": "Lyall Cameron",
+          "position": "M",
+          "shirt_number": 16,
+          "country": "Scotland",
+          "player_id": 988690
+        },
+        {
+          "name": "Liam Kelly",
+          "position": "G",
+          "shirt_number": 31,
+          "country": "Scotland",
+          "player_id": 287555
+        },
+        {
+          "name": "Emmanuel Fernandez",
+          "position": "D",
+          "shirt_number": 37,
+          "country": "England",
+          "player_id": 1129032
+        },
+        {
+          "name": "Alexander Hutton",
+          "position": "D",
+          "shirt_number": 63,
+          "country": "Scotland",
+          "player_id": 1424189
+        },
+        {
+          "name": "Connor Barron",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Scotland",
+          "player_id": 997419
+        },
+        {
+          "name": "Kieran Dowell",
+          "position": "M",
+          "shirt_number": 20,
+          "country": "England",
+          "player_id": 784503
+        },
+        {
+          "name": "Joshua Gentles",
+          "position": "M",
+          "shirt_number": 50,
+          "country": "Wales",
+          "player_id": 1566256
+        },
+        {
+          "name": "Findlay Curtis",
+          "position": "M",
+          "shirt_number": 52,
+          "country": "Scotland",
+          "player_id": 1489210
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-2-3-1",
+      "starting_eleven": [
+        {
+          "name": "Simon Mignolet",
+          "position": "G",
+          "shirt_number": 22,
+          "country": "Belgium",
+          "player_id": 10406
+        },
+        {
+          "name": "Kyriani Sabbe",
+          "position": "D",
+          "shirt_number": 64,
+          "country": "Belgium",
+          "player_id": 1101258
+        },
+        {
+          "name": "Jorne Spileers",
+          "position": "D",
+          "shirt_number": 58,
+          "country": "Belgium",
+          "player_id": 1104897
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "D",
+          "shirt_number": 44,
+          "country": "Belgium",
+          "player_id": 248331
+        },
+        {
+          "name": "Joaquin Seys",
+          "position": "D",
+          "shirt_number": 65,
+          "country": "Belgium",
+          "player_id": 1395881
+        },
+        {
+          "name": "Aleksandar Stanković",
+          "position": "M",
+          "shirt_number": 25,
+          "country": "Serbia",
+          "player_id": 1153957
+        },
+        {
+          "name": "Raphael Onyedika",
+          "position": "M",
+          "shirt_number": 15,
+          "country": "Nigeria",
+          "player_id": 1129862
+        },
+        {
+          "name": "Carlos Forbs",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Portugal",
+          "player_id": 1069486
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "M",
+          "shirt_number": 20,
+          "country": "Belgium",
+          "player_id": 118085
+        },
+        {
+          "name": "Christos Tzolis",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Greece",
+          "player_id": 1031259
+        },
+        {
+          "name": "Romeo Vermant",
+          "position": "F",
+          "shirt_number": 17,
+          "country": "Belgium",
+          "player_id": 1069336
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Nicolò Tresoldi",
+          "position": "F",
+          "shirt_number": 7,
+          "country": "Germany",
+          "player_id": 1177167
+        },
+        {
+          "name": "Bjorn Meijer",
+          "position": "D",
+          "shirt_number": 14,
+          "country": "Netherlands",
+          "player_id": 1047509
+        },
+        {
+          "name": "Hugo Vetlesen",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Norway",
+          "player_id": 877236
+        },
+        {
+          "name": "Ludovit Reis",
+          "position": "M",
+          "shirt_number": 6,
+          "country": "Netherlands",
+          "player_id": 893586
+        },
+        {
+          "name": "Mamadou Diakhon",
+          "position": "F",
+          "shirt_number": 67,
+          "country": "France",
+          "player_id": 1495876
+        },
+        {
+          "name": "Nordin Jackers",
+          "position": "G",
+          "shirt_number": 29,
+          "country": "Belgium",
+          "player_id": 361722
+        },
+        {
+          "name": "Joel Ordóñez",
+          "position": "D",
+          "shirt_number": 4,
+          "country": "Ecuador",
+          "player_id": 1187275
+        },
+        {
+          "name": "Hugo Siquet",
+          "position": "D",
+          "shirt_number": 41,
+          "country": "Belgium",
+          "player_id": 983041
+        },
+        {
+          "name": "Cisse Sandra",
+          "position": "M",
+          "shirt_number": 11,
+          "country": "Belgium",
+          "player_id": 1004449
+        },
+        {
+          "name": "Lynnt Audoor",
+          "position": "M",
+          "shirt_number": 62,
+          "country": "Belgium",
+          "player_id": 1067539
+        },
+        {
+          "name": "Shandre Campbell",
+          "position": "M",
+          "shirt_number": 84,
+          "country": "South Africa",
+          "player_id": 1518101
+        },
+        {
+          "name": "Gustaf Nilsson",
+          "position": "F",
+          "shirt_number": 19,
+          "country": "Sweden",
+          "player_id": 572286
+        }
+      ]
+    }
+  }
+}

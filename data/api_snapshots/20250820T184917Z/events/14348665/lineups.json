@@ -1,0 +1,342 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "4-3-3",
+      "starting_eleven": [
+        {
+          "name": "Nikita Haikin",
+          "position": "G",
+          "shirt_number": 12,
+          "country": "Russia",
+          "player_id": 792624
+        },
+        {
+          "name": "Fredrik Sjøvold",
+          "position": "D",
+          "shirt_number": 20,
+          "country": "Norway",
+          "player_id": 1172777
+        },
+        {
+          "name": "Odin Luras Bjørtuft",
+          "position": "D",
+          "shirt_number": 4,
+          "country": "Norway",
+          "player_id": 929978
+        },
+        {
+          "name": "Haitam Aleesami",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Norway",
+          "player_id": 250319
+        },
+        {
+          "name": "Fredrik André Bjørkan",
+          "position": "D",
+          "shirt_number": 15,
+          "country": "Norway",
+          "player_id": 795154
+        },
+        {
+          "name": "Håkon Evjen",
+          "position": "M",
+          "shirt_number": 26,
+          "country": "Norway",
+          "player_id": 892943
+        },
+        {
+          "name": "Patrick Berg",
+          "position": "M",
+          "shirt_number": 7,
+          "country": "Norway",
+          "player_id": 355174
+        },
+        {
+          "name": "Ulrik Saltnes",
+          "position": "M",
+          "shirt_number": 14,
+          "country": "Norway",
+          "player_id": 151700
+        },
+        {
+          "name": "Isak Dybvik Määttä",
+          "position": "D",
+          "shirt_number": 25,
+          "country": "Norway",
+          "player_id": 980915
+        },
+        {
+          "name": "Kasper Høgh",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Denmark",
+          "player_id": 932108
+        },
+        {
+          "name": "Jens Petter Hauge",
+          "position": "F",
+          "shirt_number": 10,
+          "country": "Norway",
+          "player_id": 838805
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Julian Faye Lund",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Norway",
+          "player_id": 814784
+        },
+        {
+          "name": "Magnus Brøndbo",
+          "position": "G",
+          "shirt_number": 44,
+          "country": "Norway",
+          "player_id": 1127281
+        },
+        {
+          "name": "Villads Nielsen",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "Denmark",
+          "player_id": 1506781
+        },
+        {
+          "name": "Daniel Bassi",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Norway",
+          "player_id": 1180769
+        },
+        {
+          "name": "Sondre Auklend",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Norway",
+          "player_id": 1029163
+        },
+        {
+          "name": "Sondre Fet",
+          "position": "M",
+          "shirt_number": 19,
+          "country": "Norway",
+          "player_id": 567236
+        },
+        {
+          "name": "Anders Klynge",
+          "position": "M",
+          "shirt_number": 22,
+          "country": "Denmark",
+          "player_id": 1033346
+        },
+        {
+          "name": "Magnus Riisnaes",
+          "position": "M",
+          "shirt_number": 23,
+          "country": "Norway",
+          "player_id": 1120290
+        },
+        {
+          "name": "Mathias Jørgensen",
+          "position": "M",
+          "shirt_number": 30,
+          "country": "Denmark",
+          "player_id": 930961
+        },
+        {
+          "name": "Samuel Burakowsky",
+          "position": "F",
+          "shirt_number": 17,
+          "country": "Sweden",
+          "player_id": 1142216
+        },
+        {
+          "name": "Andreas Helmersen",
+          "position": "F",
+          "shirt_number": 21,
+          "country": "Norway",
+          "player_id": 793524
+        },
+        {
+          "name": "Mikkel Bro Hansen",
+          "position": "F",
+          "shirt_number": 77,
+          "country": "Denmark",
+          "player_id": 2031918
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-3-1-2",
+      "starting_eleven": [
+        {
+          "name": "Oliver Christensen",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Denmark",
+          "player_id": 860306
+        },
+        {
+          "name": "Max Johnston",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "Scotland",
+          "player_id": 1048192
+        },
+        {
+          "name": "Tim Oermann",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Germany",
+          "player_id": 1138778
+        },
+        {
+          "name": "Dimitri Lavalėe",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Belgium",
+          "player_id": 857458
+        },
+        {
+          "name": "Emir Karić",
+          "position": "D",
+          "shirt_number": 17,
+          "country": "Austria",
+          "player_id": 796032
+        },
+        {
+          "name": "Tomi Horvat",
+          "position": "M",
+          "shirt_number": 19,
+          "country": "Slovenia",
+          "player_id": 906698
+        },
+        {
+          "name": "Jon Gorenc Stanković",
+          "position": "M",
+          "shirt_number": 4,
+          "country": "Slovenia",
+          "player_id": 280565
+        },
+        {
+          "name": "Tochi Chukwuani",
+          "position": "M",
+          "shirt_number": 21,
+          "country": "Denmark",
+          "player_id": 994007
+        },
+        {
+          "name": "Otar Kiteishvili",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Georgia",
+          "player_id": 797994
+        },
+        {
+          "name": "William Bøving",
+          "position": "M",
+          "shirt_number": 15,
+          "country": "Denmark",
+          "player_id": 1021075
+        },
+        {
+          "name": "Leon Grgić",
+          "position": "F",
+          "shirt_number": 38,
+          "country": "Austria",
+          "player_id": 1387712
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Christoph Wiener Pucher",
+          "position": "G",
+          "shirt_number": 32,
+          "country": "Austria",
+          "player_id": 1632411
+        },
+        {
+          "name": "Matteo Bignetti",
+          "position": "G",
+          "shirt_number": 40,
+          "country": "Austria",
+          "player_id": 1150766
+        },
+        {
+          "name": "Arjan Malić",
+          "position": "D",
+          "shirt_number": 23,
+          "country": "Bosnia & Herzegovina",
+          "player_id": 1500291
+        },
+        {
+          "name": "Gabriel Haider",
+          "position": "D",
+          "shirt_number": 27,
+          "country": "Austria",
+          "player_id": 1106655
+        },
+        {
+          "name": "Emanuel Aiwu",
+          "position": "D",
+          "shirt_number": 47,
+          "country": "Austria",
+          "player_id": 924690
+        },
+        {
+          "name": "Filip Rózga",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Poland",
+          "player_id": 1423454
+        },
+        {
+          "name": "Julius Beck",
+          "position": "M",
+          "shirt_number": 22,
+          "country": "Denmark",
+          "player_id": 1098541
+        },
+        {
+          "name": "Stefan Hierländer",
+          "position": "M",
+          "shirt_number": 25,
+          "country": "Austria",
+          "player_id": 49021
+        },
+        {
+          "name": "Jacob Hödl",
+          "position": "M",
+          "shirt_number": 43,
+          "country": "Austria",
+          "player_id": 1488043
+        },
+        {
+          "name": "Jonas Wolff",
+          "position": "M",
+          "shirt_number": 46,
+          "country": "Austria",
+          "player_id": 1488054
+        },
+        {
+          "name": "Seedy Jatta",
+          "position": "F",
+          "shirt_number": 20,
+          "country": "Norway",
+          "player_id": 1024876
+        },
+        {
+          "name": "Belmin Beganović",
+          "position": "F",
+          "shirt_number": 26,
+          "country": "Austria",
+          "player_id": 1212322
+        }
+      ]
+    }
+  }
+}

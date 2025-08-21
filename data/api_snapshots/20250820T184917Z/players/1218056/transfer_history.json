@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Jonas Adjei Adjetey",
+          "slug": "adjei-adjetey-jonas",
+          "shortName": "J. A. Adjetey",
+          "position": "D",
+          "jerseyNumber": "32",
+          "userCount": 794,
+          "id": 1218056
+        },
+        "transferTo": {
+          "name": "Basel II U21",
+          "slug": "basel-ii-u21",
+          "shortName": "Basel U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 935,
+          "nameCode": "FCB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2487,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اف سي بازل  II",
+              "ru": "ФК Базель II"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "B. Chelsea II",
+        "toTeamName": "Basel II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1469303,
+        "transferDateTimestamp": 1659484800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jonas Adjei Adjetey",
+          "slug": "adjei-adjetey-jonas",
+          "shortName": "J. A. Adjetey",
+          "position": "D",
+          "jerseyNumber": "32",
+          "userCount": 794,
+          "id": 1218056
+        },
+        "fromTeamName": "Unknown",
+        "toTeamName": "B. Chelsea II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2290668,
+        "transferDateTimestamp": 1646092800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jonas Adjei Adjetey",
+          "slug": "adjei-adjetey-jonas",
+          "shortName": "J. A. Adjetey",
+          "position": "D",
+          "jerseyNumber": "32",
+          "userCount": 794,
+          "id": 1218056
+        },
+        "transferFrom": {
+          "name": "Accra Great Olympics",
+          "slug": "accra-great-olympics",
+          "shortName": "Great Olympics",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1492,
+          "nameCode": "AGO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 187198,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0c4d89",
+            "text": "#0c4d89"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أكرا جريت اوليمبكز",
+              "ru": "Акра Грейт Олимпикс"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Accra Great Olympics",
+        "toTeamName": "No team",
+        "type": 6,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1413877,
+        "transferDateTimestamp": 1598918400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

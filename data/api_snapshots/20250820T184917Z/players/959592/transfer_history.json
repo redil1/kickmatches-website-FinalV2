@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Adrian Leon Barišić",
+          "slug": "adrian-leon-barisic",
+          "shortName": "A. L. Barišić",
+          "position": "D",
+          "jerseyNumber": "26",
+          "userCount": 738,
+          "id": 959592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أدريان ليون باريشيتش",
+              "hi": "एड्रियन लियोन बारिसिक",
+              "bn": "আদ্রিয়ান লিওন বারিসিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. باريشيتش",
+              "hi": "ए.एल. बारिसिक",
+              "bn": "এ. এল. বারিসিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "NK Osijek",
+          "slug": "nk-osijek",
+          "shortName": "Osijek",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 36206,
+          "nameCode": "OSI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2040,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسيجيك",
+              "ru": "Осиек",
+              "hi": "एनके ओसीजेक"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك",
+              "hi": "ओसिजेक",
+              "bn": "ওসিজেক"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "NK Osijek",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 3000000,
+        "transferFeeDescription": "3M €",
+        "id": 1670445,
+        "transferDateTimestamp": 1692316800,
+        "transferFeeRaw": {
+          "value": 3000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Adrian Leon Barišić",
+          "slug": "adrian-leon-barisic",
+          "shortName": "A. L. Barišić",
+          "position": "D",
+          "jerseyNumber": "26",
+          "userCount": 738,
+          "id": 959592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أدريان ليون باريشيتش",
+              "hi": "एड्रियन लियोन बारिसिक",
+              "bn": "আদ্রিয়ান লিওন বারিসিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. باريشيتش",
+              "hi": "ए.एल. बारिसिक",
+              "bn": "এ. এল. বারিসিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Frosinone",
+          "slug": "frosinone",
+          "shortName": "Frosinone",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 50530,
+          "nameCode": "FRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2801,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#0033cc",
+            "text": "#0033cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فروزينوني",
+              "ru": "Фрозиноне",
+              "hi": "फ्रोसिनोन",
+              "bn": "ফ্রোসিনোন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "NK Osijek",
+          "slug": "nk-osijek",
+          "shortName": "Osijek",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 36206,
+          "nameCode": "OSI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2040,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسيجيك",
+              "ru": "Осиек",
+              "hi": "एनके ओसीजेक"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك",
+              "hi": "ओसिजेक",
+              "bn": "ওসিজেক"
+            }
+          }
+        },
+        "fromTeamName": "Frosinone",
+        "toTeamName": "NK Osijek",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1350252,
+        "transferDateTimestamp": 1656547200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Adrian Leon Barišić",
+          "slug": "adrian-leon-barisic",
+          "shortName": "A. L. Barišić",
+          "position": "D",
+          "jerseyNumber": "26",
+          "userCount": 738,
+          "id": 959592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أدريان ليون باريشيتش",
+              "hi": "एड्रियन लियोन बारिसिक",
+              "bn": "আদ্রিয়ান লিওন বারিসিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. باريشيتش",
+              "hi": "ए.एल. बारिसिक",
+              "bn": "এ. এল. বারিসিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "NK Osijek",
+          "slug": "nk-osijek",
+          "shortName": "Osijek",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 36206,
+          "nameCode": "OSI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2040,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسيجيك",
+              "ru": "Осиек",
+              "hi": "एनके ओसीजेक"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك",
+              "hi": "ओसिजेक",
+              "bn": "ওসিজেক"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Frosinone",
+          "slug": "frosinone",
+          "shortName": "Frosinone",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 50530,
+          "nameCode": "FRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2801,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#0033cc",
+            "text": "#0033cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فروزينوني",
+              "ru": "Фрозиноне",
+              "hi": "फ्रोसिनोन",
+              "bn": "ফ্রোসিনোন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "NK Osijek",
+        "toTeamName": "Frosinone",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1350253,
+        "transferDateTimestamp": 1641600000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Adrian Leon Barišić",
+          "slug": "adrian-leon-barisic",
+          "shortName": "A. L. Barišić",
+          "position": "D",
+          "jerseyNumber": "26",
+          "userCount": 738,
+          "id": 959592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أدريان ليون باريشيتش",
+              "hi": "एड्रियन लियोन बारिसिक",
+              "bn": "আদ্রিয়ান লিওন বারিসিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. باريشيتش",
+              "hi": "ए.एल. बारिसिक",
+              "bn": "এ. এল. বারিসিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "NK Osijek II",
+          "slug": "nk-osijek-ii",
+          "shortName": "Osijek II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 358,
+          "nameCode": "OSI",
+          "national": false,
+          "type": 0,
+          "id": 248873,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسييك 2",
+              "ru": "НК Осиек II"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك 2"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "NK Osijek",
+          "slug": "nk-osijek",
+          "shortName": "Osijek",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 36206,
+          "nameCode": "OSI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2040,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسيجيك",
+              "ru": "Осиек",
+              "hi": "एनके ओसीजेक"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك",
+              "hi": "ओसिजेक",
+              "bn": "ওসিজেক"
+            }
+          }
+        },
+        "fromTeamName": "NK Osijek II",
+        "toTeamName": "NK Osijek",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1252235,
+        "transferDateTimestamp": 1625097600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Adrian Leon Barišić",
+          "slug": "adrian-leon-barisic",
+          "shortName": "A. L. Barišić",
+          "position": "D",
+          "jerseyNumber": "26",
+          "userCount": 738,
+          "id": 959592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أدريان ليون باريشيتش",
+              "hi": "एड्रियन लियोन बारिसिक",
+              "bn": "আদ্রিয়ান লিওন বারিসিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. باريشيتش",
+              "hi": "ए.एल. बारिसिक",
+              "bn": "এ. এল. বারিসিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "NK Osijek U19",
+          "slug": "nk-osijek-u19",
+          "shortName": "Osijek U19",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 645,
+          "nameCode": "OSI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 198213,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسييك تحت 19"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك تحت 19"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "NK Osijek II",
+          "slug": "nk-osijek-ii",
+          "shortName": "Osijek II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 358,
+          "nameCode": "OSI",
+          "national": false,
+          "type": 0,
+          "id": 248873,
+          "teamColors": {
+            "primary": "#08246d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إن كيه أوسييك 2",
+              "ru": "НК Осиек II"
+            },
+            "shortNameTranslation": {
+              "ar": "أوسييك 2"
+            }
+          }
+        },
+        "fromTeamName": "NK Osijek U19",
+        "toTeamName": "NK Osijek II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 897618,
+        "transferDateTimestamp": 1561939200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

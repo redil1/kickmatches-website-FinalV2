@@ -1,0 +1,726 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Grasshopper Club Zürich",
+          "slug": "grasshopper-club-zurich",
+          "shortName": "Grasshoppers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15491,
+          "nameCode": "GCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2449,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غراشهوبر – كلوب زيوريخ",
+              "ru": "Грассхоппер"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Grasshopper Club Zürich",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 900000,
+        "transferFeeDescription": "900k €",
+        "id": 1640497,
+        "transferDateTimestamp": 1689811200,
+        "transferFeeRaw": {
+          "value": 900000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Grasshopper Club Zürich",
+          "slug": "grasshopper-club-zurich",
+          "shortName": "Grasshoppers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15491,
+          "nameCode": "GCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2449,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غراشهوبر – كلوب زيوريخ",
+              "ru": "Грассхоппер"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "Grasshopper Club Zürich",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1026438,
+        "transferDateTimestamp": 1596758400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Wil 1900",
+          "slug": "fc-wil-1900",
+          "shortName": "FC Wil",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5087,
+          "nameCode": "WIL",
+          "national": false,
+          "type": 0,
+          "id": 2455,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ويل ١٩٠٠",
+              "ru": "ФК Виль 1900",
+              "hi": "ऍफ़सी विल 1900"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Wil 1900",
+        "toTeamName": "Basel",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 843134,
+        "transferDateTimestamp": 1593475200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Wil 1900",
+          "slug": "fc-wil-1900",
+          "shortName": "FC Wil",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5087,
+          "nameCode": "WIL",
+          "national": false,
+          "type": 0,
+          "id": 2455,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ويل ١٩٠٠",
+              "ru": "ФК Виль 1900",
+              "hi": "ऍफ़सी विल 1900"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "FC Wil 1900",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 701329,
+        "transferDateTimestamp": 1547510400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Lausanne-Sport",
+          "slug": "fc-lausanne-sport",
+          "shortName": "Lausanne",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 13115,
+          "nameCode": "FLA",
+          "national": false,
+          "type": 0,
+          "id": 2446,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#31489b",
+            "text": "#31489b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي لوسان-سبورتس",
+              "ru": "Лозанна Спортс"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Lausanne-Sport",
+        "toTeamName": "Basel",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 684755,
+        "transferDateTimestamp": 1547424000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Lausanne-Sport",
+          "slug": "fc-lausanne-sport",
+          "shortName": "Lausanne",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 13115,
+          "nameCode": "FLA",
+          "national": false,
+          "type": 0,
+          "id": 2446,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#31489b",
+            "text": "#31489b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي لوسان-سبورتس",
+              "ru": "Лозанна Спортс"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "FC Lausanne-Sport",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 500873,
+        "transferDateTimestamp": 1515974400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel II U21",
+          "slug": "basel-ii-u21",
+          "shortName": "Basel U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 935,
+          "nameCode": "FCB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2487,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اف سي بازل  II",
+              "ru": "ФК Базель II"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Basel II",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 500874,
+        "transferDateTimestamp": 1498867200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dominik Schmid",
+          "slug": "dominik-schmid",
+          "shortName": "D. Schmid",
+          "position": "D",
+          "jerseyNumber": "31",
+          "userCount": 117,
+          "id": 883466,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيك شميد",
+              "hi": "डोमिनिक श्मिड",
+              "bn": "ডমিনিক শ্মিড"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شميد",
+              "hi": "डी. श्मिड",
+              "bn": "ডি. শ্মিড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel II U21",
+          "slug": "basel-ii-u21",
+          "shortName": "Basel U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 935,
+          "nameCode": "FCB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2487,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اف سي بازل  II",
+              "ru": "ФК Базель II"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Basel U18",
+        "toTeamName": "Basel II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 500813,
+        "transferDateTimestamp": 1467331200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

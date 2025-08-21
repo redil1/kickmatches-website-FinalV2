@@ -1,0 +1,1 @@
+ALTER TABLE "trending_players" ALTER COLUMN "rating" SET DATA TYPE double precision;

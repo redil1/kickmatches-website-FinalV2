@@ -1,0 +1,23 @@
+import { NextRequest, NextResponse } from 'next/server'
+import { queues } from '@/worker/queue'
+
+export async function POST(req: NextRequest) {
+  // In dev, allow without secret for convenience
+  const isDev = process.env.NODE_ENV !== 'production'
+
+  // Accept secret via header or query param or JSON body (only required in prod)
+  const url = new URL(req.url)
+  const headerSecret = req.headers.get('x-admin-secret')
+  const querySecret = url.searchParams.get('secret')
+  const bodySecret = (await req.json().catch(() => ({})))?.secret
+  const secret = headerSecret || querySecret || bodySecret
+
+  if (!isDev) {
+    if (!secret || secret !== process.env.REVALIDATE_SECRET) {
+      return NextResponse.json({ ok: false, error: 'unauthorized' }, { status: 401 })
+    }
+  }
+
+  await queues.create.add('tick', {}, { removeOnComplete: true })
+  return NextResponse.json({ ok: true, enqueued: 'pmm-create:tick' })
+}

@@ -1,0 +1,560 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Midtjylland",
+          "slug": "fc-midtjylland",
+          "shortName": "Midtjylland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123606,
+          "nameCode": "FCM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1289,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ميدتيلاند",
+              "ru": "Мидтьюлланн",
+              "hi": "ऍफ़सी मीडटजीलैंड"
+            },
+            "shortNameTranslation": {
+              "ar": "ميدتيلاند",
+              "hi": "मिड्टजिलैंड",
+              "bn": "মিডটজিল্যান্ড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ferencváros TC",
+          "slug": "ferencvaros-tc",
+          "shortName": "Ferencváros",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 112514,
+          "nameCode": "FTC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1925,
+          "teamColors": {
+            "primary": "#339900",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرينتسفاروش تي سي",
+              "ru": "Ференцварош"
+            },
+            "shortNameTranslation": {
+              "ar": "فيرينتسفاروش",
+              "hi": "फेरेन्कवरोस",
+              "bn": "ফেরেনকাভারস"
+            }
+          }
+        },
+        "fromTeamName": "FC Midtjylland",
+        "toTeamName": "Ferencváros TC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2124528,
+        "transferDateTimestamp": 1723680000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Aberdeen",
+          "slug": "aberdeen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 28562,
+          "nameCode": "ABE",
+          "national": false,
+          "type": 0,
+          "id": 2355,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبردين",
+              "ru": "Абердин",
+              "hi": "एबरडीन",
+              "bn": "অ্যাবারডিন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Midtjylland",
+          "slug": "fc-midtjylland",
+          "shortName": "Midtjylland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123606,
+          "nameCode": "FCM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1289,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ميدتيلاند",
+              "ru": "Мидтьюлланн",
+              "hi": "ऍफ़सी मीडटजीलैंड"
+            },
+            "shortNameTranslation": {
+              "ar": "ميدتيلاند",
+              "hi": "मिड्टजिलैंड",
+              "bn": "মিডটজিল্যান্ড"
+            }
+          }
+        },
+        "fromTeamName": "Aberdeen",
+        "toTeamName": "FC Midtjylland",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1816408,
+        "transferDateTimestamp": 1719705600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Midtjylland",
+          "slug": "fc-midtjylland",
+          "shortName": "Midtjylland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123606,
+          "nameCode": "FCM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1289,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ميدتيلاند",
+              "ru": "Мидтьюлланн",
+              "hi": "ऍफ़सी मीडटजीलैंड"
+            },
+            "shortNameTranslation": {
+              "ar": "ميدتيلاند",
+              "hi": "मिड्टजिलैंड",
+              "bn": "মিডটজিল্যান্ড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Aberdeen",
+          "slug": "aberdeen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 28562,
+          "nameCode": "ABE",
+          "national": false,
+          "type": 0,
+          "id": 2355,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبردين",
+              "ru": "Абердин",
+              "hi": "एबरडीन",
+              "bn": "অ্যাবারডিন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Midtjylland",
+        "toTeamName": "Aberdeen",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1816409,
+        "transferDateTimestamp": 1693526400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sønderjyske Fodbold",
+          "slug": "sonderjyske",
+          "shortName": "Sønderjyske",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10805,
+          "nameCode": "SON",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1295,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#66ccff",
+            "text": "#66ccff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سونديرجيسك",
+              "ru": "Сённерйюс",
+              "hi": "सोंडेर्जिस्के",
+              "bn": "সন্ডারজিস্কই"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Midtjylland",
+          "slug": "fc-midtjylland",
+          "shortName": "Midtjylland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123606,
+          "nameCode": "FCM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1289,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي ميدتيلاند",
+              "ru": "Мидтьюлланн",
+              "hi": "ऍफ़सी मीडटजीलैंड"
+            },
+            "shortNameTranslation": {
+              "ar": "ميدتيلاند",
+              "hi": "मिड्टजिलैंड",
+              "bn": "মিডটজিল্যান্ড"
+            }
+          }
+        },
+        "fromTeamName": "Sønderjyske Fodbold",
+        "toTeamName": "FC Midtjylland",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1816410,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "SC Heerenveen",
+          "slug": "sc-heerenveen",
+          "shortName": "Heerenveen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 33259,
+          "nameCode": "SHE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2964,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000099",
+            "text": "#000099"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أس سي هيرينفين",
+              "ru": "Херенвен",
+              "hi": "ऐससी हीरेनवीन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Sønderjyske Fodbold",
+          "slug": "sonderjyske",
+          "shortName": "Sønderjyske",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10805,
+          "nameCode": "SON",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1295,
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#66ccff",
+            "text": "#66ccff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سونديرجيسك",
+              "ru": "Сённерйюс",
+              "hi": "सोंडेर्जिस्के",
+              "bn": "সন্ডারজিস্কই"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "SC Heerenveen",
+        "toTeamName": "Sønderjyske Fodbold",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1816411,
+        "transferDateTimestamp": 1498867200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Stefan Gartenmann",
+          "slug": "stefan-gartenmann",
+          "shortName": "S. Gartenmann",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 245,
+          "id": 803671,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفان جارتنمان",
+              "hi": "स्टीफन गार्टनमैन",
+              "bn": "স্টেফান গার্টেনম্যান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. جارتنمان",
+              "hi": "एस. गार्टनमैन",
+              "bn": "এস. গার্টেনম্যান"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "SC Heerenveen",
+          "slug": "sc-heerenveen",
+          "shortName": "Heerenveen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 33259,
+          "nameCode": "SHE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2964,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000099",
+            "text": "#000099"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أس سي هيرينفين",
+              "ru": "Херенвен",
+              "hi": "ऐससी हीरेनवीन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Heerenveen U19",
+        "toTeamName": "SC Heerenveen",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1816412,
+        "transferDateTimestamp": 1435708800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

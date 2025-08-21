@@ -1,0 +1,850 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "KFUM Oslo",
+          "slug": "kfum-oslo",
+          "shortName": "KFUM Oslo",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10816,
+          "nameCode": "KFU",
+          "national": false,
+          "type": 0,
+          "id": 786,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كفوم",
+              "ru": "ФК КФУМ Осло"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "KFUM Oslo",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 260000,
+        "transferFeeDescription": "260k €",
+        "id": 2294629,
+        "transferDateTimestamp": 1741996800,
+        "transferFeeRaw": {
+          "value": 260000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "No team",
+          "slug": "no-team",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10,
+          "nameCode": "NTE",
+          "disabled": true,
+          "national": false,
+          "type": 0,
+          "id": 241802,
+          "teamColors": {
+            "primary": "#d0d0d0",
+            "secondary": "#000000",
+            "text": "#000000"
+          }
+        },
+        "transferTo": {
+          "name": "KFUM Oslo",
+          "slug": "kfum-oslo",
+          "shortName": "KFUM Oslo",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10816,
+          "nameCode": "KFU",
+          "national": false,
+          "type": 0,
+          "id": 786,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كفوم",
+              "ru": "ФК КФУМ Осло"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "No team",
+        "toTeamName": "KFUM Oslo",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2001405,
+        "transferDateTimestamp": 1709078400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Apollon Limassol",
+          "slug": "apollon-limassol",
+          "shortName": "Apollon",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 16495,
+          "nameCode": "APO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3402,
+          "teamColors": {
+            "primary": "#2424ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبولون ليماسول",
+              "ru": "Аполлон Лимасол",
+              "hi": "एपोल्लोन लिमास्सोल"
+            },
+            "shortNameTranslation": {
+              "ar": "أبولون",
+              "hi": "अपोलोन",
+              "bn": "অ্যাপোলন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "No team",
+          "slug": "no-team",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10,
+          "nameCode": "NTE",
+          "disabled": true,
+          "national": false,
+          "type": 0,
+          "id": 241802,
+          "teamColors": {
+            "primary": "#d0d0d0",
+            "secondary": "#000000",
+            "text": "#000000"
+          }
+        },
+        "fromTeamName": "Apollon Limassol",
+        "toTeamName": "No team",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1601234,
+        "transferDateTimestamp": 1688169600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Rostov",
+          "slug": "fc-rostov",
+          "shortName": "Rostov",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15156,
+          "nameCode": "FRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2326,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#3300ff",
+            "text": "#3300ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي روستوف",
+              "ru": "ФК Ростов"
+            },
+            "shortNameTranslation": {
+              "ar": "روستوف",
+              "hi": "रोस्तोव",
+              "bn": "রোস্তভ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Apollon Limassol",
+          "slug": "apollon-limassol",
+          "shortName": "Apollon",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 16495,
+          "nameCode": "APO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3402,
+          "teamColors": {
+            "primary": "#2424ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبولون ليماسول",
+              "ru": "Аполлон Лимасол",
+              "hi": "एपोल्लोन लिमास्सोल"
+            },
+            "shortNameTranslation": {
+              "ar": "أبولون",
+              "hi": "अपोलोन",
+              "bn": "অ্যাপোলন"
+            }
+          }
+        },
+        "fromTeamName": "FC Rostov",
+        "toTeamName": "Apollon Limassol",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1285992,
+        "transferDateTimestamp": 1629072000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Amiens SC",
+          "slug": "amiens-sc",
+          "shortName": "Amiens",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 9442,
+          "nameCode": "AMI",
+          "national": false,
+          "type": 0,
+          "id": 1676,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي أميان",
+              "ru": "Амьен",
+              "hi": "एमिएंस"
+            },
+            "shortNameTranslation": {
+              "ar": "أميان",
+              "hi": "एमियेन्स",
+              "bn": "অ্যামিয়েন্স"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC Rostov",
+          "slug": "fc-rostov",
+          "shortName": "Rostov",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15156,
+          "nameCode": "FRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2326,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#3300ff",
+            "text": "#3300ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي روستوف",
+              "ru": "ФК Ростов"
+            },
+            "shortNameTranslation": {
+              "ar": "روستوف",
+              "hi": "रोस्तोव",
+              "bn": "রোস্তভ"
+            }
+          }
+        },
+        "fromTeamName": "Amiens SC",
+        "toTeamName": "FC Rostov",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1096396,
+        "transferDateTimestamp": 1602892800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Palermo",
+          "slug": "palermo",
+          "shortName": "Palermo",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 34034,
+          "nameCode": "PAL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2715,
+          "teamColors": {
+            "primary": "#ffb3d9",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باليرمو",
+              "ru": "Палермо"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Amiens SC",
+          "slug": "amiens-sc",
+          "shortName": "Amiens",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 9442,
+          "nameCode": "AMI",
+          "national": false,
+          "type": 0,
+          "id": 1676,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي أميان",
+              "ru": "Амьен",
+              "hi": "एमिएंस"
+            },
+            "shortNameTranslation": {
+              "ar": "أميان",
+              "hi": "एमियेन्स",
+              "bn": "অ্যামিয়েন্স"
+            }
+          }
+        },
+        "fromTeamName": "Palermo",
+        "toTeamName": "Amiens SC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 798893,
+        "transferDateTimestamp": 1562544000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "IFK Göteborg",
+          "slug": "ifk-goteborg",
+          "shortName": "Göteborg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 19503,
+          "nameCode": "IGT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1761,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000cc",
+            "text": "#0000cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه يوتيبورغ",
+              "ru": "ИФК Гётеборг"
+            },
+            "shortNameTranslation": {
+              "ar": "يوتيبورغ",
+              "hi": "गोटेबोर्ग",
+              "bn": "গোটেবর্গ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Palermo",
+          "slug": "palermo",
+          "shortName": "Palermo",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 34034,
+          "nameCode": "PAL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2715,
+          "teamColors": {
+            "primary": "#ffb3d9",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باليرمو",
+              "ru": "Палермо"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "IFK Göteborg",
+        "toTeamName": "Palermo",
+        "type": 3,
+        "transferFee": 1380000,
+        "transferFeeDescription": "1.4M €",
+        "id": 121807,
+        "transferDateTimestamp": 1470355200,
+        "transferFeeRaw": {
+          "value": 1380000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Fredrikstad FK",
+          "slug": "fredrikstad-fk",
+          "shortName": "Fredrikstad",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15001,
+          "nameCode": "FFK",
+          "national": false,
+          "type": 0,
+          "id": 687,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدركستاد",
+              "ru": "ФК Фредрикстад"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "IFK Göteborg",
+          "slug": "ifk-goteborg",
+          "shortName": "Göteborg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 19503,
+          "nameCode": "IGT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1761,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000cc",
+            "text": "#0000cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه يوتيبورغ",
+              "ru": "ИФК Гётеборг"
+            },
+            "shortNameTranslation": {
+              "ar": "يوتيبورغ",
+              "hi": "गोटेबोर्ग",
+              "bn": "গোটেবর্গ"
+            }
+          }
+        },
+        "fromTeamName": "Fredrikstad FK",
+        "toTeamName": "IFK Göteborg",
+        "type": 3,
+        "transferFee": 120000,
+        "transferFeeDescription": "120k €",
+        "id": 121808,
+        "transferDateTimestamp": 1420070400,
+        "transferFeeRaw": {
+          "value": 120000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Haitam Aleesami",
+          "slug": "haitam-aleesami",
+          "shortName": "H. Aleesami",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 65,
+          "id": 250319,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيثم العيسمي",
+              "hi": "हेतम अलेसामी",
+              "bn": "হাইথাম আলিসামি"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. العيسمي",
+              "hi": "एच. अलेसामी",
+              "bn": "এইচ. আলিসামি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Skeid",
+          "slug": "skeid",
+          "shortName": "Skeid",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5238,
+          "nameCode": "SKE",
+          "national": false,
+          "type": 0,
+          "id": 679,
+          "teamColors": {
+            "primary": "#ffde00",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سكايد",
+              "ru": "ФК Скейд"
+            },
+            "shortNameTranslation": {
+              "ar": "سكايد"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Fredrikstad FK",
+          "slug": "fredrikstad-fk",
+          "shortName": "Fredrikstad",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15001,
+          "nameCode": "FFK",
+          "national": false,
+          "type": 0,
+          "id": 687,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدركستاد",
+              "ru": "ФК Фредрикстад"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Skeid",
+        "toTeamName": "Fredrikstad FK",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 121794,
+        "transferDateTimestamp": 1343779200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Liam Scales",
+          "slug": "scales-liam",
+          "shortName": "L. Scales",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 501,
+          "id": 847990,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام سكاليس",
+              "hi": "स्केल्स, लियाम",
+              "bn": "স্কেল, লিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. سكاليس",
+              "hi": "एल. स्केल्स",
+              "bn": "এল. স্কেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Aberdeen",
+          "slug": "aberdeen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 28562,
+          "nameCode": "ABE",
+          "national": false,
+          "type": 0,
+          "id": 2355,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبردين",
+              "ru": "Абердин",
+              "hi": "एबरडीन",
+              "bn": "অ্যাবারডিন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Aberdeen",
+        "toTeamName": "Celtic",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1427808,
+        "transferDateTimestamp": 1685491200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Liam Scales",
+          "slug": "scales-liam",
+          "shortName": "L. Scales",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 501,
+          "id": 847990,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام سكاليس",
+              "hi": "स्केल्स, लियाम",
+              "bn": "স্কেল, লিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. سكاليس",
+              "hi": "एल. स्केल्स",
+              "bn": "এল. স্কেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Aberdeen",
+          "slug": "aberdeen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 28562,
+          "nameCode": "ABE",
+          "national": false,
+          "type": 0,
+          "id": 2355,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أبردين",
+              "ru": "Абердин",
+              "hi": "एबरडीन",
+              "bn": "অ্যাবারডিন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Celtic",
+        "toTeamName": "Aberdeen",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1425859,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Liam Scales",
+          "slug": "scales-liam",
+          "shortName": "L. Scales",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 501,
+          "id": 847990,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام سكاليس",
+              "hi": "स्केल्स, लियाम",
+              "bn": "স্কেল, লিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. سكاليس",
+              "hi": "एल. स्केल्स",
+              "bn": "এল. স্কেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Shamrock Rovers",
+          "slug": "shamrock-rovers",
+          "shortName": "Shamrock Rovers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 35335,
+          "nameCode": "SHA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3177,
+          "teamColors": {
+            "primary": "#008100",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شامروك روفرز",
+              "ru": "Шэмрок Роверс",
+              "hi": "शेमरॉक रोवर्स",
+              "bn": "শ্যামরক রোভার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Shamrock Rovers",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 600000,
+        "transferFeeDescription": "600k €",
+        "id": 1289723,
+        "transferDateTimestamp": 1630022400,
+        "transferFeeRaw": {
+          "value": 600000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Liam Scales",
+          "slug": "scales-liam",
+          "shortName": "L. Scales",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 501,
+          "id": 847990,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام سكاليس",
+              "hi": "स्केल्स, लियाम",
+              "bn": "স্কেল, লিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. سكاليس",
+              "hi": "एल. स्केल्स",
+              "bn": "এল. স্কেল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "University College Dublin",
+          "slug": "university-college-dublin",
+          "shortName": "UC Dublin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3638,
+          "nameCode": "DUB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3168,
+          "teamColors": {
+            "primary": "#99ecff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونيفرسيتي كوليج دبلن",
+              "ru": "Юниверсити Колледж Дублин",
+              "hi": "यूनिवर्सिटी कॉलेज डबलिन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Shamrock Rovers",
+          "slug": "shamrock-rovers",
+          "shortName": "Shamrock Rovers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 35335,
+          "nameCode": "SHA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3177,
+          "teamColors": {
+            "primary": "#008100",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شامروك روفرز",
+              "ru": "Шэмрок Роверс",
+              "hi": "शेमरॉक रोवर्स",
+              "bn": "শ্যামরক রোভার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "University College Dublin",
+        "toTeamName": "Shamrock Rovers",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 2023299,
+        "transferDateTimestamp": 1577836800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Liam Scales",
+          "slug": "scales-liam",
+          "shortName": "L. Scales",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 501,
+          "id": 847990,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام سكاليس",
+              "hi": "स्केल्स, लियाम",
+              "bn": "স্কেল, লিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. سكاليس",
+              "hi": "एल. स्केल्स",
+              "bn": "এল. স্কেল"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "University College Dublin",
+          "slug": "university-college-dublin",
+          "shortName": "UC Dublin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3638,
+          "nameCode": "DUB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3168,
+          "teamColors": {
+            "primary": "#99ecff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونيفرسيتي كوليج دبلن",
+              "ru": "Юниверсити Колледж Дублин",
+              "hi": "यूनिवर्सिटी कॉलेज डबलिन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "UCD U20",
+        "toTeamName": "University College Dublin",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 740677,
+        "transferDateTimestamp": 1467331200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

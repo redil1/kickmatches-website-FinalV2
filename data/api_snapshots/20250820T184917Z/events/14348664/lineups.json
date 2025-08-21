@@ -1,0 +1,335 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "4-3-3",
+      "starting_eleven": [
+        {
+          "name": "Kasper Schmeichel",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Denmark",
+          "player_id": 1076
+        },
+        {
+          "name": "Alistair Johnston",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "Canada",
+          "player_id": 984419
+        },
+        {
+          "name": "Cameron Carter-Vickers",
+          "position": "D",
+          "shirt_number": 20,
+          "country": "USA",
+          "player_id": 795972
+        },
+        {
+          "name": "Liam Scales",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Ireland",
+          "player_id": 847990
+        },
+        {
+          "name": "Kieran Tierney",
+          "position": "D",
+          "shirt_number": 63,
+          "country": "Scotland",
+          "player_id": 366592
+        },
+        {
+          "name": "Benjamin Nygren",
+          "position": "F",
+          "shirt_number": 8,
+          "country": "Sweden",
+          "player_id": 918517
+        },
+        {
+          "name": "Callum McGregor",
+          "position": "M",
+          "shirt_number": 42,
+          "country": "Scotland",
+          "player_id": 97046
+        },
+        {
+          "name": "Reo Hatate",
+          "position": "M",
+          "shirt_number": 41,
+          "country": "Japan",
+          "player_id": 891153
+        },
+        {
+          "name": "James Forrest",
+          "position": "M",
+          "shirt_number": 49,
+          "country": "Scotland",
+          "player_id": 91744
+        },
+        {
+          "name": "Adam Idah",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Ireland",
+          "player_id": 879850
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "F",
+          "shirt_number": 38,
+          "country": "Japan",
+          "player_id": 832420
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Viljami Sinisalo",
+          "position": "G",
+          "shirt_number": 12,
+          "country": "Finland",
+          "player_id": 995654
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "D",
+          "shirt_number": 4,
+          "country": "England",
+          "player_id": 1402924
+        },
+        {
+          "name": "Auston Trusty",
+          "position": "D",
+          "shirt_number": 6,
+          "country": "USA",
+          "player_id": 822459
+        },
+        {
+          "name": "Dane Murray",
+          "position": "D",
+          "shirt_number": 47,
+          "country": "Scotland",
+          "player_id": 1117475
+        },
+        {
+          "name": "Anthony Ralston",
+          "position": "D",
+          "shirt_number": 56,
+          "country": "Scotland",
+          "player_id": 840227
+        },
+        {
+          "name": "Arne Engels",
+          "position": "M",
+          "shirt_number": 27,
+          "country": "Belgium",
+          "player_id": 1001867
+        },
+        {
+          "name": "Luke McCowan",
+          "position": "M",
+          "shirt_number": 14,
+          "country": "Scotland",
+          "player_id": 926363
+        },
+        {
+          "name": "Callum Osmand",
+          "position": "M",
+          "shirt_number": 19,
+          "country": "Wales",
+          "player_id": 1158018
+        },
+        {
+          "name": "Paulo Bernardo",
+          "position": "M",
+          "shirt_number": 28,
+          "country": "Portugal",
+          "player_id": 983554
+        },
+        {
+          "name": "Yang Hyun-Jun",
+          "position": "F",
+          "shirt_number": 13,
+          "country": "South Korea",
+          "player_id": 1103531
+        },
+        {
+          "name": "Shin Yamada",
+          "position": "F",
+          "shirt_number": 18,
+          "country": "Japan",
+          "player_id": 1382299
+        },
+        {
+          "name": "Johnny Kenny",
+          "position": "F",
+          "shirt_number": 24,
+          "country": "Ireland",
+          "player_id": 1116315
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-3-3",
+      "starting_eleven": [
+        {
+          "name": "Aleksandr Zarutskiy",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Kazakhstan",
+          "player_id": 991896
+        },
+        {
+          "name": "Aleksandr Mrynskiy",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Kazakhstan",
+          "player_id": 1101824
+        },
+        {
+          "name": "Aleksandr Martynovich",
+          "position": "D",
+          "shirt_number": 14,
+          "country": "Belarus",
+          "player_id": 56544
+        },
+        {
+          "name": "Egor Sorokin",
+          "position": "D",
+          "shirt_number": 80,
+          "country": "Russia",
+          "player_id": 603944
+        },
+        {
+          "name": "Arad Ofri",
+          "position": "M",
+          "shirt_number": 15,
+          "country": "Israel",
+          "player_id": 840780
+        },
+        {
+          "name": "Erkin Tapalov",
+          "position": "D",
+          "shirt_number": 20,
+          "country": "Kazakhstan",
+          "player_id": 890314
+        },
+        {
+          "name": "Valeriy Gromyko",
+          "position": "M",
+          "shirt_number": 55,
+          "country": "Belarus",
+          "player_id": 797646
+        },
+        {
+          "name": "Dan Glazer",
+          "position": "M",
+          "shirt_number": 18,
+          "country": "Israel",
+          "player_id": 801381
+        },
+        {
+          "name": "Edmilson",
+          "position": "F",
+          "shirt_number": 26,
+          "country": "Brazil",
+          "player_id": 1417710
+        },
+        {
+          "name": "Dastan Satpaev",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Kazakhstan",
+          "player_id": 1584939
+        },
+        {
+          "name": "Jorginho",
+          "position": "F",
+          "shirt_number": 7,
+          "country": "Portugal",
+          "player_id": 913111
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Temirlan Anarbekov",
+          "position": "G",
+          "shirt_number": 77,
+          "country": "Kazakhstan",
+          "player_id": 1005884
+        },
+        {
+          "name": "Sherkhan Kalmurza",
+          "position": "G",
+          "shirt_number": 82,
+          "country": "Kazakhstan",
+          "player_id": 1584932
+        },
+        {
+          "name": "Damir Kasabulat",
+          "position": "D",
+          "shirt_number": 4,
+          "country": "Kazakhstan",
+          "player_id": 1184364
+        },
+        {
+          "name": "Lev Kurgin",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Kazakhstan",
+          "player_id": 1144351
+        },
+        {
+          "name": "Aleksandr Shirobokov",
+          "position": "D",
+          "shirt_number": 25,
+          "country": "Kazakhstan",
+          "player_id": 1000277
+        },
+        {
+          "name": "Luka Gadrani",
+          "position": "D",
+          "shirt_number": 44,
+          "country": "Georgia",
+          "player_id": 902540
+        },
+        {
+          "name": "Adilet Sadybekov",
+          "position": "M",
+          "shirt_number": 6,
+          "country": "Kazakhstan",
+          "player_id": 1128502
+        },
+        {
+          "name": "Olzhas Baibek",
+          "position": "M",
+          "shirt_number": 17,
+          "country": "Kazakhstan",
+          "player_id": 1159611
+        },
+        {
+          "name": "Jug Stanojev",
+          "position": "M",
+          "shirt_number": 33,
+          "country": "Serbia",
+          "player_id": 889106
+        },
+        {
+          "name": "Ramazan Bagdat",
+          "position": "F",
+          "shirt_number": 89,
+          "country": "Kazakhstan",
+          "player_id": 1566315
+        },
+        {
+          "name": "Ricardinho",
+          "position": "F",
+          "shirt_number": 99,
+          "country": "Brazil",
+          "player_id": 1105992
+        }
+      ]
+    }
+  }
+}

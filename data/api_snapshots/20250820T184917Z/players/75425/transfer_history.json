@@ -1,0 +1,354 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Dénes Dibusz",
+          "slug": "denes-dibusz",
+          "shortName": "D. Dibusz",
+          "position": "G",
+          "jerseyNumber": "90",
+          "userCount": 897,
+          "id": 75425,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دينيش ديبوس",
+              "hi": "डेनेस डिबुज़",
+              "bn": "ডেনেস ডিবুজ"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ديبوس",
+              "hi": "डी. डिबुज़",
+              "bn": "ডি. ডিবুজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Pécsi MFC",
+          "slug": "pecsi-mfc",
+          "shortName": "PMFC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 750,
+          "nameCode": "PMF",
+          "national": false,
+          "type": 0,
+          "id": 5125,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتش م إف سي",
+              "ru": "ФК Печ Мечек"
+            },
+            "shortNameTranslation": {
+              "ar": "بيتش م إف سي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ferencváros TC",
+          "slug": "ferencvaros-tc",
+          "shortName": "Ferencváros",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 112514,
+          "nameCode": "FTC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1925,
+          "teamColors": {
+            "primary": "#339900",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرينتسفاروش تي سي",
+              "ru": "Ференцварош"
+            },
+            "shortNameTranslation": {
+              "ar": "فيرينتسفاروش",
+              "hi": "फेरेन्कवरोस",
+              "bn": "ফেরেনকাভারস"
+            }
+          }
+        },
+        "fromTeamName": "Pécsi MFC",
+        "toTeamName": "Ferencváros TC",
+        "type": 3,
+        "transferFee": 65000,
+        "transferFeeDescription": "65k €",
+        "id": 845286,
+        "transferDateTimestamp": 1392163200,
+        "transferFeeRaw": {
+          "value": 65000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dénes Dibusz",
+          "slug": "denes-dibusz",
+          "shortName": "D. Dibusz",
+          "position": "G",
+          "jerseyNumber": "90",
+          "userCount": 897,
+          "id": 75425,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دينيش ديبوس",
+              "hi": "डेनेस डिबुज़",
+              "bn": "ডেনেস ডিবুজ"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ديبوس",
+              "hi": "डी. डिबुज़",
+              "bn": "ডি. ডিবুজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Barcsi SC",
+          "slug": "barcsi-sc",
+          "shortName": "Barcsi",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5,
+          "nameCode": "BAR",
+          "national": false,
+          "type": 0,
+          "id": 25584,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باركشي إس سي"
+            },
+            "shortNameTranslation": {
+              "ar": "باركشي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Pécsi MFC",
+          "slug": "pecsi-mfc",
+          "shortName": "PMFC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 750,
+          "nameCode": "PMF",
+          "national": false,
+          "type": 0,
+          "id": 5125,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتش م إف سي",
+              "ru": "ФК Печ Мечек"
+            },
+            "shortNameTranslation": {
+              "ar": "بيتش م إف سي"
+            }
+          }
+        },
+        "fromTeamName": "Barcsi SC",
+        "toTeamName": "Pécsi MFC",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1564534,
+        "transferDateTimestamp": 1277856000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dénes Dibusz",
+          "slug": "denes-dibusz",
+          "shortName": "D. Dibusz",
+          "position": "G",
+          "jerseyNumber": "90",
+          "userCount": 897,
+          "id": 75425,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دينيش ديبوس",
+              "hi": "डेनेस डिबुज़",
+              "bn": "ডেনেস ডিবুজ"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ديبوس",
+              "hi": "डी. डिबुज़",
+              "bn": "ডি. ডিবুজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Pécsi MFC",
+          "slug": "pecsi-mfc",
+          "shortName": "PMFC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 750,
+          "nameCode": "PMF",
+          "national": false,
+          "type": 0,
+          "id": 5125,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتش م إف سي",
+              "ru": "ФК Печ Мечек"
+            },
+            "shortNameTranslation": {
+              "ar": "بيتش م إف سي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Barcsi SC",
+          "slug": "barcsi-sc",
+          "shortName": "Barcsi",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5,
+          "nameCode": "BAR",
+          "national": false,
+          "type": 0,
+          "id": 25584,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باركشي إس سي"
+            },
+            "shortNameTranslation": {
+              "ar": "باركشي"
+            }
+          }
+        },
+        "fromTeamName": "Pécsi MFC",
+        "toTeamName": "Barcsi SC",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1564535,
+        "transferDateTimestamp": 1248652800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Dénes Dibusz",
+          "slug": "denes-dibusz",
+          "shortName": "D. Dibusz",
+          "position": "G",
+          "jerseyNumber": "90",
+          "userCount": 897,
+          "id": 75425,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دينيش ديبوس",
+              "hi": "डेनेस डिबुज़",
+              "bn": "ডেনেস ডিবুজ"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ديبوس",
+              "hi": "डी. डिबुज़",
+              "bn": "ডি. ডিবুজ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Pécsi MFC",
+          "slug": "pecsi-mfc",
+          "shortName": "PMFC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 750,
+          "nameCode": "PMF",
+          "national": false,
+          "type": 0,
+          "id": 5125,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتش م إف سي",
+              "ru": "ФК Печ Мечек"
+            },
+            "shortNameTranslation": {
+              "ar": "بيتش م إف سي"
+            }
+          }
+        },
+        "fromTeamName": "Pécsi MFC U19",
+        "toTeamName": "Pécsi MFC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 544410,
+        "transferDateTimestamp": 1214870400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

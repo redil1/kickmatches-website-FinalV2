@@ -1,0 +1,438 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Toon Raemaekers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "toon-raemaekers",
+          "shortName": "T. Raemaekers",
+          "position": "D",
+          "jerseyNumber": "28",
+          "userCount": 137,
+          "id": 1006483
+        },
+        "transferFrom": {
+          "name": "KV Mechelen",
+          "slug": "kv-mechelen",
+          "shortName": "Mechelen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21919,
+          "nameCode": "KVM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5044,
+          "teamColors": {
+            "primary": "#ffcc00",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كي في ميشيلن",
+              "ru": "Мехелен"
+            },
+            "shortNameTranslation": {
+              "ar": "ميشيلن"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ferencváros TC",
+          "slug": "ferencvaros-tc",
+          "shortName": "Ferencváros",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 112514,
+          "nameCode": "FTC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1925,
+          "teamColors": {
+            "primary": "#339900",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرينتسفاروش تي سي",
+              "ru": "Ференцварош"
+            },
+            "shortNameTranslation": {
+              "ar": "فيرينتسفاروش",
+              "hi": "फेरेन्कवरोस",
+              "bn": "ফেরেনকাভারস"
+            }
+          }
+        },
+        "fromTeamName": "KV Mechelen",
+        "toTeamName": "Ferencváros TC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2359277,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Toon Raemaekers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "toon-raemaekers",
+          "shortName": "T. Raemaekers",
+          "position": "D",
+          "jerseyNumber": "28",
+          "userCount": 137,
+          "id": 1006483
+        },
+        "transferFrom": {
+          "name": "Koninklijke Lierse Sportkring",
+          "slug": "lierse-kempenzonen",
+          "shortName": "K. Lierse SK",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3132,
+          "nameCode": "KLS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 116075,
+          "teamColors": {
+            "primary": "#ffe500",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كونينكليكه ليرس سبورتكرينغ",
+              "ru": "Лирс Кемпензонен",
+              "hi": "Lierse Kempenzonen"
+            },
+            "shortNameTranslation": {
+              "ar": "كي. ليرس إس كيه"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "KV Mechelen",
+          "slug": "kv-mechelen",
+          "shortName": "Mechelen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21919,
+          "nameCode": "KVM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5044,
+          "teamColors": {
+            "primary": "#ffcc00",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كي في ميشيلن",
+              "ru": "Мехелен"
+            },
+            "shortNameTranslation": {
+              "ar": "ميشيلن"
+            }
+          }
+        },
+        "fromTeamName": "Koninklijke Lierse Sportkring",
+        "toTeamName": "KV Mechelen",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1496120,
+        "transferDateTimestamp": 1688083200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Toon Raemaekers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "toon-raemaekers",
+          "shortName": "T. Raemaekers",
+          "position": "D",
+          "jerseyNumber": "28",
+          "userCount": 137,
+          "id": 1006483
+        },
+        "transferFrom": {
+          "name": "KV Mechelen",
+          "slug": "kv-mechelen",
+          "shortName": "Mechelen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21919,
+          "nameCode": "KVM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5044,
+          "teamColors": {
+            "primary": "#ffcc00",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كي في ميشيلن",
+              "ru": "Мехелен"
+            },
+            "shortNameTranslation": {
+              "ar": "ميشيلن"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Koninklijke Lierse Sportkring",
+          "slug": "lierse-kempenzonen",
+          "shortName": "K. Lierse SK",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3132,
+          "nameCode": "KLS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 116075,
+          "teamColors": {
+            "primary": "#ffe500",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كونينكليكه ليرس سبورتكرينغ",
+              "ru": "Лирс Кемпензонен",
+              "hi": "Lierse Kempenzonen"
+            },
+            "shortNameTranslation": {
+              "ar": "كي. ليرس إس كيه"
+            }
+          }
+        },
+        "fromTeamName": "KV Mechelen",
+        "toTeamName": "Koninklijke Lierse Sportkring",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1485829,
+        "transferDateTimestamp": 1662336000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Toon Raemaekers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "toon-raemaekers",
+          "shortName": "T. Raemaekers",
+          "position": "D",
+          "jerseyNumber": "28",
+          "userCount": 137,
+          "id": 1006483
+        },
+        "transferFrom": {
+          "name": "Oud-Heverlee Leuven",
+          "slug": "oud-heverlee-leuven",
+          "shortName": "OH Leuven",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15427,
+          "nameCode": "OLE",
+          "national": false,
+          "type": 0,
+          "id": 2918,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أود هيفرلي لوفن",
+              "ru": "Оуд Хеверли"
+            },
+            "shortNameTranslation": {
+              "ar": "أو إتش لوفن"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "KV Mechelen",
+          "slug": "kv-mechelen",
+          "shortName": "Mechelen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 21919,
+          "nameCode": "KVM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5044,
+          "teamColors": {
+            "primary": "#ffcc00",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كي في ميشيلن",
+              "ru": "Мехелен"
+            },
+            "shortNameTranslation": {
+              "ar": "ميشيلن"
+            }
+          }
+        },
+        "fromTeamName": "Oud-Heverlee Leuven",
+        "toTeamName": "KV Mechelen",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1365043,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Toon Raemaekers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "toon-raemaekers",
+          "shortName": "T. Raemaekers",
+          "position": "D",
+          "jerseyNumber": "28",
+          "userCount": 137,
+          "id": 1006483
+        },
+        "transferFrom": {
+          "name": "Oud-Heverlee Leuven Banqup Academy U23",
+          "slug": "oud-heverlee-leuven-banqup-academy-u23",
+          "shortName": "OH Leuven Academy U23",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 372,
+          "nameCode": "OHL",
+          "national": false,
+          "type": 0,
+          "id": 76459,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أود-هيفرلي لوفن بانكوب أكاديمية تحت 23",
+              "ru": "Хеверле Лёвен"
+            },
+            "shortNameTranslation": {
+              "ar": "أو إتش لوفن أكاديمية تحت 23"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Oud-Heverlee Leuven",
+          "slug": "oud-heverlee-leuven",
+          "shortName": "OH Leuven",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 15427,
+          "nameCode": "OLE",
+          "national": false,
+          "type": 0,
+          "id": 2918,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أود هيفرلي لوفن",
+              "ru": "Оуд Хеверли"
+            },
+            "shortNameTranslation": {
+              "ar": "أو إتش لوفن"
+            }
+          }
+        },
+        "fromTeamName": "Oud-Heverlee Leuven Banqup Academy U23",
+        "toTeamName": "Oud-Heverlee Leuven",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1085987,
+        "transferDateTimestamp": 1593561600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

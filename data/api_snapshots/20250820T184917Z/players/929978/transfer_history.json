@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Odin Luras Bjørtuft",
+          "slug": "odin-luras-bjortuft",
+          "shortName": "O. L. Bjørtuft",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 92,
+          "id": 929978
+        },
+        "transferFrom": {
+          "name": "Odds BK",
+          "slug": "odds-bk",
+          "shortName": "Odd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8548,
+          "nameCode": "ODD",
+          "national": false,
+          "type": 0,
+          "id": 659,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Odds BK",
+              "ru": "Одд БК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Odds BK",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 950000,
+        "transferFeeDescription": "950k €",
+        "id": 1537868,
+        "transferDateTimestamp": 1673222400,
+        "transferFeeRaw": {
+          "value": 950000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Odin Luras Bjørtuft",
+          "slug": "odin-luras-bjortuft",
+          "shortName": "O. L. Bjørtuft",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 92,
+          "id": 929978
+        },
+        "transferFrom": {
+          "name": "Odds BK II",
+          "slug": "odds-bk-ii",
+          "shortName": "Odd II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2530,
+          "nameCode": "ODD2",
+          "national": false,
+          "type": 0,
+          "id": 6092,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أودز بي كيه 2"
+            },
+            "shortNameTranslation": {
+              "ar": "أود 2"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Odds BK",
+          "slug": "odds-bk",
+          "shortName": "Odd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8548,
+          "nameCode": "ODD",
+          "national": false,
+          "type": 0,
+          "id": 659,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Odds BK",
+              "ru": "Одд БК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Odds BK II",
+        "toTeamName": "Odds BK",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 626556,
+        "transferDateTimestamp": 1509062400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Odin Luras Bjørtuft",
+          "slug": "odin-luras-bjortuft",
+          "shortName": "O. L. Bjørtuft",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 92,
+          "id": 929978
+        },
+        "transferTo": {
+          "name": "Odds BK II",
+          "slug": "odds-bk-ii",
+          "shortName": "Odd II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2530,
+          "nameCode": "ODD2",
+          "national": false,
+          "type": 0,
+          "id": 6092,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أودز بي كيه 2"
+            },
+            "shortNameTranslation": {
+              "ar": "أود 2"
+            }
+          }
+        },
+        "fromTeamName": "No team",
+        "toTeamName": "Odds BK II",
+        "type": 7,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1034728,
+        "transferDateTimestamp": 1422403200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

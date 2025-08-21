@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "4-2-3-1",
+      "starting_eleven": [
+        {
+          "name": "Matheus",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Brazil",
+          "player_id": 603946
+        },
+        {
+          "name": "Young-woo Seol",
+          "position": "D",
+          "shirt_number": 66,
+          "country": "South Korea",
+          "player_id": 1019333
+        },
+        {
+          "name": "Veljko Milosavljević",
+          "position": "D",
+          "shirt_number": 44,
+          "country": "Serbia",
+          "player_id": 1406130
+        },
+        {
+          "name": "Miloš Veljković",
+          "position": "D",
+          "shirt_number": 13,
+          "country": "Serbia",
+          "player_id": 227224
+        },
+        {
+          "name": "Nair Tiknizyan",
+          "position": "D",
+          "shirt_number": 23,
+          "country": "Armenia",
+          "player_id": 904400
+        },
+        {
+          "name": "Mahmudu Bajo",
+          "position": "M",
+          "shirt_number": 6,
+          "country": "Gambia",
+          "player_id": 1516318
+        },
+        {
+          "name": "Timi Max Elšnik",
+          "position": "M",
+          "shirt_number": 21,
+          "country": "Slovenia",
+          "player_id": 827371
+        },
+        {
+          "name": "Shavy Warren Babicka",
+          "position": "F",
+          "shirt_number": 80,
+          "country": "Gabon",
+          "player_id": 1136280
+        },
+        {
+          "name": "Mirko Ivanić",
+          "position": "M",
+          "shirt_number": 4,
+          "country": "Montenegro",
+          "player_id": 278763
+        },
+        {
+          "name": "Peter Olayinka",
+          "position": "M",
+          "shirt_number": 14,
+          "country": "Nigeria",
+          "player_id": 289181
+        },
+        {
+          "name": "Cherif Ndiaye",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Senegal",
+          "player_id": 868268
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Bruno Duarte",
+          "position": "F",
+          "shirt_number": 17,
+          "country": "Brazil",
+          "player_id": 878830
+        },
+        {
+          "name": "Aleksandar Katai",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Serbia",
+          "player_id": 110701
+        },
+        {
+          "name": "Milson",
+          "position": "M",
+          "shirt_number": 7,
+          "country": "Angola",
+          "player_id": 939721
+        },
+        {
+          "name": "Omri Glazer",
+          "position": "G",
+          "shirt_number": 18,
+          "country": "Israel",
+          "player_id": 797083
+        },
+        {
+          "name": "Ivan Guteša",
+          "position": "G",
+          "shirt_number": 77,
+          "country": "Serbia",
+          "player_id": 1019641
+        },
+        {
+          "name": "Nikola Stanković",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Serbia",
+          "player_id": 1100641
+        },
+        {
+          "name": "Stefan Leković",
+          "position": "D",
+          "shirt_number": 25,
+          "country": "Serbia",
+          "player_id": 1146225
+        },
+        {
+          "name": "Franklin Tebo",
+          "position": "D",
+          "shirt_number": 30,
+          "country": "Nigeria",
+          "player_id": 1133882
+        },
+        {
+          "name": "Adem Avdić",
+          "position": "D",
+          "shirt_number": 71,
+          "country": "Serbia",
+          "player_id": 1493918
+        },
+        {
+          "name": "Jovan Šljivić",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Serbia",
+          "player_id": 1153956
+        },
+        {
+          "name": "Vasilije Kostov",
+          "position": "M",
+          "shirt_number": 22,
+          "country": "Serbia",
+          "player_id": 1825955
+        },
+        {
+          "name": "Vladimir Lučić",
+          "position": "M",
+          "shirt_number": 37,
+          "country": "Serbia",
+          "player_id": 1029788
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-2-3-1",
+      "starting_eleven": [
+        {
+          "name": "Neofytos Michael",
+          "position": "G",
+          "shirt_number": 93,
+          "country": "Cyprus",
+          "player_id": 801918
+        },
+        {
+          "name": "Bruno",
+          "position": "D",
+          "shirt_number": 7,
+          "country": "Brazil",
+          "player_id": 800106
+        },
+        {
+          "name": "Derrick Luckassen",
+          "position": "D",
+          "shirt_number": 23,
+          "country": "Netherlands",
+          "player_id": 363782
+        },
+        {
+          "name": "David Goldar",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Spain",
+          "player_id": 546180
+        },
+        {
+          "name": "Kostas Pileas",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "Cyprus",
+          "player_id": 889002
+        },
+        {
+          "name": "Pêpê",
+          "position": "M",
+          "shirt_number": 88,
+          "country": "Portugal",
+          "player_id": 896354
+        },
+        {
+          "name": "Ivan Šunjić",
+          "position": "M",
+          "shirt_number": 26,
+          "country": "Bosnia & Herzegovina",
+          "player_id": 283833
+        },
+        {
+          "name": "João Correia",
+          "position": "M",
+          "shirt_number": 77,
+          "country": "Cape Verde",
+          "player_id": 804272
+        },
+        {
+          "name": "Vlad Dragomir",
+          "position": "M",
+          "shirt_number": 30,
+          "country": "Romania",
+          "player_id": 559058
+        },
+        {
+          "name": "Muamer Tanković",
+          "position": "M",
+          "shirt_number": 22,
+          "country": "Sweden",
+          "player_id": 151131
+        },
+        {
+          "name": "Anderson Silva",
+          "position": "F",
+          "shirt_number": 33,
+          "country": "Brazil",
+          "player_id": 892272
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Ken Sema",
+          "position": "M",
+          "shirt_number": 12,
+          "country": "Sweden",
+          "player_id": 319847
+        },
+        {
+          "name": "Bruno Langa",
+          "position": "D",
+          "shirt_number": 25,
+          "country": "Mozambique",
+          "player_id": 987490
+        },
+        {
+          "name": "Jajá",
+          "position": "M",
+          "shirt_number": 11,
+          "country": "Brazil",
+          "player_id": 1020057
+        },
+        {
+          "name": "Mons Bassouamina",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Congo Republic",
+          "player_id": 942831
+        },
+        {
+          "name": "Mislav Oršić",
+          "position": "M",
+          "shirt_number": 17,
+          "country": "Croatia",
+          "player_id": 88645
+        },
+        {
+          "name": "Petros Petrou",
+          "position": "G",
+          "shirt_number": 82,
+          "country": "Cyprus",
+          "player_id": 1563613
+        },
+        {
+          "name": "Athanasios Papadoudis",
+          "position": "G",
+          "shirt_number": 99,
+          "country": "Greece",
+          "player_id": 1150221
+        },
+        {
+          "name": "Pedrão",
+          "position": "D",
+          "shirt_number": 35,
+          "country": "Brazil",
+          "player_id": 1217828
+        },
+        {
+          "name": "Marios Ilia",
+          "position": "M",
+          "shirt_number": 70,
+          "country": "Cyprus",
+          "player_id": 558856
+        }
+      ]
+    }
+  }
+}

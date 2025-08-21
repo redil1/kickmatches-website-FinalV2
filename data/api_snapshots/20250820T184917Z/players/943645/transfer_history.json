@@ -1,0 +1,587 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Rangers",
+        "toTeamName": "Bournemouth",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2362134,
+        "transferDateTimestamp": 1782777600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bournemouth",
+        "toTeamName": "Rangers",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2362135,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Valencia",
+          "slug": "valencia",
+          "shortName": "Valencia",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 344452,
+          "nameCode": "VCF",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2828,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فالنسيا",
+              "ru": "Валенсия",
+              "hi": "वेलेंसिया",
+              "bn": "ভ্যালেন্সিয়া"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Valencia",
+        "toTeamName": "Bournemouth",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2238809,
+        "transferDateTimestamp": 1751241600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Valencia",
+          "slug": "valencia",
+          "shortName": "Valencia",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 344452,
+          "nameCode": "VCF",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2828,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فالنسيا",
+              "ru": "Валенсия",
+              "hi": "वेलेंसिया",
+              "bn": "ভ্যালেন্সিয়া"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bournemouth",
+        "toTeamName": "Valencia",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2238810,
+        "transferDateTimestamp": 1736726400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Norwich City",
+          "slug": "norwich-city",
+          "shortName": "Norwich",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61675,
+          "nameCode": "NCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 263,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#336600",
+            "text": "#336600"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوريتش سيتي",
+              "ru": "Норвич Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "نورويتش",
+              "hi": "नॉरिच",
+              "bn": "নরউইচ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Norwich City",
+        "toTeamName": "Bournemouth",
+        "type": 3,
+        "transferFee": 8100000,
+        "transferFeeDescription": "8.1M €",
+        "id": 1660717,
+        "transferDateTimestamp": 1691625600,
+        "transferFeeRaw": {
+          "value": 8100000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Max Aarons",
+          "slug": "max-aarons",
+          "shortName": "M. Aarons",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 1405,
+          "id": 943645,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكس آرونز",
+              "hi": "मैक्स आरोन्स",
+              "bn": "ম্যাক্স অ্যারোনস"
+            },
+            "shortNameTranslation": {
+              "ar": "م. آرونز",
+              "hi": "एम. आरोन्स",
+              "bn": "এম. অ্যারোনস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Norwich City U21",
+          "slug": "norwich-city-u21",
+          "shortName": "Norwich U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1925,
+          "nameCode": "NOR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 54367,
+          "teamColors": {
+            "primary": "#336600",
+            "secondary": "#ffcc33",
+            "text": "#ffcc33"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نورويتش سيتي تحت 21",
+              "ru": "Норвич Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "نورويتش تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Norwich City",
+          "slug": "norwich-city",
+          "shortName": "Norwich",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61675,
+          "nameCode": "NCI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 263,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#336600",
+            "text": "#336600"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوريتش سيتي",
+              "ru": "Норвич Сити"
+            },
+            "shortNameTranslation": {
+              "ar": "نورويتش",
+              "hi": "नॉरिच",
+              "bn": "নরউইচ"
+            }
+          }
+        },
+        "fromTeamName": "Norwich City U21",
+        "toTeamName": "Norwich City",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 625017,
+        "transferDateTimestamp": 1530403200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

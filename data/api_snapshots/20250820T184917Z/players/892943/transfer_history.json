@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Håkon Evjen",
+          "slug": "hakon-evjen",
+          "shortName": "H. Evjen",
+          "position": "M",
+          "jerseyNumber": "26",
+          "userCount": 499,
+          "id": 892943,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاكون إيفين",
+              "hi": "हाकोन एवजेन",
+              "bn": "হাকন ইভজেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. إيفين",
+              "hi": "एच. एवजेन",
+              "bn": "এইচ. ইভজেন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Brøndby IF",
+          "slug": "brondby-if",
+          "shortName": "Brøndby",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 53764,
+          "nameCode": "BRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1281,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#ffff00",
+            "text": "#ffff00"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بروندبي إف",
+              "ru": "Брондбю"
+            },
+            "shortNameTranslation": {
+              "ar": "بروندبي",
+              "hi": "ब्रॉन्डबाय",
+              "bn": "ব্র্যান্ডবি"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Brøndby IF",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 2500000,
+        "transferFeeDescription": "2.5M €",
+        "id": 1977131,
+        "transferDateTimestamp": 1706659200,
+        "transferFeeRaw": {
+          "value": 2500000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Håkon Evjen",
+          "slug": "hakon-evjen",
+          "shortName": "H. Evjen",
+          "position": "M",
+          "jerseyNumber": "26",
+          "userCount": 499,
+          "id": 892943,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاكون إيفين",
+              "hi": "हाकोन एवजेन",
+              "bn": "হাকন ইভজেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. إيفين",
+              "hi": "एच. एवजेन",
+              "bn": "এইচ. ইভজেন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "AZ Alkmaar",
+          "slug": "az-alkmaar",
+          "shortName": "AZ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 201166,
+          "nameCode": "AAL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2950,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إي زد آلكمار",
+              "ru": "АЗ Алкмар",
+              "hi": "AZ अल्कमार"
+            },
+            "shortNameTranslation": {
+              "ar": "أ.ز",
+              "hi": "एज़ेड",
+              "bn": "এ জেড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Brøndby IF",
+          "slug": "brondby-if",
+          "shortName": "Brøndby",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 53764,
+          "nameCode": "BRO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1281,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#ffff00",
+            "text": "#ffff00"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بروندبي إف",
+              "ru": "Брондбю"
+            },
+            "shortNameTranslation": {
+              "ar": "بروندبي",
+              "hi": "ब्रॉन्डबाय",
+              "bn": "ব্র্যান্ডবি"
+            }
+          }
+        },
+        "fromTeamName": "AZ Alkmaar",
+        "toTeamName": "Brøndby IF",
+        "type": 3,
+        "transferFee": 1610000,
+        "transferFeeDescription": "1.6M €",
+        "id": 1547083,
+        "transferDateTimestamp": 1673913600,
+        "transferFeeRaw": {
+          "value": 1610000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Håkon Evjen",
+          "slug": "hakon-evjen",
+          "shortName": "H. Evjen",
+          "position": "M",
+          "jerseyNumber": "26",
+          "userCount": 499,
+          "id": 892943,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاكون إيفين",
+              "hi": "हाकोन एवजेन",
+              "bn": "হাকন ইভজেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. إيفين",
+              "hi": "एच. एवजेन",
+              "bn": "এইচ. ইভজেন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "AZ Alkmaar",
+          "slug": "az-alkmaar",
+          "shortName": "AZ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 201166,
+          "nameCode": "AAL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2950,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إي زد آلكمار",
+              "ru": "АЗ Алкмар",
+              "hi": "AZ अल्कमार"
+            },
+            "shortNameTranslation": {
+              "ar": "أ.ز",
+              "hi": "एज़ेड",
+              "bn": "এ জেড"
+            }
+          }
+        },
+        "fromTeamName": "Bodø/Glimt",
+        "toTeamName": "AZ Alkmaar",
+        "type": 3,
+        "transferFee": 2500000,
+        "transferFeeDescription": "2.5M €",
+        "id": 903750,
+        "transferDateTimestamp": 1577836800,
+        "transferFeeRaw": {
+          "value": 2500000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Håkon Evjen",
+          "slug": "hakon-evjen",
+          "shortName": "H. Evjen",
+          "position": "M",
+          "jerseyNumber": "26",
+          "userCount": 499,
+          "id": 892943,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاكون إيفين",
+              "hi": "हाकोन एवजेन",
+              "bn": "হাকন ইভজেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. إيفين",
+              "hi": "एच. एवजेन",
+              "bn": "এইচ. ইভজেন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bodø/Glimt Y.",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 653723,
+        "transferDateTimestamp": 1502064000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Håkon Evjen",
+          "slug": "hakon-evjen",
+          "shortName": "H. Evjen",
+          "position": "M",
+          "jerseyNumber": "26",
+          "userCount": 499,
+          "id": 892943,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاكون إيفين",
+              "hi": "हाकोन एवजेन",
+              "bn": "হাকন ইভজেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. إيفين",
+              "hi": "एच. एवजेन",
+              "bn": "এইচ. ইভজেন"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FK Mjølner",
+          "slug": "fk-mjolner",
+          "shortName": "Mjølner",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 346,
+          "nameCode": "MJO",
+          "national": false,
+          "type": 0,
+          "id": 720,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه ميويلنر",
+              "ru": "ФК Мьелнер"
+            },
+            "shortNameTranslation": {
+              "ar": "ميويلنر"
+            }
+          }
+        },
+        "fromTeamName": "FK Mjølner",
+        "toTeamName": "Bodø/Glimt Y.",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 653724,
+        "transferDateTimestamp": 1472688000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

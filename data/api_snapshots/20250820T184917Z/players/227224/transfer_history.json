@@ -1,0 +1,664 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "SV Werder Bremen",
+          "slug": "sv-werder-bremen",
+          "shortName": "Bremen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 95358,
+          "nameCode": "SWB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2534,
+          "teamColors": {
+            "primary": "#009966",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إس في فيردر بريمن",
+              "ru": "Вердер Бремен"
+            },
+            "shortNameTranslation": {
+              "ar": "بريمن",
+              "hi": "ब्रेमन",
+              "bn": "ব্রেমেন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "SV Werder Bremen",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 2292209,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "SV Werder Bremen",
+          "slug": "sv-werder-bremen",
+          "shortName": "Bremen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 95358,
+          "nameCode": "SWB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2534,
+          "teamColors": {
+            "primary": "#009966",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إس في فيردر بريمن",
+              "ru": "Вердер Бремен"
+            },
+            "shortNameTranslation": {
+              "ar": "بريمن",
+              "hi": "ब्रेमन",
+              "bn": "ব্রেমেন"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "SV Werder Bremen",
+        "type": 3,
+        "transferFee": 330000,
+        "transferFeeDescription": "330k €",
+        "id": 600337,
+        "transferDateTimestamp": 1454284800,
+        "transferFeeRaw": {
+          "value": 330000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Charlton Athletic",
+          "slug": "charlton-athletic",
+          "shortName": "Charlton",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 12088,
+          "nameCode": "CHA",
+          "national": false,
+          "type": 0,
+          "id": 47,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشارلتون أثلتيك",
+              "ru": "Чарльтон Атлетик",
+              "hi": "चार्लटन एथलेटिक"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Charlton Athletic",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 600662,
+        "transferDateTimestamp": 1433030400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Charlton Athletic",
+          "slug": "charlton-athletic",
+          "shortName": "Charlton",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 12088,
+          "nameCode": "CHA",
+          "national": false,
+          "type": 0,
+          "id": 47,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشارلتون أثلتيك",
+              "ru": "Чарльтон Атлетик",
+              "hi": "चार्लटन एथलेटिक"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Charlton Athletic",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 220235,
+        "transferDateTimestamp": 1421712000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Middlesbrough",
+          "slug": "middlesbrough",
+          "shortName": "Middlesbrough",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40493,
+          "nameCode": "MID",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36,
+          "teamColors": {
+            "primary": "#d90000",
+            "secondary": "#d90000",
+            "text": "#d90000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلزبورو",
+              "ru": "Мидлсбро"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Middlesbrough",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 600660,
+        "transferDateTimestamp": 1421280000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Middlesbrough",
+          "slug": "middlesbrough",
+          "shortName": "Middlesbrough",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40493,
+          "nameCode": "MID",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 36,
+          "teamColors": {
+            "primary": "#d90000",
+            "secondary": "#d90000",
+            "text": "#d90000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلزبورو",
+              "ru": "Мидлсбро"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Middlesbrough",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 220234,
+        "transferDateTimestamp": 1413417600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Miloš Veljković",
+          "slug": "milos-veljkovic",
+          "shortName": "M. Veljković",
+          "position": "D",
+          "jerseyNumber": "13",
+          "userCount": 1288,
+          "id": 227224,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلوش فيلكوفيتش",
+              "hi": "मिलोस वेलजकोविच",
+              "bn": "মিলোস ভেলজকোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. فيلكوفيتش",
+              "hi": "एम. वेलजकोविच",
+              "bn": "এম. ভেলজকোভিচ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham U18",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 600661,
+        "transferDateTimestamp": 1372636800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

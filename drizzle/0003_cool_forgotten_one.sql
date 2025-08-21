@@ -1,0 +1,1 @@
+ALTER TABLE "trending_players" ADD CONSTRAINT "trending_players_player_id_event_id_pk" PRIMARY KEY("player_id","event_id");

@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "data": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Champions League, Playoff Round",
+        "slug": "uefa-champions-league-playoff-round",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 692,
+        "isGroup": false,
+        "roundPrefix": "Qualification",
+        "competitionType": 2,
+        "isLive": false,
+        "id": 119880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا، الدور الفاصل",
+            "hi": "यूईएफए चैंपियंस लीग, प्लेऑफ राउंड",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, প্লে অফ রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 636,
+        "name": "Playoff round",
+        "slug": "playoff-round"
+      },
+      "customId": "gnsbQ",
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "venue": {
+        "city": {
+          "name": "Bodo"
+        },
+        "venueCoordinates": {
+          "latitude": 67.276648,
+          "longitude": 14.384434
+        },
+        "hidden": true,
+        "slug": "aspmyra-stadion",
+        "name": "Aspmyra Stadion",
+        "capacity": 8270,
+        "id": 1072,
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "النرويج"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب آسبمايرا",
+            "hi": "एस्पमायरा स्टेडियन",
+            "bn": "আস্পমাইরা স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Aspmyra Stadion",
+          "capacity": 8270
+        }
+      },
+      "referee": {
+        "name": "Sandro Schärer",
+        "slug": "scharer-sandro",
+        "yellowCards": 1481,
+        "redCards": 32,
+        "yellowRedCards": 48,
+        "games": 328,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 137333,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سويسرا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سشارير، ساندرو",
+            "hi": "शारेर, सैंड्रो",
+            "bn": "স্চারার, স্যান্ড্রো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Bodø/Glimt",
+        "slug": "bodoglimt",
+        "shortName": "Bodø/Glimt",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 195231,
+        "manager": {
+          "name": "Kjetil Knutsen",
+          "slug": "kjetil-knudsen",
+          "shortName": "K. Knutsen",
+          "id": 785189,
+          "country": {
+            "alpha2": "NO",
+            "alpha3": "NOR",
+            "name": "Norway",
+            "slug": "norway",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "النرويج"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيتيل كنوتسن",
+              "hi": "केजेटिल नुत्सेन",
+              "bn": "কেটিল নুটসেন"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كنوتسن",
+              "hi": "के. नुत्सेन",
+              "bn": "কে. নুটসেন"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Bodo"
+          },
+          "venueCoordinates": {
+            "latitude": 67.276648,
+            "longitude": 14.384434
+          },
+          "hidden": true,
+          "slug": "aspmyra-stadion",
+          "name": "Aspmyra Stadion",
+          "capacity": 8270,
+          "id": 1072,
+          "country": {
+            "alpha2": "NO",
+            "alpha3": "NOR",
+            "name": "Norway",
+            "slug": "norway",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "النرويج"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب آسبمايرا",
+              "hi": "एस्पमायरा स्टेडियन",
+              "bn": "আস্পমাইরা স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Aspmyra Stadion",
+            "capacity": 8270
+          }
+        },
+        "nameCode": "BOD",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 656,
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "النرويج"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "Bodø/Glimt",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffcc33",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "foundationDateTimestamp": -1681516800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بودو/جليمت",
+            "ru": "ФК Буде/Глимт",
+            "hi": "बोड़ो/ग्लिम्ट",
+            "bn": "বোডো/গ্লিমট"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "SK Sturm Graz",
+        "slug": "sk-sturm-graz",
+        "shortName": "Sturm",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 77973,
+        "manager": {
+          "name": "Jürgen Säumel",
+          "slug": "saumel-jurgen",
+          "shortName": "J. Säumel",
+          "id": 803838,
+          "country": {
+            "alpha2": "AT",
+            "alpha3": "AUT",
+            "name": "Austria",
+            "slug": "austria",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "النمسا"
+              },
+              "shortNameTranslation": {}
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Graz"
+          },
+          "venueCoordinates": {
+            "latitude": 47.046367,
+            "longitude": 15.454008
+          },
+          "hidden": true,
+          "slug": "merkur-arena",
+          "name": "Merkur Arena",
+          "capacity": 16764,
+          "id": 808,
+          "country": {
+            "alpha2": "AT",
+            "alpha3": "AUT",
+            "name": "Austria",
+            "slug": "austria",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "النمسا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميركور أرينا",
+              "hi": "मर्कुर एरिना",
+              "bn": "মেরকুর এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Merkur Arena",
+            "capacity": 16764
+          }
+        },
+        "nameCode": "STU",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2051,
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "النمسا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fullName": "SK Sturm Graz",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#0000ff",
+          "text": "#0000ff"
+        },
+        "foundationDateTimestamp": -1914624000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إس كيه سترم غراز",
+            "ru": "Штурм Грац",
+            "hi": "स्टर्म ग्राज़"
+          },
+          "shortNameTranslation": {
+            "ar": "شتورم",
+            "hi": "स्टर्म",
+            "bn": "স্টর্ম"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {},
+      "awayScore": {},
+      "time": {},
+      "changes": {
+        "changes": [
+          "cardsCode"
+        ],
+        "changeTimestamp": 1755713164
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14348665,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "sk-sturm-graz-bodoglimt",
+      "startTimestamp": 1755716400,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

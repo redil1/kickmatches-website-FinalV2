@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Nair Tiknizyan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nair-tiknizyan",
+          "shortName": "N. Tiknizyan",
+          "position": "D",
+          "jerseyNumber": "23",
+          "userCount": 1074,
+          "id": 904400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناير تكنيزيان",
+              "hi": "नायर टिक्निज़्यान",
+              "bn": "নায়ার টিকনিজিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. تكنيزيان",
+              "hi": "एन. टिक्निज़्यान",
+              "bn": "এন. টিকনিজিয়ান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Lokomotiv Moscow",
+          "slug": "lokomotiv-moscow",
+          "shortName": "Lokomotiv",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31270,
+          "nameCode": "LOK",
+          "national": false,
+          "type": 0,
+          "id": 2320,
+          "teamColors": {
+            "primary": "#19683f",
+            "secondary": "#cf3439",
+            "text": "#cf3439"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FK لوكوموتيف موسكو",
+              "ru": "Локомотив Москва",
+              "hi": "ऍफ़के लोकोमोटिव मॉस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "لوكوموتيف",
+              "hi": "लोकोमोटिव",
+              "bn": "লোকোমোটিভ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "Lokomotiv Moscow",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFeeDescription": "-",
+        "id": 2357724,
+        "transferDateTimestamp": 1750550400
+      },
+      {
+        "player": {
+          "name": "Nair Tiknizyan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nair-tiknizyan",
+          "shortName": "N. Tiknizyan",
+          "position": "D",
+          "jerseyNumber": "23",
+          "userCount": 1074,
+          "id": 904400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناير تكنيزيان",
+              "hi": "नायर टिक्निज़्यान",
+              "bn": "নায়ার টিকনিজিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. تكنيزيان",
+              "hi": "एन. टिक्निज़्यान",
+              "bn": "এন. টিকনিজিয়ান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "CSKA Moscow",
+          "slug": "cska-moscow",
+          "shortName": "CSKA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61759,
+          "nameCode": "CMO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2325,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#0000ce",
+            "text": "#0000ce"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي اس كيه ايه موسكو",
+              "ru": "ЦСКА Москва",
+              "hi": "सीएसकेए मोस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "سسكا",
+              "hi": "सीएसकेए",
+              "bn": "সিএসকেএ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Lokomotiv Moscow",
+          "slug": "lokomotiv-moscow",
+          "shortName": "Lokomotiv",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31270,
+          "nameCode": "LOK",
+          "national": false,
+          "type": 0,
+          "id": 2320,
+          "teamColors": {
+            "primary": "#19683f",
+            "secondary": "#cf3439",
+            "text": "#cf3439"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FK لوكوموتيف موسكو",
+              "ru": "Локомотив Москва",
+              "hi": "ऍफ़के लोकोमोटिव मॉस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "لوكوموتيف",
+              "hi": "लोकोमोटिव",
+              "bn": "লোকোমোটিভ"
+            }
+          }
+        },
+        "fromTeamName": "CSKA Moscow",
+        "toTeamName": "Lokomotiv Moscow",
+        "type": 3,
+        "transferFee": 2500000,
+        "transferFeeDescription": "2.5M €",
+        "id": 1278852,
+        "transferDateTimestamp": 1628035200,
+        "transferFeeRaw": {
+          "value": 2500000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nair Tiknizyan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nair-tiknizyan",
+          "shortName": "N. Tiknizyan",
+          "position": "D",
+          "jerseyNumber": "23",
+          "userCount": 1074,
+          "id": 904400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناير تكنيزيان",
+              "hi": "नायर टिक्निज़्यान",
+              "bn": "নায়ার টিকনিজিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. تكنيزيان",
+              "hi": "एन. टिक्निज़्यान",
+              "bn": "এন. টিকনিজিয়ান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Avangard Kursk",
+          "slug": "avangard-kursk",
+          "shortName": "Avangard",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 535,
+          "nameCode": "AKU",
+          "national": false,
+          "type": 0,
+          "id": 7516,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أفانغارد كورسك",
+              "ru": "ФК Авангард Курск"
+            },
+            "shortNameTranslation": {
+              "ar": "أفانغارد"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "CSKA Moscow",
+          "slug": "cska-moscow",
+          "shortName": "CSKA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61759,
+          "nameCode": "CMO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2325,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#0000ce",
+            "text": "#0000ce"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي اس كيه ايه موسكو",
+              "ru": "ЦСКА Москва",
+              "hi": "सीएसकेए मोस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "سسكا",
+              "hi": "सीएसकेए",
+              "bn": "সিএসকেএ"
+            }
+          }
+        },
+        "fromTeamName": "Avangard Kursk",
+        "toTeamName": "CSKA Moscow",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 971488,
+        "transferDateTimestamp": 1590969600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nair Tiknizyan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nair-tiknizyan",
+          "shortName": "N. Tiknizyan",
+          "position": "D",
+          "jerseyNumber": "23",
+          "userCount": 1074,
+          "id": 904400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناير تكنيزيان",
+              "hi": "नायर टिक्निज़्यान",
+              "bn": "নায়ার টিকনিজিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. تكنيزيان",
+              "hi": "एन. टिक्निज़्यान",
+              "bn": "এন. টিকনিজিয়ান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "CSKA Moscow",
+          "slug": "cska-moscow",
+          "shortName": "CSKA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61759,
+          "nameCode": "CMO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2325,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#0000ce",
+            "text": "#0000ce"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي اس كيه ايه موسكو",
+              "ru": "ЦСКА Москва",
+              "hi": "सीएसकेए मोस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "سسكا",
+              "hi": "सीएसकेए",
+              "bn": "সিএসকেএ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Avangard Kursk",
+          "slug": "avangard-kursk",
+          "shortName": "Avangard",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 535,
+          "nameCode": "AKU",
+          "national": false,
+          "type": 0,
+          "id": 7516,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أفانغارد كورسك",
+              "ru": "ФК Авангард Курск"
+            },
+            "shortNameTranslation": {
+              "ar": "أفانغارد"
+            }
+          }
+        },
+        "fromTeamName": "CSKA Moscow",
+        "toTeamName": "Avangard Kursk",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 964104,
+        "transferDateTimestamp": 1579651200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nair Tiknizyan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nair-tiknizyan",
+          "shortName": "N. Tiknizyan",
+          "position": "D",
+          "jerseyNumber": "23",
+          "userCount": 1074,
+          "id": 904400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناير تكنيزيان",
+              "hi": "नायर टिक्निज़्यान",
+              "bn": "নায়ার টিকনিজিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. تكنيزيان",
+              "hi": "एन. टिक्निज़्यान",
+              "bn": "এন. টিকনিজিয়ান"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "CSKA Moscow Youth",
+          "slug": "cska-moscow-youth",
+          "shortName": "CSKA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3484,
+          "nameCode": "CMY",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 49721,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي إس كيه إيه موسكو للشباب",
+              "ru": "ЦСКА - мол."
+            },
+            "shortNameTranslation": {
+              "ar": "سي إس كيه إيه"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "CSKA Moscow",
+          "slug": "cska-moscow",
+          "shortName": "CSKA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 61759,
+          "nameCode": "CMO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2325,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#0000ce",
+            "text": "#0000ce"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي اس كيه ايه موسكو",
+              "ru": "ЦСКА Москва",
+              "hi": "सीएसकेए मोस्को"
+            },
+            "shortNameTranslation": {
+              "ar": "سسكا",
+              "hi": "सीएसकेए",
+              "bn": "সিএসকেএ"
+            }
+          }
+        },
+        "fromTeamName": "CSKA Moscow Youth",
+        "toTeamName": "CSKA Moscow",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 742114,
+        "transferDateTimestamp": 1546300800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

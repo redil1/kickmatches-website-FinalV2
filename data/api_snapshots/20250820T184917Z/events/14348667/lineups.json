@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "4-2-3-1",
+      "starting_eleven": [
+        {
+          "name": "Marwin Hitz",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Switzerland",
+          "player_id": 37813
+        },
+        {
+          "name": "Keigo Tsunemoto",
+          "position": "D",
+          "shirt_number": 6,
+          "country": "Japan",
+          "player_id": 832979
+        },
+        {
+          "name": "Adrian Leon Barišić",
+          "position": "D",
+          "shirt_number": 26,
+          "country": "Bosnia & Herzegovina",
+          "player_id": 959592
+        },
+        {
+          "name": "Jonas Adjei Adjetey",
+          "position": "D",
+          "shirt_number": 32,
+          "country": "Ghana",
+          "player_id": 1218056
+        },
+        {
+          "name": "Dominik Schmid",
+          "position": "D",
+          "shirt_number": 31,
+          "country": "Switzerland",
+          "player_id": 883466
+        },
+        {
+          "name": "Metinho",
+          "position": "M",
+          "shirt_number": 5,
+          "country": "DR Congo",
+          "player_id": 1106148
+        },
+        {
+          "name": "Leo Leroy",
+          "position": "M",
+          "shirt_number": 22,
+          "country": "France",
+          "player_id": 976001
+        },
+        {
+          "name": "Marin Šotiček",
+          "position": "M",
+          "shirt_number": 19,
+          "country": "Croatia",
+          "player_id": 1163364
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Switzerland",
+          "player_id": 65953
+        },
+        {
+          "name": "Philip Otele",
+          "position": "M",
+          "shirt_number": 7,
+          "country": "Nigeria",
+          "player_id": 988476
+        },
+        {
+          "name": "Albian Ajeti",
+          "position": "F",
+          "shirt_number": 23,
+          "country": "Switzerland",
+          "player_id": 282247
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Mirko Salvi",
+          "position": "G",
+          "shirt_number": 13,
+          "country": "Switzerland",
+          "player_id": 134252
+        },
+        {
+          "name": "Nicolas Vouilloz",
+          "position": "D",
+          "shirt_number": 3,
+          "country": "Switzerland",
+          "player_id": 965668
+        },
+        {
+          "name": "Moussa Cissé",
+          "position": "D",
+          "shirt_number": 29,
+          "country": "France",
+          "player_id": 1139245
+        },
+        {
+          "name": "Marvin Akahomen",
+          "position": "D",
+          "shirt_number": 43,
+          "country": "Switzerland",
+          "player_id": 1490938
+        },
+        {
+          "name": "Koba Koindredi",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "New Caledonia",
+          "player_id": 930233
+        },
+        {
+          "name": "Andrej Bačanin",
+          "position": "M",
+          "shirt_number": 14,
+          "country": "Serbia",
+          "player_id": 1584962
+        },
+        {
+          "name": "Dion Kacuri",
+          "position": "M",
+          "shirt_number": 28,
+          "country": "Switzerland",
+          "player_id": 1156339
+        },
+        {
+          "name": "Timmy Pfeiffer",
+          "position": "M",
+          "shirt_number": 47,
+          "country": "Germany",
+          "player_id": 585218
+        },
+        {
+          "name": "Moritz Broschinski",
+          "position": "F",
+          "shirt_number": 17,
+          "country": "Germany",
+          "player_id": 924205
+        },
+        {
+          "name": "Arlet Junior Zé",
+          "position": "F",
+          "shirt_number": 39,
+          "country": "Switzerland",
+          "player_id": 1417033
+        },
+        {
+          "name": "Kaio Eduardo",
+          "position": "F",
+          "shirt_number": 46,
+          "country": "Brazil",
+          "player_id": 1633802
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-4-1-1",
+      "starting_eleven": [
+        {
+          "name": "Dominik Kotarski",
+          "position": "G",
+          "shirt_number": 42,
+          "country": "Croatia",
+          "player_id": 835678
+        },
+        {
+          "name": "Rodrigo Huescas",
+          "position": "D",
+          "shirt_number": 13,
+          "country": "Mexico",
+          "player_id": 1113368
+        },
+        {
+          "name": "Pantelis Hatzidiakos",
+          "position": "D",
+          "shirt_number": 6,
+          "country": "Greece",
+          "player_id": 822163
+        },
+        {
+          "name": "Gabriel Pereira",
+          "position": "D",
+          "shirt_number": 5,
+          "country": "Brazil",
+          "player_id": 992652
+        },
+        {
+          "name": "Marcos López",
+          "position": "D",
+          "shirt_number": 15,
+          "country": "Peru",
+          "player_id": 883745
+        },
+        {
+          "name": "Jordan Larsson",
+          "position": "F",
+          "shirt_number": 11,
+          "country": "Sweden",
+          "player_id": 578380
+        },
+        {
+          "name": "Lukas Lerager",
+          "position": "M",
+          "shirt_number": 12,
+          "country": "Denmark",
+          "player_id": 151470
+        },
+        {
+          "name": "William Clem",
+          "position": "M",
+          "shirt_number": 36,
+          "country": "Denmark",
+          "player_id": 1083413
+        },
+        {
+          "name": "Robert",
+          "position": "M",
+          "shirt_number": 16,
+          "country": "Brazil",
+          "player_id": 1500254
+        },
+        {
+          "name": "Mohamed Elyounoussi",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Norway",
+          "player_id": 119151
+        },
+        {
+          "name": "Andreas Cornelius",
+          "position": "F",
+          "shirt_number": 14,
+          "country": "Denmark",
+          "player_id": 183483
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Rúnar Alex Rúnarsson",
+          "position": "G",
+          "shirt_number": 31,
+          "country": "Iceland",
+          "player_id": 187023
+        },
+        {
+          "name": "Oscar Gadeberg-Buur",
+          "position": "G",
+          "shirt_number": 61,
+          "country": "Denmark",
+          "player_id": 1489194
+        },
+        {
+          "name": "Munashe Garananga",
+          "position": "D",
+          "shirt_number": 4,
+          "country": "Zimbabwe",
+          "player_id": 1189773
+        },
+        {
+          "name": "Junnosuke Suzuki",
+          "position": "D",
+          "shirt_number": 20,
+          "country": "Japan",
+          "player_id": 1171902
+        },
+        {
+          "name": "Yoram Zague",
+          "position": "D",
+          "shirt_number": 22,
+          "country": "France",
+          "player_id": 1403218
+        },
+        {
+          "name": "Birger Meling",
+          "position": "D",
+          "shirt_number": 24,
+          "country": "Norway",
+          "player_id": 606530
+        },
+        {
+          "name": "Viktor Claesson",
+          "position": "M",
+          "shirt_number": 7,
+          "country": "Sweden",
+          "player_id": 137661
+        },
+        {
+          "name": "Dominik Sarapata",
+          "position": "M",
+          "shirt_number": 23,
+          "country": "Poland",
+          "player_id": 1548885
+        },
+        {
+          "name": "Magnus Mattsson",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Denmark",
+          "player_id": 896117
+        },
+        {
+          "name": "Youssoufa Moukoko",
+          "position": "F",
+          "shirt_number": 9,
+          "country": "Germany",
+          "player_id": 997006
+        }
+      ]
+    }
+  }
+}

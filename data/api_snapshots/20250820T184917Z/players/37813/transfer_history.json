@@ -1,0 +1,848 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Borussia Dortmund",
+          "slug": "borussia-dortmund",
+          "shortName": "Dortmund",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1504301,
+          "nameCode": "BVB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2673,
+          "teamColors": {
+            "primary": "#ffe600",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوروسيا دورتموند",
+              "ru": "Боруссия Дортмунд",
+              "hi": "बोरुस्सिया  डॉर्टमुंड"
+            },
+            "shortNameTranslation": {
+              "ar": "دورتموند",
+              "hi": "डॉर्टमुंड",
+              "bn": "ডর্টমুন্ড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Borussia Dortmund",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1513541,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Augsburg",
+          "slug": "fc-augsburg",
+          "shortName": "Augsburg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 79937,
+          "nameCode": "FAU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2600,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cd1719",
+            "text": "#cd1719"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي أوجسبورغ",
+              "ru": "Аугсбург",
+              "hi": "ऍफ़सी ऑग्सबर्ग"
+            },
+            "shortNameTranslation": {
+              "ar": "اوغسبورغ",
+              "hi": "ऑग्सबर्ग",
+              "bn": "অগসবার্গ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Borussia Dortmund",
+          "slug": "borussia-dortmund",
+          "shortName": "Dortmund",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1504301,
+          "nameCode": "BVB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2673,
+          "teamColors": {
+            "primary": "#ffe600",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوروسيا دورتموند",
+              "ru": "Боруссия Дортмунд",
+              "hi": "बोरुस्सिया  डॉर्टमुंड"
+            },
+            "shortNameTranslation": {
+              "ar": "دورتموند",
+              "hi": "डॉर्टमुंड",
+              "bn": "ডর্টমুন্ড"
+            }
+          }
+        },
+        "fromTeamName": "FC Augsburg",
+        "toTeamName": "Borussia Dortmund",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1513542,
+        "transferDateTimestamp": 1530403200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "VfL Wolfsburg",
+          "slug": "vfl-wolfsburg",
+          "shortName": "Wolfsburg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 121504,
+          "nameCode": "VWO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2524,
+          "teamColors": {
+            "primary": "#64b42d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي فولفسبورغ",
+              "ru": "Вольфсбург",
+              "hi": "विऍफ़ऐल वोल्फ्सबर्ग"
+            },
+            "shortNameTranslation": {
+              "ar": "ولفسبورج",
+              "hi": "वोल्फ्सबर्ग",
+              "bn": "ওল্ফসবার্গ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC Augsburg",
+          "slug": "fc-augsburg",
+          "shortName": "Augsburg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 79937,
+          "nameCode": "FAU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2600,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cd1719",
+            "text": "#cd1719"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي أوجسبورغ",
+              "ru": "Аугсбург",
+              "hi": "ऍफ़सी ऑग्सबर्ग"
+            },
+            "shortNameTranslation": {
+              "ar": "اوغسبورغ",
+              "hi": "ऑग्सबर्ग",
+              "bn": "অগসবার্গ"
+            }
+          }
+        },
+        "fromTeamName": "VfL Wolfsburg",
+        "toTeamName": "FC Augsburg",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1513543,
+        "transferDateTimestamp": 1372636800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "VfL Wolfsburg",
+          "slug": "vfl-wolfsburg",
+          "shortName": "Wolfsburg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 121504,
+          "nameCode": "VWO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2524,
+          "teamColors": {
+            "primary": "#64b42d",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي فولفسبورغ",
+              "ru": "Вольфсбург",
+              "hi": "विऍफ़ऐल वोल्फ्सबर्ग"
+            },
+            "shortNameTranslation": {
+              "ar": "ولفسبورج",
+              "hi": "वोल्फ्सबर्ग",
+              "bn": "ওল্ফসবার্গ"
+            }
+          }
+        },
+        "fromTeamName": "FC St Gallen II",
+        "toTeamName": "VfL Wolfsburg",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1513544,
+        "transferDateTimestamp": 1220227200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Winterthur II U21",
+          "slug": "fc-winterthur-ii",
+          "shortName": "Winterthur II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73,
+          "nameCode": "FWI",
+          "national": false,
+          "type": 0,
+          "id": 200014,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي وينترثور 2",
+              "hi": "ऍफ़सी विंटरथुर II U21"
+            },
+            "shortNameTranslation": {
+              "ar": "وينترثور 2"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "fromTeamName": "FC Winterthur II",
+        "toTeamName": "FC St Gallen II",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513545,
+        "transferDateTimestamp": 1220140800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC Winterthur II U21",
+          "slug": "fc-winterthur-ii",
+          "shortName": "Winterthur II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73,
+          "nameCode": "FWI",
+          "national": false,
+          "type": 0,
+          "id": 200014,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي وينترثور 2",
+              "hi": "ऍफ़सी विंटरथुर II U21"
+            },
+            "shortNameTranslation": {
+              "ar": "وينترثور 2"
+            }
+          }
+        },
+        "fromTeamName": "FC St Gallen II",
+        "toTeamName": "FC Winterthur II",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513546,
+        "transferDateTimestamp": 1199145600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Yverdon Sport FC II",
+          "slug": "yverdon-sport-fc-ii",
+          "shortName": "Yverdon Sport FC II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123,
+          "nameCode": "YSF",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 448981,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفردون سبورت إف سي 2"
+            },
+            "shortNameTranslation": {
+              "ar": "إيفردون سبورت إف سي 2"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "fromTeamName": "Yverdon Sport FC II",
+        "toTeamName": "FC St Gallen II",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513547,
+        "transferDateTimestamp": 1199059200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Yverdon Sport FC II",
+          "slug": "yverdon-sport-fc-ii",
+          "shortName": "Yverdon Sport FC II",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 123,
+          "nameCode": "YSF",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 448981,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفردون سبورت إف سي 2"
+            },
+            "shortNameTranslation": {
+              "ar": "إيفردون سبورت إف سي 2"
+            }
+          }
+        },
+        "fromTeamName": "FC St Gallen II",
+        "toTeamName": "Yverdon Sport FC II",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513548,
+        "transferDateTimestamp": 1183248000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Marwin Hitz",
+          "slug": "marwin-hitz",
+          "shortName": "M. Hitz",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 308,
+          "id": 37813,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارفين هيتز",
+              "hi": "मार्विन हिट्ज़",
+              "bn": "মারউইন হিটজ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. هيتز",
+              "hi": "एम. हिट्ज़",
+              "bn": "এম. হিটজ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC St Gallen II U21",
+          "slug": "fc-st-gallen-ii-u21",
+          "shortName": "St. Gallen II U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 314,
+          "nameCode": "FSG",
+          "national": false,
+          "type": 0,
+          "id": 2496,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي سانت غالن 2 تحت 21",
+              "ru": "Ст. Галлен II"
+            },
+            "shortNameTranslation": {
+              "ar": "سانت غالن 2 تحت 21"
+            }
+          }
+        },
+        "fromTeamName": "St. Gallen U18",
+        "toTeamName": "FC St Gallen II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513549,
+        "transferDateTimestamp": 1120176000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

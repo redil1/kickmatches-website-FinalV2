@@ -1,0 +1,497 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Matheus",
+          "slug": "matheus",
+          "shortName": "Matheus",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 1195,
+          "id": 603946,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            },
+            "shortNameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sporting Braga",
+          "slug": "sporting-braga",
+          "shortName": "Braga",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 296811,
+          "nameCode": "SBR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2999,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبورتينغ براغا",
+              "ru": "Брага"
+            },
+            "shortNameTranslation": {
+              "ar": "براغا",
+              "hi": "ब्रागा",
+              "bn": "ব্রাগা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "Sporting Braga",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFee": 1250000,
+        "transferFeeDescription": "1.3M €",
+        "id": 2360697,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 1250000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Matheus",
+          "slug": "matheus",
+          "shortName": "Matheus",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 1195,
+          "id": 603946,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            },
+            "shortNameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "AFC Ajax",
+          "slug": "ajax",
+          "shortName": "Ajax",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 609398,
+          "nameCode": "AAJ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2953,
+          "teamColors": {
+            "primary": "#bb002b",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اياكس",
+              "ru": "Аякс",
+              "hi": "अजाक्स",
+              "bn": "আয়াক্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Sporting Braga",
+          "slug": "sporting-braga",
+          "shortName": "Braga",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 296811,
+          "nameCode": "SBR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2999,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبورتينغ براغا",
+              "ru": "Брага"
+            },
+            "shortNameTranslation": {
+              "ar": "براغا",
+              "hi": "ब्रागा",
+              "bn": "ব্রাগা"
+            }
+          }
+        },
+        "fromTeamName": "Ajax",
+        "toTeamName": "Sporting Braga",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2269545,
+        "transferDateTimestamp": 1751241600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Matheus",
+          "slug": "matheus",
+          "shortName": "Matheus",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 1195,
+          "id": 603946,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            },
+            "shortNameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sporting Braga",
+          "slug": "sporting-braga",
+          "shortName": "Braga",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 296811,
+          "nameCode": "SBR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2999,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبورتينغ براغا",
+              "ru": "Брага"
+            },
+            "shortNameTranslation": {
+              "ar": "براغا",
+              "hi": "ब्रागा",
+              "bn": "ব্রাগা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "AFC Ajax",
+          "slug": "ajax",
+          "shortName": "Ajax",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 609398,
+          "nameCode": "AAJ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2953,
+          "teamColors": {
+            "primary": "#bb002b",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اياكس",
+              "ru": "Аякс",
+              "hi": "अजाक्स",
+              "bn": "আয়াক্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Sporting Braga",
+        "toTeamName": "Ajax",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2269546,
+        "transferDateTimestamp": 1738627200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Matheus",
+          "slug": "matheus",
+          "shortName": "Matheus",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 1195,
+          "id": 603946,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            },
+            "shortNameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "América Mineiro",
+          "slug": "america-mineiro",
+          "shortName": "América-MG",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 51361,
+          "nameCode": "AMG",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1973,
+          "teamColors": {
+            "primary": "#056635",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أمريكا مينيرو",
+              "ru": "Америка Минейро"
+            },
+            "shortNameTranslation": {
+              "ar": "أمريكا-إم جي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Sporting Braga",
+          "slug": "sporting-braga",
+          "shortName": "Braga",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 296811,
+          "nameCode": "SBR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2999,
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبورتينغ براغا",
+              "ru": "Брага"
+            },
+            "shortNameTranslation": {
+              "ar": "براغا",
+              "hi": "ब्रागा",
+              "bn": "ব্রাগা"
+            }
+          }
+        },
+        "fromTeamName": "América Mineiro",
+        "toTeamName": "Sporting Braga",
+        "type": 3,
+        "transferFee": 2400000,
+        "transferFeeDescription": "2.4M €",
+        "id": 633473,
+        "transferDateTimestamp": 1404172800,
+        "transferFeeRaw": {
+          "value": 2400000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Matheus",
+          "slug": "matheus",
+          "shortName": "Matheus",
+          "position": "G",
+          "jerseyNumber": "1",
+          "userCount": 1195,
+          "id": 603946,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            },
+            "shortNameTranslation": {
+              "ar": "ماثيوس",
+              "hi": "माथिउस",
+              "bn": "ম্যাথিউস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "América Mineiro U20",
+          "slug": "america-mineiro-u20",
+          "shortName": "América-MG U20",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2697,
+          "nameCode": "AME",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 72012,
+          "teamColors": {
+            "primary": "#056635",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أمريكا مينيرو تحت 20",
+              "ru": "ФК Америка"
+            },
+            "shortNameTranslation": {
+              "ar": "أمريكا-إم جي تحت 20"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "América Mineiro",
+          "slug": "america-mineiro",
+          "shortName": "América-MG",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 51361,
+          "nameCode": "AMG",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1973,
+          "teamColors": {
+            "primary": "#056635",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أمريكا مينيرو",
+              "ru": "Америка Минейро"
+            },
+            "shortNameTranslation": {
+              "ar": "أمريكا-إم جي"
+            }
+          }
+        },
+        "fromTeamName": "América Mineiro U20",
+        "toTeamName": "América Mineiro",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 532420,
+        "transferDateTimestamp": 1293840000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

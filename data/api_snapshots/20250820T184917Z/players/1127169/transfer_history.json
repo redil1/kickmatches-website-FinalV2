@@ -1,0 +1,972 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Wolverhampton",
+          "slug": "wolverhampton",
+          "shortName": "Wolves",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 371839,
+          "nameCode": "WOL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3,
+          "teamColors": {
+            "primary": "#ff9900",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وولفرهامبتون",
+              "ru": "Вулверхэмптон Уондерерс"
+            },
+            "shortNameTranslation": {
+              "ar": "وولفز",
+              "hi": "वॉल्व्स",
+              "bn": "উলভস"
+            }
+          }
+        },
+        "fromTeamName": "Rangers",
+        "toTeamName": "Wolverhampton",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2386596,
+        "transferDateTimestamp": 1780185600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Wolverhampton",
+          "slug": "wolverhampton",
+          "shortName": "Wolves",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 371839,
+          "nameCode": "WOL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3,
+          "teamColors": {
+            "primary": "#ff9900",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وولفرهامبتون",
+              "ru": "Вулверхэмптон Уондерерс"
+            },
+            "shortNameTranslation": {
+              "ar": "وولفز",
+              "hi": "वॉल्व्स",
+              "bn": "উলভস"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Wolverhampton",
+        "toTeamName": "Rangers",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2386597,
+        "transferDateTimestamp": 1752019200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Wolverhampton",
+          "slug": "wolverhampton",
+          "shortName": "Wolves",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 371839,
+          "nameCode": "WOL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 3,
+          "teamColors": {
+            "primary": "#ff9900",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وولفرهامبتون",
+              "ru": "Вулверхэмптон Уондерерс"
+            },
+            "shortNameTranslation": {
+              "ar": "وولفز",
+              "hi": "वॉल्व्स",
+              "bn": "উলভস"
+            }
+          }
+        },
+        "fromTeamName": "FK Crvena zvezda",
+        "toTeamName": "Wolverhampton",
+        "type": 3,
+        "transferFee": 12000000,
+        "transferFeeDescription": "12M €",
+        "id": 2268919,
+        "transferDateTimestamp": 1738540800,
+        "transferFeeRaw": {
+          "value": 12000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFee": 2250000,
+        "transferFeeDescription": "2.3M €",
+        "id": 2035467,
+        "transferDateTimestamp": 1719792000,
+        "transferFeeRaw": {
+          "value": 2250000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FK Crvena zvezda",
+        "toTeamName": "Basel",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1691003,
+        "transferDateTimestamp": 1719705600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1685531,
+        "transferDateTimestamp": 1693785600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Nîmes Olympique",
+          "slug": "nimes-olympique",
+          "shortName": "Nîmes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5921,
+          "nameCode": "NIM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1663,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيم أولمبيك",
+              "ru": "Ним Олимпик"
+            },
+            "shortNameTranslation": {
+              "ar": "نيم",
+              "hi": "नीम्स",
+              "bn": "নাইমস"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Nîmes Olympique",
+        "toTeamName": "Basel",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1481234,
+        "transferDateTimestamp": 1688083200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Nîmes Olympique",
+          "slug": "nimes-olympique",
+          "shortName": "Nîmes",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5921,
+          "nameCode": "NIM",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1663,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيم أولمبيك",
+              "ru": "Ним Олимпик"
+            },
+            "shortNameTranslation": {
+              "ar": "نيم",
+              "hi": "नीम्स",
+              "bn": "নাইমস"
+            }
+          }
+        },
+        "fromTeamName": "Basel",
+        "toTeamName": "Nîmes Olympique",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1474393,
+        "transferDateTimestamp": 1661644800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Vitesse FC",
+          "slug": "vitesse-fc",
+          "shortName": "Vitesse FC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 233,
+          "nameCode": "VFC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 372681,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيتيس إف سي"
+            },
+            "shortNameTranslation": {
+              "ar": "فيتيس إف سي"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Basel",
+          "slug": "basel",
+          "shortName": "Basel",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 73753,
+          "nameCode": "BAS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2501,
+          "teamColors": {
+            "primary": "#000099",
+            "secondary": "#990000",
+            "text": "#990000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بازل",
+              "ru": "Базель",
+              "hi": "बेसल",
+              "bn": "বাসেল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Vitesse FC",
+        "toTeamName": "Basel",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1263579,
+        "transferDateTimestamp": 1625097600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Nasser Djiga",
+          "firstName": "",
+          "lastName": "",
+          "slug": "nasser-djiga",
+          "shortName": "N. Djiga",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 3447,
+          "id": 1127169,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر دجيجا",
+              "hi": "नासिर दिजिगा",
+              "bn": "নাসের জিগা"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. دجيجا",
+              "hi": "एन. दिजिगा",
+              "bn": "এন. জিগা"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Vitesse FC",
+          "slug": "vitesse-fc",
+          "shortName": "Vitesse FC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 233,
+          "nameCode": "VFC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 372681,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيتيس إف سي"
+            },
+            "shortNameTranslation": {
+              "ar": "فيتيس إف سي"
+            }
+          }
+        },
+        "fromTeamName": "No team",
+        "toTeamName": "Vitesse FC",
+        "type": 7,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1685133,
+        "transferDateTimestamp": 1564617600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

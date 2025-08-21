@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Nordsjælland",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2363271,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "KRC Genk",
+          "slug": "krc-genk",
+          "shortName": "Genk",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 115191,
+          "nameCode": "GNK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2890,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيه آر سي جينك",
+              "ru": "Генк",
+              "hi": "केआरसी गेंक"
+            },
+            "shortNameTranslation": {
+              "ar": "جينك",
+              "hi": "गेंक",
+              "bn": "জেঙ্ক"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "KRC Genk",
+        "toTeamName": "FC Nordsjælland",
+        "type": 3,
+        "transferFee": 600000,
+        "transferFeeDescription": "600k €",
+        "id": 1360228,
+        "transferDateTimestamp": 1643500800,
+        "transferFeeRaw": {
+          "value": 600000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "SC Heerenveen",
+          "slug": "sc-heerenveen",
+          "shortName": "Heerenveen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 33259,
+          "nameCode": "SHE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2964,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000099",
+            "text": "#000099"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أس سي هيرينفين",
+              "ru": "Херенвен",
+              "hi": "ऐससी हीरेनवीन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "KRC Genk",
+          "slug": "krc-genk",
+          "shortName": "Genk",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 115191,
+          "nameCode": "GNK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2890,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيه آر سي جينك",
+              "ru": "Генк",
+              "hi": "केआरसी गेंक"
+            },
+            "shortNameTranslation": {
+              "ar": "جينك",
+              "hi": "गेंक",
+              "bn": "জেঙ্ক"
+            }
+          }
+        },
+        "fromTeamName": "SC Heerenveen",
+        "toTeamName": "KRC Genk",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1363762,
+        "transferDateTimestamp": 1643414400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "KRC Genk",
+          "slug": "krc-genk",
+          "shortName": "Genk",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 115191,
+          "nameCode": "GNK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2890,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيه آر سي جينك",
+              "ru": "Генк",
+              "hi": "केआरसी गेंक"
+            },
+            "shortNameTranslation": {
+              "ar": "جينك",
+              "hi": "गेंक",
+              "bn": "জেঙ্ক"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "SC Heerenveen",
+          "slug": "sc-heerenveen",
+          "shortName": "Heerenveen",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 33259,
+          "nameCode": "SHE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2964,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000099",
+            "text": "#000099"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أس سي هيرينفين",
+              "ru": "Херенвен",
+              "hi": "ऐससी हीरेनवीन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "KRC Genk",
+        "toTeamName": "SC Heerenveen",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1089305,
+        "transferDateTimestamp": 1601942400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "IFK Göteborg",
+          "slug": "ifk-goteborg",
+          "shortName": "Göteborg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 19503,
+          "nameCode": "IGT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1761,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000cc",
+            "text": "#0000cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه يوتيبورغ",
+              "ru": "ИФК Гётеборг"
+            },
+            "shortNameTranslation": {
+              "ar": "يوتيبورغ",
+              "hi": "गोटेबोर्ग",
+              "bn": "গোটেবর্গ"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "KRC Genk",
+          "slug": "krc-genk",
+          "shortName": "Genk",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 115191,
+          "nameCode": "GNK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2890,
+          "teamColors": {
+            "primary": "#0000dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيه آر سي جينك",
+              "ru": "Генк",
+              "hi": "केआरसी गेंक"
+            },
+            "shortNameTranslation": {
+              "ar": "جينك",
+              "hi": "गेंक",
+              "bn": "জেঙ্ক"
+            }
+          }
+        },
+        "fromTeamName": "IFK Göteborg",
+        "toTeamName": "KRC Genk",
+        "type": 3,
+        "transferFee": 3700000,
+        "transferFeeDescription": "3.7M €",
+        "id": 780991,
+        "transferDateTimestamp": 1561939200,
+        "transferFeeRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Benjamin Nygren",
+          "slug": "benjamin-nygren",
+          "shortName": "B. Nygren",
+          "position": "F",
+          "jerseyNumber": "8",
+          "userCount": 1332,
+          "id": 918517
+        },
+        "transferFrom": {
+          "name": "IFK Göteborg U19",
+          "slug": "ifk-goteborg-u19",
+          "shortName": "Göteborg U19",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 389,
+          "nameCode": "GBG",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 217035,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000cc",
+            "text": "#0000cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كي غوتنبورغ تحت 19"
+            },
+            "shortNameTranslation": {
+              "ar": "غوتنبورغ تحت 19"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "IFK Göteborg",
+          "slug": "ifk-goteborg",
+          "shortName": "Göteborg",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 19503,
+          "nameCode": "IGT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1761,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0000cc",
+            "text": "#0000cc"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه يوتيبورغ",
+              "ru": "ИФК Гётеборг"
+            },
+            "shortNameTranslation": {
+              "ar": "يوتيبورغ",
+              "hi": "गोटेबोर्ग",
+              "bn": "গোটেবর্গ"
+            }
+          }
+        },
+        "fromTeamName": "IFK Göteborg U19",
+        "toTeamName": "IFK Göteborg",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 762998,
+        "transferDateTimestamp": 1528416000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

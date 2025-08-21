@@ -1,0 +1,296 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Gábor Szalai",
+          "firstName": "Gábor Szalai",
+          "lastName": "",
+          "slug": "gabor-szalai",
+          "shortName": "G. Szalai",
+          "position": "D",
+          "jerseyNumber": "22",
+          "userCount": 333,
+          "id": 1147932,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جابور سالاي",
+              "hi": "गैबोर सज़ालाई",
+              "bn": "গাবর স্জালাই"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سالاي",
+              "hi": "जी. सज़ालाई",
+              "bn": "জি. স্জালাই"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Lausanne-Sport",
+          "slug": "fc-lausanne-sport",
+          "shortName": "Lausanne",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 13115,
+          "nameCode": "FLA",
+          "national": false,
+          "type": 0,
+          "id": 2446,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#31489b",
+            "text": "#31489b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي لوسان-سبورتس",
+              "ru": "Лозанна Спортс"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Ferencváros TC",
+          "slug": "ferencvaros-tc",
+          "shortName": "Ferencváros",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 112514,
+          "nameCode": "FTC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1925,
+          "teamColors": {
+            "primary": "#339900",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرينتسفاروش تي سي",
+              "ru": "Ференцварош"
+            },
+            "shortNameTranslation": {
+              "ar": "فيرينتسفاروش",
+              "hi": "फेरेन्कवरोस",
+              "bn": "ফেরেনকাভারস"
+            }
+          }
+        },
+        "fromTeamName": "FC Lausanne-Sport",
+        "toTeamName": "Ferencváros TC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2143056,
+        "transferDateTimestamp": 1725062400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Gábor Szalai",
+          "firstName": "Gábor Szalai",
+          "lastName": "",
+          "slug": "gabor-szalai",
+          "shortName": "G. Szalai",
+          "position": "D",
+          "jerseyNumber": "22",
+          "userCount": 333,
+          "id": 1147932,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جابور سالاي",
+              "hi": "गैबोर सज़ालाई",
+              "bn": "গাবর স্জালাই"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سالاي",
+              "hi": "जी. सज़ालाई",
+              "bn": "জি. স্জালাই"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Kecskemét TE",
+          "slug": "kecskemet-te",
+          "shortName": "Kecskemét",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3509,
+          "nameCode": "KEC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 23956,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Kecskemeti TE"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Lausanne-Sport",
+          "slug": "fc-lausanne-sport",
+          "shortName": "Lausanne",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 13115,
+          "nameCode": "FLA",
+          "national": false,
+          "type": 0,
+          "id": 2446,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#31489b",
+            "text": "#31489b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف سي لوسان-سبورتس",
+              "ru": "Лозанна Спортс"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Kecskemét TE",
+        "toTeamName": "FC Lausanne-Sport",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1740023,
+        "transferDateTimestamp": 1704585600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Gábor Szalai",
+          "firstName": "Gábor Szalai",
+          "lastName": "",
+          "slug": "gabor-szalai",
+          "shortName": "G. Szalai",
+          "position": "D",
+          "jerseyNumber": "22",
+          "userCount": 333,
+          "id": 1147932,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جابور سالاي",
+              "hi": "गैबोर सज़ालाई",
+              "bn": "গাবর স্জালাই"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سالاي",
+              "hi": "जी. सज़ालाई",
+              "bn": "জি. স্জালাই"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Kecskemét TE",
+          "slug": "kecskemet-te",
+          "shortName": "Kecskemét",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3509,
+          "nameCode": "KEC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 23956,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Kecskemeti TE"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Kecskemét U19",
+        "toTeamName": "Kecskemét TE",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1316839,
+        "transferDateTimestamp": 1561939200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Gábor Szalai",
+          "firstName": "Gábor Szalai",
+          "lastName": "",
+          "slug": "gabor-szalai",
+          "shortName": "G. Szalai",
+          "position": "D",
+          "jerseyNumber": "22",
+          "userCount": 333,
+          "id": 1147932,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جابور سالاي",
+              "hi": "गैबोर सज़ालाई",
+              "bn": "গাবর স্জালাই"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سالاي",
+              "hi": "जी. सज़ालाई",
+              "bn": "জি. স্জালাই"
+            }
+          }
+        },
+        "fromTeamName": "Kecskemét U19",
+        "toTeamName": "Brooke House FA",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1739843,
+        "transferDateTimestamp": 1504224000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

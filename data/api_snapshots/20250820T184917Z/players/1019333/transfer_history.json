@@ -1,0 +1,238 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Young-woo Seol",
+          "slug": "young-woo-seol",
+          "shortName": "Y. W. Seol",
+          "position": "D",
+          "jerseyNumber": "66",
+          "userCount": 2067,
+          "id": 1019333,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونغ-وو سيول",
+              "hi": "यंग-वू सेओल",
+              "bn": "ইয়ং-উ সিওল"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. سيول",
+              "hi": "YW सेओल",
+              "bn": "ওয়াই. ডব্লিউ. সিওল"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Ulsan HD",
+          "slug": "ulsan-hd",
+          "shortName": "Ulsan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31892,
+          "nameCode": "UHD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 7653,
+          "teamColors": {
+            "primary": "#0066ff",
+            "secondary": "#0066ff",
+            "text": "#0066ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أولسان إتش دي",
+              "ru": "Улсан Хюндай"
+            },
+            "shortNameTranslation": {
+              "ar": "أولسان"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FK Crvena zvezda",
+          "slug": "fk-crvena-zvezda",
+          "shortName": "Crvena zvezda",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 256162,
+          "nameCode": "FCZ",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5149,
+          "teamColors": {
+            "primary": "#d90512",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إف كيه كرفينا زفيزدا",
+              "ru": "Црвена Звезда"
+            },
+            "shortNameTranslation": {
+              "ar": "كرفينا زفيزدا",
+              "hi": "क्रवेना ज़्वेज़्दा",
+              "bn": "ক্রভেনা জেভেজদা"
+            }
+          }
+        },
+        "fromTeamName": "Ulsan HD",
+        "toTeamName": "FK Crvena zvezda",
+        "type": 3,
+        "transferFee": 1200000,
+        "transferFeeDescription": "1.2M €",
+        "id": 2047807,
+        "transferDateTimestamp": 1719792000,
+        "transferFeeRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Young-woo Seol",
+          "slug": "young-woo-seol",
+          "shortName": "Y. W. Seol",
+          "position": "D",
+          "jerseyNumber": "66",
+          "userCount": 2067,
+          "id": 1019333,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونغ-وو سيول",
+              "hi": "यंग-वू सेओल",
+              "bn": "ইয়ং-উ সিওল"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. سيول",
+              "hi": "YW सेओल",
+              "bn": "ওয়াই. ডব্লিউ. সিওল"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ulsan HD",
+          "slug": "ulsan-hd",
+          "shortName": "Ulsan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 31892,
+          "nameCode": "UHD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 7653,
+          "teamColors": {
+            "primary": "#0066ff",
+            "secondary": "#0066ff",
+            "text": "#0066ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أولسان إتش دي",
+              "ru": "Улсан Хюндай"
+            },
+            "shortNameTranslation": {
+              "ar": "أولسان"
+            }
+          }
+        },
+        "fromTeamName": "Ulsan Univ.",
+        "toTeamName": "Ulsan HD",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1799392,
+        "transferDateTimestamp": 1578441600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Young-woo Seol",
+          "slug": "young-woo-seol",
+          "shortName": "Y. W. Seol",
+          "position": "D",
+          "jerseyNumber": "66",
+          "userCount": 2067,
+          "id": 1019333,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونغ-وو سيول",
+              "hi": "यंग-वू सेओल",
+              "bn": "ইয়ং-উ সিওল"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. سيول",
+              "hi": "YW सेओल",
+              "bn": "ওয়াই. ডব্লিউ. সিওল"
+            }
+          }
+        },
+        "fromTeamName": "Ulsan H. U18",
+        "toTeamName": "Ulsan Univ.",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1799393,
+        "transferDateTimestamp": 1483228800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Young-woo Seol",
+          "slug": "young-woo-seol",
+          "shortName": "Y. W. Seol",
+          "position": "D",
+          "jerseyNumber": "66",
+          "userCount": 2067,
+          "id": 1019333,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونغ-وو سيول",
+              "hi": "यंग-वू सेओल",
+              "bn": "ইয়ং-উ সিওল"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. سيول",
+              "hi": "YW सेओल",
+              "bn": "ওয়াই. ডব্লিউ. সিওল"
+            }
+          }
+        },
+        "fromTeamName": "Eonyang ES",
+        "toTeamName": "U. Okdong ES",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2046443,
+        "transferDateTimestamp": 1199145600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Cebrail Makreckis",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cebrail-makreckis",
+          "shortName": "C. Makreckis",
+          "position": "D",
+          "jerseyNumber": "25",
+          "userCount": 319,
+          "id": 991090,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيبرايل ماكريكس",
+              "hi": "सेब्राइल मकरेकिस",
+              "bn": "জেব্রাইল মাক্রেকিস"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ماكريكس",
+              "hi": "सी. मकरेकिस",
+              "bn": "সি. মাক্রেকিস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Pirin 22 Blagoevgrad",
+          "slug": "fk-pirin-blagoevgrad",
+          "shortName": "Pirin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3666,
+          "nameCode": "PIR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5245,
+          "teamColors": {
+            "primary": "#006633",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيرين 22 بلاغويفغراد",
+              "ru": "Пирин Благоевград"
+            },
+            "shortNameTranslation": {
+              "ar": "بيرين"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ferencváros TC",
+          "slug": "ferencvaros-tc",
+          "shortName": "Ferencváros",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 112514,
+          "nameCode": "FTC",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1925,
+          "teamColors": {
+            "primary": "#339900",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرينتسفاروش تي سي",
+              "ru": "Ференцварош"
+            },
+            "shortNameTranslation": {
+              "ar": "فيرينتسفاروش",
+              "hi": "फेरेन्कवरोस",
+              "bn": "ফেরেনকাভারস"
+            }
+          }
+        },
+        "fromTeamName": "Pirin 22 Blagoevgrad",
+        "toTeamName": "Ferencváros TC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1608266,
+        "transferDateTimestamp": 1688169600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cebrail Makreckis",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cebrail-makreckis",
+          "shortName": "C. Makreckis",
+          "position": "D",
+          "jerseyNumber": "25",
+          "userCount": 319,
+          "id": 991090,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيبرايل ماكريكس",
+              "hi": "सेब्राइल मकरेकिस",
+              "bn": "জেব্রাইল মাক্রেকিস"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ماكريكس",
+              "hi": "सी. मकरेकिस",
+              "bn": "সি. মাক্রেকিস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Viktoria Berlin",
+          "slug": "viktoria-berlin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2418,
+          "nameCode": "VBE",
+          "national": false,
+          "type": 0,
+          "id": 53027,
+          "teamColors": {
+            "primary": "#6bafd2",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا برلين"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Pirin 22 Blagoevgrad",
+          "slug": "fk-pirin-blagoevgrad",
+          "shortName": "Pirin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 3666,
+          "nameCode": "PIR",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 5245,
+          "teamColors": {
+            "primary": "#006633",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيرين 22 بلاغويفغراد",
+              "ru": "Пирин Благоевград"
+            },
+            "shortNameTranslation": {
+              "ar": "بيرين"
+            }
+          }
+        },
+        "fromTeamName": "Viktoria Berlin",
+        "toTeamName": "Pirin 22 Blagoevgrad",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1471738,
+        "transferDateTimestamp": 1660780800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cebrail Makreckis",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cebrail-makreckis",
+          "shortName": "C. Makreckis",
+          "position": "D",
+          "jerseyNumber": "25",
+          "userCount": 319,
+          "id": 991090,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيبرايل ماكريكس",
+              "hi": "सेब्राइल मकरेकिस",
+              "bn": "জেব্রাইল মাক্রেকিস"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ماكريكس",
+              "hi": "सी. मकरेकिस",
+              "bn": "সি. মাক্রেকিস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Borussia Dortmund II U23",
+          "slug": "borussia-dortmund-ii-u23",
+          "shortName": "Dortmund II  U23",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8254,
+          "nameCode": "BDI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2535,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورسيا دورتمند هواة تحت 23",
+              "ru": "Боруссия Дортмунд II U23",
+              "hi": "बोरूसिया डॉर्टमुंड II U23"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Viktoria Berlin",
+          "slug": "viktoria-berlin",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2418,
+          "nameCode": "VBE",
+          "national": false,
+          "type": 0,
+          "id": 53027,
+          "teamColors": {
+            "primary": "#6bafd2",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا برلين"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Borussia Dortmund II",
+        "toTeamName": "Viktoria Berlin",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1355737,
+        "transferDateTimestamp": 1642550400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cebrail Makreckis",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cebrail-makreckis",
+          "shortName": "C. Makreckis",
+          "position": "D",
+          "jerseyNumber": "25",
+          "userCount": 319,
+          "id": 991090,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيبرايل ماكريكس",
+              "hi": "सेब्राइल मकरेकिस",
+              "bn": "জেব্রাইল মাক্রেকিস"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ماكريكس",
+              "hi": "सी. मकरेकिस",
+              "bn": "সি. মাক্রেকিস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bonner SC",
+          "slug": "bonner-sc",
+          "shortName": "Bonner SC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1526,
+          "nameCode": "BSC",
+          "national": false,
+          "type": 0,
+          "id": 6188,
+          "teamColors": {
+            "primary": "#e02d20",
+            "secondary": "#2f286b",
+            "text": "#2f286b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بونر إس سي",
+              "ru": "Боннер СК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Borussia Dortmund II U23",
+          "slug": "borussia-dortmund-ii-u23",
+          "shortName": "Dortmund II  U23",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 8254,
+          "nameCode": "BDI",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2535,
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورسيا دورتمند هواة تحت 23",
+              "ru": "Боруссия Дортмунд II U23",
+              "hi": "बोरूसिया डॉर्टमुंड II U23"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bonner SC",
+        "toTeamName": "Borussia Dortmund II",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1261985,
+        "transferDateTimestamp": 1594771200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cebrail Makreckis",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cebrail-makreckis",
+          "shortName": "C. Makreckis",
+          "position": "D",
+          "jerseyNumber": "25",
+          "userCount": 319,
+          "id": 991090,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيبرايل ماكريكس",
+              "hi": "सेब्राइल मकरेकिस",
+              "bn": "জেব্রাইল মাক্রেকিস"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ماكريكس",
+              "hi": "सी. मकरेकिस",
+              "bn": "সি. মাক্রেকিস"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bayer Leverkusen U19",
+          "slug": "bayer-leverkusen-u19",
+          "shortName": "Leverkusen U19",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2643,
+          "nameCode": "B04",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 43716,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#ff2222",
+            "text": "#ff2222"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باير ليفركوزن تحت 19",
+              "ru": "Байер Леверкузен"
+            },
+            "shortNameTranslation": {
+              "ar": "ليفركوزن تحت 19"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bonner SC",
+          "slug": "bonner-sc",
+          "shortName": "Bonner SC",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1526,
+          "nameCode": "BSC",
+          "national": false,
+          "type": 0,
+          "id": 6188,
+          "teamColors": {
+            "primary": "#e02d20",
+            "secondary": "#2f286b",
+            "text": "#2f286b"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بونر إس سي",
+              "ru": "Боннер СК"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Bayer Leverkusen U19",
+        "toTeamName": "Bonner SC",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1261986,
+        "transferDateTimestamp": 1564790400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  # Cleanup service (run manually with: docker-compose run --rm cleanup)
+  cleanup:
+    image: alpine:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - .:/workspace
+    working_dir: /workspace
+    command: |
+      sh -c '
+        echo "🧹 Running cleanup process..."
+        apk add --no-cache docker-cli docker-compose
+        ./fresh-build.sh
+      '
+    profiles:
+      - cleanup
+
+  kickai-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_VAPID_PUBLIC_KEY: BM7QmGxIWBaadOBx5JuHVWrDswzvSEt5oK-5tT17whChCGQZwivcPgjNJlu8oULn73GBtvJ7F-JpmObnZq_hJio
+    container_name: kickai-all-in-one
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://kickai:kickai@localhost:5432/kickai_matches
+      - REDIS_URL=redis://localhost:6379
+      - PORT=3000
+      - POSTGRES_DB=kickai_matches
+      - POSTGRES_USER=kickai
+      - ADMIN_BASIC_AUTH=admin:password
+      - REVALIDATE_SECRET=admin-secret-123
+      - TELEGRAM_BOT_TOKEN=7922541227:AAEIq4z1kohJsPmNkjQR2WUFnAmqDsOIzHU
+      - TELEGRAM_CHAT_ID=7325555052
+      - NEXT_PUBLIC_VAPID_PUBLIC_KEY=BM7QmGxIWBaadOBx5JuHVWrDswzvSEt5oK-5tT17whChCGQZwivcPgjNJlu8oULn73GBtvJ7F-JpmObnZq_hJio
+      - NEXT_PUBLIC_SITE_URL=http://localhost:3000
+      - VAPID_PRIVATE_KEY=9MHs0UkajI4yzbEuiWqmj1K7B-PKJJvOIbsXCEAKLSM
+      - PUSH_API_SECRET=pushsecret123
+      # Email/SMTP Configuration
+      - SMTP_HOST=${SMTP_HOST:-mail.elitemail.email}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_SECURE=${SMTP_SECURE:-false}
+      - SMTP_USER=${SMTP_USER:-kickmatches@elitemail.email}
+      - SMTP_PASS=${SMTP_PASS:-GoldvisioN.1982}
+      - EMAIL_FROM=${EMAIL_FROM:-IPTV SMARTERS PRO <kickmatches@elitemail.email>}
+      - EMAIL_ENABLED=${EMAIL_ENABLED:-true}
+    ports:
+      - "3000:3000"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - redis_data:/var/lib/redis
+      - supervisor_logs:/var/log/supervisor
+      - postgres_logs:/var/log/postgresql
+      - redis_logs:/var/log/redis
+    restart: unless-stopped
+    healthcheck:
+      test: |
+        curl -f http://localhost:3000/api/health && \
+        nc -z localhost 5432 && \
+        nc -z localhost 6379
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    privileged: false
+    cap_add:
+      - SETUID
+      - SETGID
+    tmpfs:
+      - /tmp
+      - /var/run
+
+volumes:
+  postgres_data:
+  redis_data:
+  supervisor_logs:
+  postgres_logs:
+  redis_logs:

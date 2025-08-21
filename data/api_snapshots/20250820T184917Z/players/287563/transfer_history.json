@@ -1,0 +1,293 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "John Souttar",
+          "slug": "john-souttar",
+          "shortName": "J. Souttar",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 336,
+          "id": 287563,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون سوتار",
+              "hi": "जॉन साउटर",
+              "bn": "জন সাউটার"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سوتار",
+              "hi": "जे.सौटर साउटर",
+              "bn": "জে. সাউটার"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Heart of Midlothian",
+          "slug": "heart-of-midlothian",
+          "shortName": "Hearts",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 25611,
+          "nameCode": "HOM",
+          "national": false,
+          "type": 0,
+          "id": 2353,
+          "teamColors": {
+            "primary": "#6a0048",
+            "secondary": "#990066",
+            "text": "#990066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قلب ميدلوثيان",
+              "ru": "Харт оф Мидлотиан"
+            },
+            "shortNameTranslation": {
+              "ar": "قلوب",
+              "hi": "हर्ट्स",
+              "bn": "হার্ট"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Heart of Midlothian",
+        "toTeamName": "Rangers",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1346547,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "John Souttar",
+          "slug": "john-souttar",
+          "shortName": "J. Souttar",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 336,
+          "id": 287563,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون سوتار",
+              "hi": "जॉन साउटर",
+              "bn": "জন সাউটার"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سوتار",
+              "hi": "जे.सौटर साउटर",
+              "bn": "জে. সাউটার"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Dundee United",
+          "slug": "dundee-united",
+          "shortName": "Dundee Utd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14701,
+          "nameCode": "DUU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2349,
+          "teamColors": {
+            "primary": "#ff6600",
+            "secondary": "#ff6600",
+            "text": "#ff6600"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داندي يونيتيد",
+              "ru": "Данди Юнайтед",
+              "hi": "डंडी यूनाइटेड"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Heart of Midlothian",
+          "slug": "heart-of-midlothian",
+          "shortName": "Hearts",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 25611,
+          "nameCode": "HOM",
+          "national": false,
+          "type": 0,
+          "id": 2353,
+          "teamColors": {
+            "primary": "#6a0048",
+            "secondary": "#990066",
+            "text": "#990066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قلب ميدلوثيان",
+              "ru": "Харт оф Мидлотиан"
+            },
+            "shortNameTranslation": {
+              "ar": "قلوب",
+              "hi": "हर्ट्स",
+              "bn": "হার্ট"
+            }
+          }
+        },
+        "fromTeamName": "Dundee United",
+        "toTeamName": "Heart of Midlothian",
+        "type": 3,
+        "transferFee": 200000,
+        "transferFeeDescription": "200k €",
+        "id": 261002,
+        "transferDateTimestamp": 1454284800,
+        "transferFeeRaw": {
+          "value": 200000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "John Souttar",
+          "slug": "john-souttar",
+          "shortName": "J. Souttar",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 336,
+          "id": 287563,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون سوتار",
+              "hi": "जॉन साउटर",
+              "bn": "জন সাউটার"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سوتار",
+              "hi": "जे.सौटर साउटर",
+              "bn": "জে. সাউটার"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Dundee United U20",
+          "slug": "dundee-united-u20",
+          "shortName": "Dundee Utd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 29,
+          "nameCode": "DUN",
+          "national": false,
+          "type": 0,
+          "id": 163376,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دندي يونايتد تحت 20"
+            },
+            "shortNameTranslation": {
+              "ar": "دندي يونايتد"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Dundee United",
+          "slug": "dundee-united",
+          "shortName": "Dundee Utd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 14701,
+          "nameCode": "DUU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2349,
+          "teamColors": {
+            "primary": "#ff6600",
+            "secondary": "#ff6600",
+            "text": "#ff6600"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داندي يونيتيد",
+              "ru": "Данди Юнайтед",
+              "hi": "डंडी यूनाइटेड"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Dundee United U20",
+        "toTeamName": "Dundee United",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 261013,
+        "transferDateTimestamp": 1364774400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

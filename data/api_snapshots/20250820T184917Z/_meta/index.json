@@ -1,0 +1,704 @@
+{
+  "api_base": "http://69.197.168.221:8004",
+  "run_ts": "20250820T184917Z",
+  "endpoints": {
+    "/football/categories": [
+      {
+        "file": "categories.json",
+        "note": null
+      }
+    ],
+    "/football/tournaments": [
+      {
+        "file": "tournaments.json",
+        "note": null
+      }
+    ],
+    "/football/events/scheduled": [
+      {
+        "file": "events/scheduled_2025-08-20.json",
+        "note": "date=2025-08-20"
+      }
+    ],
+    "/football/event/details": [
+      {
+        "file": "events/14348669/details.json",
+        "note": "event_id=14348669"
+      },
+      {
+        "file": "events/14348666/details.json",
+        "note": "event_id=14348666"
+      },
+      {
+        "file": "events/14353409/details.json",
+        "note": "event_id=14353409"
+      },
+      {
+        "file": "events/14348667/details.json",
+        "note": "event_id=14348667"
+      },
+      {
+        "file": "events/14348665/details.json",
+        "note": "event_id=14348665"
+      },
+      {
+        "file": "events/14348664/details.json",
+        "note": "event_id=14348664"
+      }
+    ],
+    "/football/event/lineups": [
+      {
+        "file": "events/14348669/lineups.json",
+        "note": "event_id=14348669"
+      },
+      {
+        "file": "events/14348666/lineups.json",
+        "note": "event_id=14348666"
+      },
+      {
+        "file": "events/14353409/lineups.json",
+        "note": "event_id=14353409"
+      },
+      {
+        "file": "events/14348667/lineups.json",
+        "note": "event_id=14348667"
+      },
+      {
+        "file": "events/14348665/lineups.json",
+        "note": "event_id=14348665"
+      },
+      {
+        "file": "events/14348664/lineups.json",
+        "note": "event_id=14348664"
+      }
+    ],
+    "/football/event/statistics": [
+      {
+        "file": "events/14348669/statistics.json",
+        "note": "event_id=14348669"
+      },
+      {
+        "file": "events/14348666/statistics.json",
+        "note": "event_id=14348666"
+      },
+      {
+        "file": "events/14353409/statistics.json",
+        "note": "event_id=14353409"
+      },
+      {
+        "file": "events/14348667/statistics.json",
+        "note": "event_id=14348667"
+      },
+      {
+        "file": "events/14348665/statistics.json",
+        "note": "event_id=14348665"
+      },
+      {
+        "file": "events/14348664/statistics.json",
+        "note": "event_id=14348664"
+      }
+    ],
+    "/football/player/heatmap": [
+      {
+        "file": "events/14348669/players/603946/heatmap.json",
+        "note": "event_id=14348669,player_id=603946"
+      },
+      {
+        "file": "events/14348669/players/1019333/heatmap.json",
+        "note": "event_id=14348669,player_id=1019333"
+      },
+      {
+        "file": "events/14348669/players/1406130/heatmap.json",
+        "note": "event_id=14348669,player_id=1406130"
+      },
+      {
+        "file": "events/14348669/players/227224/heatmap.json",
+        "note": "event_id=14348669,player_id=227224"
+      },
+      {
+        "file": "events/14348669/players/904400/heatmap.json",
+        "note": "event_id=14348669,player_id=904400"
+      },
+      {
+        "file": "events/14348669/players/1516318/heatmap.json",
+        "note": "event_id=14348669,player_id=1516318"
+      },
+      {
+        "file": "events/14348666/players/75425/heatmap.json",
+        "note": "event_id=14348666,player_id=75425"
+      },
+      {
+        "file": "events/14348666/players/803671/heatmap.json",
+        "note": "event_id=14348666,player_id=803671"
+      },
+      {
+        "file": "events/14348666/players/1006483/heatmap.json",
+        "note": "event_id=14348666,player_id=1006483"
+      },
+      {
+        "file": "events/14348666/players/1147932/heatmap.json",
+        "note": "event_id=14348666,player_id=1147932"
+      },
+      {
+        "file": "events/14348666/players/991090/heatmap.json",
+        "note": "event_id=14348666,player_id=991090"
+      },
+      {
+        "file": "events/14348666/players/1476524/heatmap.json",
+        "note": "event_id=14348666,player_id=1476524"
+      },
+      {
+        "file": "events/14353409/players/98448/heatmap.json",
+        "note": "event_id=14353409,player_id=98448"
+      },
+      {
+        "file": "events/14353409/players/943645/heatmap.json",
+        "note": "event_id=14353409,player_id=943645"
+      },
+      {
+        "file": "events/14353409/players/1127169/heatmap.json",
+        "note": "event_id=14353409,player_id=1127169"
+      },
+      {
+        "file": "events/14353409/players/287563/heatmap.json",
+        "note": "event_id=14353409,player_id=287563"
+      },
+      {
+        "file": "events/14353409/players/1410201/heatmap.json",
+        "note": "event_id=14353409,player_id=1410201"
+      },
+      {
+        "file": "events/14353409/players/1018785/heatmap.json",
+        "note": "event_id=14353409,player_id=1018785"
+      },
+      {
+        "file": "events/14348667/players/37813/heatmap.json",
+        "note": "event_id=14348667,player_id=37813"
+      },
+      {
+        "file": "events/14348667/players/832979/heatmap.json",
+        "note": "event_id=14348667,player_id=832979"
+      },
+      {
+        "file": "events/14348667/players/959592/heatmap.json",
+        "note": "event_id=14348667,player_id=959592"
+      },
+      {
+        "file": "events/14348667/players/1218056/heatmap.json",
+        "note": "event_id=14348667,player_id=1218056"
+      },
+      {
+        "file": "events/14348667/players/883466/heatmap.json",
+        "note": "event_id=14348667,player_id=883466"
+      },
+      {
+        "file": "events/14348667/players/1106148/heatmap.json",
+        "note": "event_id=14348667,player_id=1106148"
+      },
+      {
+        "file": "events/14348665/players/792624/heatmap.json",
+        "note": "event_id=14348665,player_id=792624"
+      },
+      {
+        "file": "events/14348665/players/1172777/heatmap.json",
+        "note": "event_id=14348665,player_id=1172777"
+      },
+      {
+        "file": "events/14348665/players/929978/heatmap.json",
+        "note": "event_id=14348665,player_id=929978"
+      },
+      {
+        "file": "events/14348665/players/250319/heatmap.json",
+        "note": "event_id=14348665,player_id=250319"
+      },
+      {
+        "file": "events/14348665/players/795154/heatmap.json",
+        "note": "event_id=14348665,player_id=795154"
+      },
+      {
+        "file": "events/14348665/players/892943/heatmap.json",
+        "note": "event_id=14348665,player_id=892943"
+      },
+      {
+        "file": "events/14348664/players/1076/heatmap.json",
+        "note": "event_id=14348664,player_id=1076"
+      },
+      {
+        "file": "events/14348664/players/984419/heatmap.json",
+        "note": "event_id=14348664,player_id=984419"
+      },
+      {
+        "file": "events/14348664/players/795972/heatmap.json",
+        "note": "event_id=14348664,player_id=795972"
+      },
+      {
+        "file": "events/14348664/players/847990/heatmap.json",
+        "note": "event_id=14348664,player_id=847990"
+      },
+      {
+        "file": "events/14348664/players/366592/heatmap.json",
+        "note": "event_id=14348664,player_id=366592"
+      },
+      {
+        "file": "events/14348664/players/918517/heatmap.json",
+        "note": "event_id=14348664,player_id=918517"
+      }
+    ],
+    "/football/event/player/statistics": [
+      {
+        "file": "events/14348669/players/603946/statistics.json",
+        "note": "event_id=14348669,player_id=603946"
+      },
+      {
+        "file": "events/14348669/players/1019333/statistics.json",
+        "note": "event_id=14348669,player_id=1019333"
+      },
+      {
+        "file": "events/14348669/players/1406130/statistics.json",
+        "note": "event_id=14348669,player_id=1406130"
+      },
+      {
+        "file": "events/14348669/players/227224/statistics.json",
+        "note": "event_id=14348669,player_id=227224"
+      },
+      {
+        "file": "events/14348669/players/904400/statistics.json",
+        "note": "event_id=14348669,player_id=904400"
+      },
+      {
+        "file": "events/14348669/players/1516318/statistics.json",
+        "note": "event_id=14348669,player_id=1516318"
+      },
+      {
+        "file": "events/14348666/players/75425/statistics.json",
+        "note": "event_id=14348666,player_id=75425"
+      },
+      {
+        "file": "events/14348666/players/803671/statistics.json",
+        "note": "event_id=14348666,player_id=803671"
+      },
+      {
+        "file": "events/14348666/players/1006483/statistics.json",
+        "note": "event_id=14348666,player_id=1006483"
+      },
+      {
+        "file": "events/14348666/players/1147932/statistics.json",
+        "note": "event_id=14348666,player_id=1147932"
+      },
+      {
+        "file": "events/14348666/players/991090/statistics.json",
+        "note": "event_id=14348666,player_id=991090"
+      },
+      {
+        "file": "events/14348666/players/1476524/statistics.json",
+        "note": "event_id=14348666,player_id=1476524"
+      },
+      {
+        "file": "events/14353409/players/98448/statistics.json",
+        "note": "event_id=14353409,player_id=98448"
+      },
+      {
+        "file": "events/14353409/players/943645/statistics.json",
+        "note": "event_id=14353409,player_id=943645"
+      },
+      {
+        "file": "events/14353409/players/1127169/statistics.json",
+        "note": "event_id=14353409,player_id=1127169"
+      },
+      {
+        "file": "events/14353409/players/287563/statistics.json",
+        "note": "event_id=14353409,player_id=287563"
+      },
+      {
+        "file": "events/14353409/players/1410201/statistics.json",
+        "note": "event_id=14353409,player_id=1410201"
+      },
+      {
+        "file": "events/14353409/players/1018785/statistics.json",
+        "note": "event_id=14353409,player_id=1018785"
+      },
+      {
+        "file": "events/14348667/players/37813/statistics.json",
+        "note": "event_id=14348667,player_id=37813"
+      },
+      {
+        "file": "events/14348667/players/832979/statistics.json",
+        "note": "event_id=14348667,player_id=832979"
+      },
+      {
+        "file": "events/14348667/players/959592/statistics.json",
+        "note": "event_id=14348667,player_id=959592"
+      },
+      {
+        "file": "events/14348667/players/1218056/statistics.json",
+        "note": "event_id=14348667,player_id=1218056"
+      },
+      {
+        "file": "events/14348667/players/883466/statistics.json",
+        "note": "event_id=14348667,player_id=883466"
+      },
+      {
+        "file": "events/14348667/players/1106148/statistics.json",
+        "note": "event_id=14348667,player_id=1106148"
+      },
+      {
+        "file": "events/14348665/players/792624/statistics.json",
+        "note": "event_id=14348665,player_id=792624"
+      },
+      {
+        "file": "events/14348665/players/1172777/statistics.json",
+        "note": "event_id=14348665,player_id=1172777"
+      },
+      {
+        "file": "events/14348665/players/929978/statistics.json",
+        "note": "event_id=14348665,player_id=929978"
+      },
+      {
+        "file": "events/14348665/players/250319/statistics.json",
+        "note": "event_id=14348665,player_id=250319"
+      },
+      {
+        "file": "events/14348665/players/795154/statistics.json",
+        "note": "event_id=14348665,player_id=795154"
+      },
+      {
+        "file": "events/14348665/players/892943/statistics.json",
+        "note": "event_id=14348665,player_id=892943"
+      },
+      {
+        "file": "events/14348664/players/1076/statistics.json",
+        "note": "event_id=14348664,player_id=1076"
+      },
+      {
+        "file": "events/14348664/players/984419/statistics.json",
+        "note": "event_id=14348664,player_id=984419"
+      },
+      {
+        "file": "events/14348664/players/795972/statistics.json",
+        "note": "event_id=14348664,player_id=795972"
+      },
+      {
+        "file": "events/14348664/players/847990/statistics.json",
+        "note": "event_id=14348664,player_id=847990"
+      },
+      {
+        "file": "events/14348664/players/366592/statistics.json",
+        "note": "event_id=14348664,player_id=366592"
+      },
+      {
+        "file": "events/14348664/players/918517/statistics.json",
+        "note": "event_id=14348664,player_id=918517"
+      }
+    ],
+    "/football/player/transfer-history": [
+      {
+        "file": "players/603946/transfer_history.json",
+        "note": "player_id=603946"
+      },
+      {
+        "file": "players/1019333/transfer_history.json",
+        "note": "player_id=1019333"
+      },
+      {
+        "file": "players/1406130/transfer_history.json",
+        "note": "player_id=1406130"
+      },
+      {
+        "file": "players/227224/transfer_history.json",
+        "note": "player_id=227224"
+      },
+      {
+        "file": "players/904400/transfer_history.json",
+        "note": "player_id=904400"
+      },
+      {
+        "file": "players/1516318/transfer_history.json",
+        "note": "player_id=1516318"
+      },
+      {
+        "file": "players/75425/transfer_history.json",
+        "note": "player_id=75425"
+      },
+      {
+        "file": "players/803671/transfer_history.json",
+        "note": "player_id=803671"
+      },
+      {
+        "file": "players/1006483/transfer_history.json",
+        "note": "player_id=1006483"
+      },
+      {
+        "file": "players/1147932/transfer_history.json",
+        "note": "player_id=1147932"
+      },
+      {
+        "file": "players/991090/transfer_history.json",
+        "note": "player_id=991090"
+      },
+      {
+        "file": "players/1476524/transfer_history.json",
+        "note": "player_id=1476524"
+      },
+      {
+        "file": "players/98448/transfer_history.json",
+        "note": "player_id=98448"
+      },
+      {
+        "file": "players/943645/transfer_history.json",
+        "note": "player_id=943645"
+      },
+      {
+        "file": "players/1127169/transfer_history.json",
+        "note": "player_id=1127169"
+      },
+      {
+        "file": "players/287563/transfer_history.json",
+        "note": "player_id=287563"
+      },
+      {
+        "file": "players/1410201/transfer_history.json",
+        "note": "player_id=1410201"
+      },
+      {
+        "file": "players/1018785/transfer_history.json",
+        "note": "player_id=1018785"
+      },
+      {
+        "file": "players/37813/transfer_history.json",
+        "note": "player_id=37813"
+      },
+      {
+        "file": "players/832979/transfer_history.json",
+        "note": "player_id=832979"
+      },
+      {
+        "file": "players/959592/transfer_history.json",
+        "note": "player_id=959592"
+      },
+      {
+        "file": "players/1218056/transfer_history.json",
+        "note": "player_id=1218056"
+      },
+      {
+        "file": "players/883466/transfer_history.json",
+        "note": "player_id=883466"
+      },
+      {
+        "file": "players/1106148/transfer_history.json",
+        "note": "player_id=1106148"
+      },
+      {
+        "file": "players/792624/transfer_history.json",
+        "note": "player_id=792624"
+      },
+      {
+        "file": "players/1172777/transfer_history.json",
+        "note": "player_id=1172777"
+      },
+      {
+        "file": "players/929978/transfer_history.json",
+        "note": "player_id=929978"
+      },
+      {
+        "file": "players/250319/transfer_history.json",
+        "note": "player_id=250319"
+      },
+      {
+        "file": "players/795154/transfer_history.json",
+        "note": "player_id=795154"
+      },
+      {
+        "file": "players/892943/transfer_history.json",
+        "note": "player_id=892943"
+      },
+      {
+        "file": "players/1076/transfer_history.json",
+        "note": "player_id=1076"
+      },
+      {
+        "file": "players/984419/transfer_history.json",
+        "note": "player_id=984419"
+      },
+      {
+        "file": "players/795972/transfer_history.json",
+        "note": "player_id=795972"
+      },
+      {
+        "file": "players/847990/transfer_history.json",
+        "note": "player_id=847990"
+      },
+      {
+        "file": "players/366592/transfer_history.json",
+        "note": "player_id=366592"
+      },
+      {
+        "file": "players/918517/transfer_history.json",
+        "note": "player_id=918517"
+      }
+    ],
+    "/football/tournament/standings": [
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      },
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      },
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      },
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      },
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      },
+      {
+        "file": "tournaments/119880/seasons/76953/standings.json",
+        "note": "tournament_id=119880,season_id=76953"
+      }
+    ],
+    "/football/tournament/featured-events": [
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/featured_events.json",
+        "note": "tournament_id=119880"
+      }
+    ],
+    "/football/tournament/videos": [
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      },
+      {
+        "file": "tournaments/119880/videos.json",
+        "note": "tournament_id=119880"
+      }
+    ],
+    "/football/trending/players": [
+      {
+        "file": "trending/players.json",
+        "note": null
+      }
+    ],
+    "/search/suggestions": [
+      {
+        "file": "search/suggestions_football.json",
+        "note": "query=football"
+      },
+      {
+        "file": "search/suggestions_basketball.json",
+        "note": "query=basketball"
+      },
+      {
+        "file": "search/suggestions_tennis.json",
+        "note": "query=tennis"
+      }
+    ],
+    "/football/live/category-counts": [
+      {
+        "file": "live/category_counts.json",
+        "note": null
+      }
+    ],
+    "/football/events/count-by-sport": [
+      {
+        "file": "events/count_by_sport.json",
+        "note": null
+      }
+    ]
+  },
+  "entities": {
+    "events": [
+      14348669,
+      14348666,
+      14353409,
+      14348667,
+      14348665,
+      14348664
+    ],
+    "players": [
+      603946,
+      1019333,
+      1406130,
+      227224,
+      904400,
+      1516318,
+      75425,
+      803671,
+      1006483,
+      1147932,
+      991090,
+      1476524,
+      98448,
+      943645,
+      1127169,
+      287563,
+      1410201,
+      1018785,
+      37813,
+      832979,
+      959592,
+      1218056,
+      883466,
+      1106148,
+      792624,
+      1172777,
+      929978,
+      250319,
+      795154,
+      892943,
+      1076,
+      984419,
+      795972,
+      847990,
+      366592,
+      918517
+    ],
+    "tournaments": [
+      119880
+    ],
+    "seasons": [
+      76953
+    ]
+  }
+}

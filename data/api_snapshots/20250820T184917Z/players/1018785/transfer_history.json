@@ -1,0 +1,352 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Mohammed Diomande",
+          "slug": "mohammed-diomande",
+          "shortName": "M. Diomande",
+          "position": "M",
+          "jerseyNumber": "10",
+          "userCount": 1814,
+          "id": 1018785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد ديوماند",
+              "hi": "मोहम्मद डायोमांडे",
+              "bn": "মোহাম্মদ দিওমান্ডে"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ديوماند",
+              "hi": "एम. डायोमांडे",
+              "bn": "এম. ডিওমান্ডে"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Nordsjælland",
+        "toTeamName": "Rangers",
+        "type": 3,
+        "transferFee": 5000000,
+        "transferFeeDescription": "5M €",
+        "id": 1976157,
+        "transferDateTimestamp": 1719792000,
+        "transferFeeRaw": {
+          "value": 5000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Mohammed Diomande",
+          "slug": "mohammed-diomande",
+          "shortName": "M. Diomande",
+          "position": "M",
+          "jerseyNumber": "10",
+          "userCount": 1814,
+          "id": 1018785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد ديوماند",
+              "hi": "मोहम्मद डायोमांडे",
+              "bn": "মোহাম্মদ দিওমান্ডে"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ديوماند",
+              "hi": "एम. डायोमांडे",
+              "bn": "এম. ডিওমান্ডে"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Rangers",
+        "toTeamName": "FC Nordsjælland",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1976158,
+        "transferDateTimestamp": 1719705600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Mohammed Diomande",
+          "slug": "mohammed-diomande",
+          "shortName": "M. Diomande",
+          "position": "M",
+          "jerseyNumber": "10",
+          "userCount": 1814,
+          "id": 1018785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد ديوماند",
+              "hi": "मोहम्मद डायोमांडे",
+              "bn": "মোহাম্মদ দিওমান্ডে"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ديوماند",
+              "hi": "एम. डायोमांडे",
+              "bn": "এম. ডিওমান্ডে"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "FC Nordsjælland",
+        "toTeamName": "Rangers",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1976159,
+        "transferDateTimestamp": 1706227200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Mohammed Diomande",
+          "slug": "mohammed-diomande",
+          "shortName": "M. Diomande",
+          "position": "M",
+          "jerseyNumber": "10",
+          "userCount": 1814,
+          "id": 1018785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد ديوماند",
+              "hi": "मोहम्मद डायोमांडे",
+              "bn": "মোহাম্মদ দিওমান্ডে"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ديوماند",
+              "hi": "एम. डायोमांडे",
+              "bn": "এম. ডিওমান্ডে"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "FC Nordsjælland",
+          "slug": "fc-nordsjaelland",
+          "shortName": "Nordsjælland",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 40561,
+          "nameCode": "FCN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1292,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "FC Nordsjaelland",
+              "ru": "Нордшелланд"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Right to Dream",
+        "toTeamName": "FC Nordsjælland",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 1051522,
+        "transferDateTimestamp": 1578182400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

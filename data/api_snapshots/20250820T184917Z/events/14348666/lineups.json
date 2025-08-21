@@ -1,0 +1,342 @@
+{
+  "success": true,
+  "data": {
+    "confirmed": true,
+    "home_team": {
+      "formation": "3-5-2",
+      "starting_eleven": [
+        {
+          "name": "Dénes Dibusz",
+          "position": "G",
+          "shirt_number": 90,
+          "country": "Hungary",
+          "player_id": 75425
+        },
+        {
+          "name": "Stefan Gartenmann",
+          "position": "D",
+          "shirt_number": 3,
+          "country": "Switzerland",
+          "player_id": 803671
+        },
+        {
+          "name": "Toon Raemaekers",
+          "position": "D",
+          "shirt_number": 28,
+          "country": "Belgium",
+          "player_id": 1006483
+        },
+        {
+          "name": "Gábor Szalai",
+          "position": "D",
+          "shirt_number": 22,
+          "country": "Hungary",
+          "player_id": 1147932
+        },
+        {
+          "name": "Cebrail Makreckis",
+          "position": "D",
+          "shirt_number": 25,
+          "country": "Latvia",
+          "player_id": 991090
+        },
+        {
+          "name": "Alex Tóth",
+          "position": "M",
+          "shirt_number": 64,
+          "country": "Hungary",
+          "player_id": 1476524
+        },
+        {
+          "name": "Bence Ötvös",
+          "position": "D",
+          "shirt_number": 23,
+          "country": "Hungary",
+          "player_id": 852564
+        },
+        {
+          "name": "Gabi Kanichowsky",
+          "position": "M",
+          "shirt_number": 36,
+          "country": "Israel",
+          "player_id": 856417
+        },
+        {
+          "name": "Callum O'Dowda",
+          "position": "D",
+          "shirt_number": 47,
+          "country": "Ireland",
+          "player_id": 305230
+        },
+        {
+          "name": "Lenny Joseph",
+          "position": "F",
+          "shirt_number": 75,
+          "country": "France",
+          "player_id": 1010126
+        },
+        {
+          "name": "Barnabás Varga",
+          "position": "F",
+          "shirt_number": 19,
+          "country": "Hungary",
+          "player_id": 852434
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Kristoffer Zachariassen",
+          "position": "M",
+          "shirt_number": 16,
+          "country": "Norway",
+          "player_id": 548312
+        },
+        {
+          "name": "Ibrahim Cissé",
+          "position": "D",
+          "shirt_number": 27,
+          "country": "France",
+          "player_id": 603740
+        },
+        {
+          "name": "Zsombor Gruber",
+          "position": "M",
+          "shirt_number": 30,
+          "country": "Hungary",
+          "player_id": 1108206
+        },
+        {
+          "name": "Aleksandar Pešić",
+          "position": "F",
+          "shirt_number": 8,
+          "country": "Serbia",
+          "player_id": 41069
+        },
+        {
+          "name": "Jonathan Levi",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "Sweden",
+          "player_id": 858203
+        },
+        {
+          "name": "Dávid Gróf",
+          "position": "G",
+          "shirt_number": 99,
+          "country": "Hungary",
+          "player_id": 21267
+        },
+        {
+          "name": "Dániel Radnóti",
+          "position": "G",
+          "shirt_number": 63,
+          "country": "Hungary",
+          "player_id": 1462747
+        },
+        {
+          "name": "Endre Botka",
+          "position": "D",
+          "shirt_number": 21,
+          "country": "Hungary",
+          "player_id": 134863
+        },
+        {
+          "name": "Naby Keïta",
+          "position": "M",
+          "shirt_number": 5,
+          "country": "Guinea",
+          "player_id": 365772
+        },
+        {
+          "name": "Daniel Arzani",
+          "position": "M",
+          "shirt_number": 7,
+          "country": "Australia",
+          "player_id": 822589
+        },
+        {
+          "name": "Cadu",
+          "position": "M",
+          "shirt_number": 33,
+          "country": "Brazil",
+          "player_id": 1032956
+        },
+        {
+          "name": "Barnabás Nagy",
+          "position": "M",
+          "shirt_number": 77,
+          "country": "Hungary",
+          "player_id": 928624
+        }
+      ]
+    },
+    "away_team": {
+      "formation": "4-2-3-1",
+      "starting_eleven": [
+        {
+          "name": "Mateusz Kochalski",
+          "position": "G",
+          "shirt_number": 99,
+          "country": "Poland",
+          "player_id": 851249
+        },
+        {
+          "name": "Matheus Silva",
+          "position": "D",
+          "shirt_number": 2,
+          "country": "Brazil",
+          "player_id": 931496
+        },
+        {
+          "name": "Bahlul Mustafazada",
+          "position": "D",
+          "shirt_number": 13,
+          "country": "Azerbaijan",
+          "player_id": 865434
+        },
+        {
+          "name": "Kevin Medina",
+          "position": "D",
+          "shirt_number": 81,
+          "country": "Colombia",
+          "player_id": 939724
+        },
+        {
+          "name": "Elvin Cafarquliyev",
+          "position": "D",
+          "shirt_number": 44,
+          "country": "Azerbaijan",
+          "player_id": 1017996
+        },
+        {
+          "name": "Pedro Bicalho",
+          "position": "M",
+          "shirt_number": 35,
+          "country": "Brazil",
+          "player_id": 966133
+        },
+        {
+          "name": "Marko Janković",
+          "position": "M",
+          "shirt_number": 8,
+          "country": "Montenegro",
+          "player_id": 189009
+        },
+        {
+          "name": "Leandro Andrade",
+          "position": "M",
+          "shirt_number": 15,
+          "country": "Cape Verde",
+          "player_id": 1048905
+        },
+        {
+          "name": "Kady Borges",
+          "position": "M",
+          "shirt_number": 20,
+          "country": "Brazil",
+          "player_id": 1194442
+        },
+        {
+          "name": "Abdellah Zoubir",
+          "position": "M",
+          "shirt_number": 10,
+          "country": "France",
+          "player_id": 214080
+        },
+        {
+          "name": "Nariman Akhundzade",
+          "position": "F",
+          "shirt_number": 90,
+          "country": "Azerbaijan",
+          "player_id": 1156696
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Emmanuel Addai",
+          "position": "M",
+          "shirt_number": 11,
+          "country": "Ghana",
+          "player_id": 1398529
+        },
+        {
+          "name": "Musa Qurbanlı",
+          "position": "F",
+          "shirt_number": 22,
+          "country": "Azerbaijan",
+          "player_id": 992237
+        },
+        {
+          "name": "Chris Kouakou",
+          "position": "M",
+          "shirt_number": 6,
+          "country": "Côte d'Ivoire",
+          "player_id": 967228
+        },
+        {
+          "name": "Dani Bolt",
+          "position": "M",
+          "shirt_number": 18,
+          "country": "Brazil",
+          "player_id": 1017697
+        },
+        {
+          "name": "Şahrudin Mahammadaliev",
+          "position": "G",
+          "shirt_number": 1,
+          "country": "Azerbaijan",
+          "player_id": 813105
+        },
+        {
+          "name": "Fabijan Buntić",
+          "position": "G",
+          "shirt_number": 97,
+          "country": "Croatia",
+          "player_id": 827377
+        },
+        {
+          "name": "Samy Mmaee",
+          "position": "D",
+          "shirt_number": 3,
+          "country": "Morocco",
+          "player_id": 578198
+        },
+        {
+          "name": "Toral Bayramov",
+          "position": "D",
+          "shirt_number": 27,
+          "country": "Azerbaijan",
+          "player_id": 981246
+        },
+        {
+          "name": "Abbas Hüseynov",
+          "position": "D",
+          "shirt_number": 30,
+          "country": "Azerbaijan",
+          "player_id": 548218
+        },
+        {
+          "name": "Bədavi Huseynov",
+          "position": "D",
+          "shirt_number": 55,
+          "country": "Azerbaijan",
+          "player_id": 149045
+        },
+        {
+          "name": "Oleksiy Kashchuk",
+          "position": "M",
+          "shirt_number": 21,
+          "country": "Ukraine",
+          "player_id": 880229
+        },
+        {
+          "name": "Hikmat Cabrayilzada",
+          "position": "M",
+          "shirt_number": 32,
+          "country": "Azerbaijan",
+          "player_id": 1586078
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Fredrik Sjøvold",
+          "firstName": "Fredrik Sjøvold",
+          "lastName": "",
+          "slug": "fredrik-sjovold",
+          "shortName": "F. Sjøvold",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 297,
+          "id": 1172777,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك سيوفولد",
+              "hi": "फ्रेड्रिक सोजवॉल्ड",
+              "bn": "ফ্রেডরিক সজোভল্ড"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. سيوفولد",
+              "hi": "एफ. सोजवॉल्ड",
+              "bn": "এফ. জোভোল্ড"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tiller",
+          "slug": "tiller",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1363,
+          "nameCode": "TIL",
+          "national": false,
+          "type": 0,
+          "id": 7492,
+          "teamColors": {
+            "primary": "#1a76dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيليير",
+              "ru": "ФК Тиллер"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Bodø/Glimt",
+          "slug": "bodoglimt",
+          "shortName": "Bodø/Glimt",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 195231,
+          "nameCode": "BOD",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 656,
+          "teamColors": {
+            "primary": "#ffcc33",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بودو/جليمت",
+              "ru": "ФК Буде/Глимт",
+              "hi": "बोड़ो/ग्लिम्ट",
+              "bn": "বোডো/গ্লিমট"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tiller",
+        "toTeamName": "Bodø/Glimt",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1354677,
+        "transferDateTimestamp": 1641600000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Fredrik Sjøvold",
+          "firstName": "Fredrik Sjøvold",
+          "lastName": "",
+          "slug": "fredrik-sjovold",
+          "shortName": "F. Sjøvold",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 297,
+          "id": 1172777,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فريدريك سيوفولد",
+              "hi": "फ्रेड्रिक सोजवॉल्ड",
+              "bn": "ফ্রেডরিক সজোভল্ড"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. سيوفولد",
+              "hi": "एफ. सोजवॉल्ड",
+              "bn": "এফ. জোভোল্ড"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tiller",
+          "slug": "tiller",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1363,
+          "nameCode": "TIL",
+          "national": false,
+          "type": 0,
+          "id": 7492,
+          "teamColors": {
+            "primary": "#1a76dd",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيليير",
+              "ru": "ФК Тиллер"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Rosenborg BK Yo",
+        "toTeamName": "Tiller",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 1354678,
+        "transferDateTimestamp": 1580342400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

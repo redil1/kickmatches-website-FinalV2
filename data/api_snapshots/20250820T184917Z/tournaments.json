@@ -1,0 +1,1134 @@
+{
+  "success": true,
+  "data": {
+    "results": [
+      {
+        "entity": {
+          "name": "Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#3c1c5a",
+          "secondaryColorHex": "#f80158",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "name": "England",
+              "slug": "england",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إنجلترا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1252892,
+          "id": 17,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإنجليزي الممتاز",
+              "hi": "प्रिमियर लीग",
+              "bn": "প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 1252892,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1096412,
+          "id": 7,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 1096412,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "LaLiga",
+          "slug": "laliga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "category": {
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 32,
+            "country": {
+              "alpha2": "ES",
+              "name": "Spain",
+              "slug": "spain",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إسبانيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا",
+                "hi": "स्पेन",
+                "bn": "স্পেন"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 867092,
+          "id": 8,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإسباني",
+              "hi": "ला लिगा",
+              "bn": "লা লীগা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 867092,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "EURO",
+          "slug": "european-championship",
+          "primaryColorHex": "#293cdb",
+          "secondaryColorHex": "#00ba5d",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 854835,
+          "id": 1,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة أمم أوروبا",
+              "hi": "यूरो",
+              "bn": "ইউরো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 854835,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "FIFA World Cup",
+          "slug": "world-championship",
+          "primaryColorHex": "#d20a11",
+          "secondaryColorHex": "#e8bb57",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 667702,
+          "id": 16,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم",
+              "hi": "वर्ल्ड चैंपियनशिप",
+              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 667702,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Serie A",
+          "slug": "serie-a",
+          "primaryColorHex": "#09519e",
+          "secondaryColorHex": "#008fd7",
+          "category": {
+            "name": "Italy",
+            "slug": "italy",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 31,
+            "country": {
+              "alpha2": "IT",
+              "name": "Italy",
+              "slug": "italy",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إيطاليا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "italy",
+            "alpha2": "IT",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيطاليا",
+                "hi": "इटली",
+                "bn": "ইতালি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 658373,
+          "id": 23,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإيطالي",
+              "hi": "सीरी ए",
+              "bn": "সিরি আ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 658373,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "FIFA Club World Cup",
+          "slug": "club-world-championship",
+          "primaryColorHex": "#8d1536",
+          "secondaryColorHex": "#0bbda4",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 631157,
+          "id": 357,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة العالم للأندية",
+              "hi": "क्लब वर्ल्ड चैंपियनशिप",
+              "bn": "ক্লাব ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 631157,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Bundesliga",
+          "slug": "bundesliga",
+          "primaryColorHex": "#e2080e",
+          "secondaryColorHex": "#8e0902",
+          "category": {
+            "name": "Germany",
+            "slug": "germany",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 30,
+            "country": {
+              "alpha2": "DE",
+              "name": "Germany",
+              "slug": "germany",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "ألمانيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "germany",
+            "alpha2": "DE",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألمانيا",
+                "hi": "जर्मनी",
+                "bn": "জার্মানি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 552694,
+          "id": 35,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الألماني",
+              "hi": "बुंडेसलीगा",
+              "bn": "বুন্দেসলীগা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 552694,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "UEFA Europa League",
+          "slug": "uefa-europa-league",
+          "secondaryColorHex": "#f37d25",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 494343,
+          "id": 679,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي",
+              "hi": "यूईएफए यूरोपा लीग",
+              "bn": "উয়েফা ইউরোপা লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 494343,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Ligue 1",
+          "slug": "ligue-1",
+          "primaryColorHex": "#091c3e",
+          "secondaryColorHex": "#a9c011",
+          "category": {
+            "name": "France",
+            "slug": "france",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 7,
+            "country": {
+              "alpha2": "FR",
+              "name": "France",
+              "slug": "france",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "فرنسا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "france",
+            "alpha2": "FR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرنسا",
+                "hi": "फ्रांस",
+                "bn": "ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 442908,
+          "id": 34,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الفرنسي",
+              "hi": "लीग 1",
+              "bn": "লীগ 1"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 442908,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Copa América",
+          "slug": "copa-america",
+          "primaryColorHex": "#0A2357",
+          "secondaryColorHex": "#F70F17",
+          "category": {
+            "name": "South America",
+            "slug": "south-america",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1470,
+            "country": {},
+            "flag": "south-america"
+          },
+          "userCount": 428136,
+          "id": 133,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبا أمريكا",
+              "hi": "कोपा अमेरिका",
+              "bn": "কোপা আমেরিকা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 428136,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Brasileirão Betano",
+          "slug": "brasileirao-serie-a",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "name": "Brazil",
+              "slug": "brazil",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "البرازيل"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "brazil",
+            "alpha2": "BR"
+          },
+          "userCount": 316038,
+          "id": 325,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة بيتانو البرازيلية",
+              "hi": "ब्राज़ीलेइराओ बेटानो",
+              "bn": "ব্রাসিলিরাও বেতানো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 316038,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "UEFA Nations League",
+          "slug": "uefa-nations-league",
+          "primaryColorHex": "#3a4179",
+          "secondaryColorHex": "#e5a422",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 312165,
+          "id": 10783,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أمم أوروبا",
+              "hi": "यूईएफए नेशंस लीग",
+              "bn": "উয়েফা নেশনস লিগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 312165,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "UEFA Conference League",
+          "slug": "uefa-europa-conference-league",
+          "secondaryColorHex": "#04be15",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 264960,
+          "id": 17015,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري مؤتمرات الإتحاد الأوروبي",
+              "hi": "यूईएफए कॉन्फ्रेंस लीग",
+              "bn": "উয়েফা কনফারেন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 264960,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Africa Cup of Nations",
+          "slug": "africa-cup-of-nations",
+          "primaryColorHex": "#00752e",
+          "secondaryColorHex": "#edc73e",
+          "category": {
+            "name": "Africa",
+            "slug": "africa",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1466,
+            "country": {},
+            "flag": "africa"
+          },
+          "userCount": 246218,
+          "id": 270,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس الأمم الأفريقية",
+              "hi": "अफ्रीका कप ऑफ नेशंस",
+              "bn": "আফ্রিকা কাপ অফ নেশনস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 246218,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "FA Cup",
+          "slug": "fa-cup",
+          "primaryColorHex": "#bc1821",
+          "secondaryColorHex": "#e60411",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "name": "England",
+              "slug": "england",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إنجلترا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 227613,
+          "id": 19,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس الاتحاد الإنجليزي",
+              "hi": "एफए कप",
+              "bn": "এফএ কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 227613,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "CONMEBOL Libertadores",
+          "slug": "conmebol-libertadores",
+          "primaryColorHex": "#573215",
+          "secondaryColorHex": "#dfaf49",
+          "category": {
+            "name": "South America",
+            "slug": "south-america",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1470,
+            "country": {},
+            "flag": "south-america"
+          },
+          "userCount": 219672,
+          "id": 384,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبا ليبرتادوريس",
+              "hi": "कॉनमेबोल लिबर्टाडोरेस",
+              "bn": "কনমেবল লিবার্তাদোরেস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 219672,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey",
+          "primaryColorHex": "#221C35",
+          "secondaryColorHex": "#fe0235",
+          "category": {
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 32,
+            "country": {
+              "alpha2": "ES",
+              "name": "Spain",
+              "slug": "spain",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إسبانيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا",
+                "hi": "स्पेन",
+                "bn": "স্পেন"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 185303,
+          "id": 329,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس ملك إسبانيا",
+              "hi": "कोपा डेल रे",
+              "bn": "কোপা দেল রে"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 185303,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "World Cup Qual. CONMEBOL",
+          "slug": "world-championship-qual-conmebol",
+          "primaryColorHex": "#9a1133",
+          "secondaryColorHex": "#c11541",
+          "category": {
+            "name": "South America",
+            "slug": "south-america",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1470,
+            "country": {},
+            "flag": "south-america"
+          },
+          "userCount": 180214,
+          "id": 295,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تصفيات كأس العالم في أمريكا الجنوبية",
+              "hi": "वर्ल्ड चैंपियनशिप क्वालीफिकेशन कॉनमेबोल",
+              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ কোয়াল. কনমেবল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 180214,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "EURO, Qualification",
+          "slug": "european-championship-qualification",
+          "primaryColorHex": "#182026",
+          "secondaryColorHex": "#730000",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 164720,
+          "id": 27,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة أوروبا، تصفيات",
+              "hi": "यूरोपीयन चैंपियनशिप, क्वालिफिकेशन",
+              "bn": "ইউরোপীয় চ্যাম্পিয়নশিপ, কোয়ালিফিকেশন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 164720,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "VriendenLoterij Eredivisie",
+          "slug": "eredivisie",
+          "primaryColorHex": "#292766",
+          "secondaryColorHex": "#7c79c3",
+          "category": {
+            "name": "Netherlands",
+            "slug": "netherlands",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 35,
+            "country": {
+              "alpha2": "NL",
+              "name": "Netherlands",
+              "slug": "netherlands",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "هولندا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "netherlands",
+            "alpha2": "NL"
+          },
+          "userCount": 163417,
+          "id": 37,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الهولندي الممتاز",
+              "hi": "इरेडीवीसी",
+              "bn": "এরেডিভিসি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 163417,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Liga Portugal Betclic",
+          "slug": "liga-portugal-betclic",
+          "primaryColorHex": "#ffc501",
+          "secondaryColorHex": "#e6a100",
+          "category": {
+            "name": "Portugal",
+            "slug": "portugal",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 44,
+            "country": {
+              "alpha2": "PT",
+              "name": "Portugal",
+              "slug": "portugal",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "البرتغال"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "portugal",
+            "alpha2": "PT"
+          },
+          "userCount": 157542,
+          "id": 238,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري بيتكليك البرتغالي",
+              "hi": "लीगा पुर्तगाल बेटक्लिक",
+              "bn": "লিগা পর্তুগাল বেটক্লিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 157542,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Saudi Pro League",
+          "slug": "saudi-pro-league",
+          "primaryColorHex": "#0d1539",
+          "secondaryColorHex": "#61ab34",
+          "category": {
+            "name": "Saudi Arabia",
+            "slug": "saudi-arabia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 310,
+            "country": {
+              "alpha2": "SA",
+              "name": "Saudi Arabia",
+              "slug": "saudi-arabia",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "المملكة العربية السعودية"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "saudi-arabia",
+            "alpha2": "SA",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "السعودية",
+                "hi": "सऊदी अरब",
+                "bn": "সৌদি আরব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 157018,
+          "id": 955,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري السعودي للمحترفين",
+              "hi": "सऊदी प्रो लीग",
+              "bn": "সৌদি প্রো লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 157018,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "EFL Cup",
+          "slug": "efl-cup",
+          "primaryColorHex": "#203e93",
+          "secondaryColorHex": "#bc1723",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "name": "England",
+              "slug": "england",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إنجلترا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 143860,
+          "id": 21,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس رابطة الدوري الإنجليزي",
+              "hi": "ईएफएल कप",
+              "bn": "ইএফএল কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 143860,
+        "type": "uniqueTournament"
+      },
+      {
+        "entity": {
+          "name": "Copa Betano do Brasil",
+          "slug": "copa-do-brasil",
+          "primaryColorHex": "#34a348",
+          "secondaryColorHex": "#f2ba1c",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "name": "Brazil",
+              "slug": "brazil",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "البرازيل"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "flag": "brazil",
+            "alpha2": "BR"
+          },
+          "userCount": 142042,
+          "id": 373,
+          "country": {},
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس بيتانو البرازيلية",
+              "hi": "कोपा बेटानो डो ब्रासिल",
+              "bn": "কোপা বেতানো দো ব্রাসিল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "score": 142042,
+        "type": "uniqueTournament"
+      }
+    ]
+  }
+}

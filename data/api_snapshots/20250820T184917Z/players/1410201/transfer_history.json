@@ -1,0 +1,430 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Jayden Meghoma",
+          "firstName": "Jayden Meghoma",
+          "slug": "meghoma-jayden",
+          "shortName": "J. Meghoma",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 269,
+          "id": 1410201
+        },
+        "transferFrom": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Brentford",
+          "slug": "brentford",
+          "shortName": "Brentford",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 332744,
+          "nameCode": "BRE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 50,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برينتفورد",
+              "ru": "Брентфорд",
+              "hi": "ब्रेंटफोर्ड",
+              "bn": "ব্রেন্টফোর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Rangers",
+        "toTeamName": "Brentford",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2456101,
+        "transferDateTimestamp": 1780185600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jayden Meghoma",
+          "firstName": "Jayden Meghoma",
+          "slug": "meghoma-jayden",
+          "shortName": "J. Meghoma",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 269,
+          "id": 1410201
+        },
+        "transferFrom": {
+          "name": "Brentford",
+          "slug": "brentford",
+          "shortName": "Brentford",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 332744,
+          "nameCode": "BRE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 50,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برينتفورد",
+              "ru": "Брентфорд",
+              "hi": "ब्रेंटफोर्ड",
+              "bn": "ব্রেন্টফোর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Rangers",
+          "slug": "rangers",
+          "shortName": "Rangers",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 343026,
+          "nameCode": "RAN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2351,
+          "teamColors": {
+            "primary": "#0033a0",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رينجرز",
+              "ru": "Глазго Рейнджерс",
+              "hi": "रेंजर्स",
+              "bn": "রেঞ্জার্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Brentford",
+        "toTeamName": "Rangers",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2455565,
+        "transferDateTimestamp": 1755388800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jayden Meghoma",
+          "firstName": "Jayden Meghoma",
+          "slug": "meghoma-jayden",
+          "shortName": "J. Meghoma",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 269,
+          "id": 1410201
+        },
+        "transferFrom": {
+          "name": "Preston North End",
+          "slug": "preston-north-end",
+          "shortName": "Preston",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 24344,
+          "nameCode": "PNE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 21,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برستون نورث اند",
+              "ru": "Престон Норт Энд",
+              "hi": "प्रेस्टन नार्थ एंड"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Brentford",
+          "slug": "brentford",
+          "shortName": "Brentford",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 332744,
+          "nameCode": "BRE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 50,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برينتفورد",
+              "ru": "Брентфорд",
+              "hi": "ब्रेंटफोर्ड",
+              "bn": "ব্রেন্টফোর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Preston North End",
+        "toTeamName": "Brentford",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2248046,
+        "transferDateTimestamp": 1748649600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jayden Meghoma",
+          "firstName": "Jayden Meghoma",
+          "slug": "meghoma-jayden",
+          "shortName": "J. Meghoma",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 269,
+          "id": 1410201
+        },
+        "transferFrom": {
+          "name": "Brentford",
+          "slug": "brentford",
+          "shortName": "Brentford",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 332744,
+          "nameCode": "BRE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 50,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برينتفورد",
+              "ru": "Брентфорд",
+              "hi": "ब्रेंटफोर्ड",
+              "bn": "ব্রেন্টফোর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Preston North End",
+          "slug": "preston-north-end",
+          "shortName": "Preston",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 24344,
+          "nameCode": "PNE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 21,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برستون نورث اند",
+              "ru": "Престон Норт Энд",
+              "hi": "प्रेस्टन नार्थ एंड"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Brentford",
+        "toTeamName": "Preston North End",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 2248047,
+        "transferDateTimestamp": 1736985600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Jayden Meghoma",
+          "firstName": "Jayden Meghoma",
+          "slug": "meghoma-jayden",
+          "shortName": "J. Meghoma",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 269,
+          "id": 1410201
+        },
+        "transferFrom": {
+          "name": "Southampton U21",
+          "slug": "southampton-u21",
+          "shortName": "Southampton U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2049,
+          "nameCode": "SOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 77871,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ساوثهامبتون تحت 21",
+              "ru": "Саутгемптон"
+            },
+            "shortNameTranslation": {
+              "ar": "ساوثهامبتون تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Brentford",
+          "slug": "brentford",
+          "shortName": "Brentford",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 332744,
+          "nameCode": "BRE",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 50,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برينتفورد",
+              "ru": "Брентфорд",
+              "hi": "ब्रेंटफोर्ड",
+              "bn": "ব্রেন্টফোর্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Southampton U21",
+        "toTeamName": "Brentford",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Unknown",
+        "id": 2142180,
+        "transferDateTimestamp": 1724976000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

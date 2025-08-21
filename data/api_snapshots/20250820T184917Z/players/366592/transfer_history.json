@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Kieran Tierney",
+          "firstName": "",
+          "lastName": "",
+          "slug": "kieran-tierney",
+          "shortName": "K. Tierney",
+          "position": "D",
+          "jerseyNumber": "63",
+          "userCount": 5533,
+          "sofascoreId": "kierantierney1",
+          "id": 366592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيران تيرني",
+              "hi": "किरन टियरनी",
+              "bn": "কাইরান টিয়ার্নি"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تيرني",
+              "hi": "के. टियरनी",
+              "bn": "কে. টিয়ার্নি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Arsenal",
+          "slug": "arsenal",
+          "shortName": "Arsenal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2631960,
+          "nameCode": "ARS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 42,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ارسنال",
+              "ru": "Арсенал",
+              "hi": "आर्सेनल",
+              "bn": "আর্সেনাল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Arsenal",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "Free",
+        "id": 2277301,
+        "transferDateTimestamp": 1751328000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kieran Tierney",
+          "firstName": "",
+          "lastName": "",
+          "slug": "kieran-tierney",
+          "shortName": "K. Tierney",
+          "position": "D",
+          "jerseyNumber": "63",
+          "userCount": 5533,
+          "sofascoreId": "kierantierney1",
+          "id": 366592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيران تيرني",
+              "hi": "किरन टियरनी",
+              "bn": "কাইরান টিয়ার্নি"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تيرني",
+              "hi": "के. टियरनी",
+              "bn": "কে. টিয়ার্নি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Real Sociedad",
+          "slug": "real-sociedad",
+          "shortName": "Real Sociedad",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 491074,
+          "nameCode": "RSO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2824,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0077c7",
+            "text": "#0077c7"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريال سوسيداد",
+              "ru": "Реал Сосьедад",
+              "hi": "रियल सोसियदाद",
+              "bn": "রিয়াল সোসিয়েদাদ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Arsenal",
+          "slug": "arsenal",
+          "shortName": "Arsenal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2631960,
+          "nameCode": "ARS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 42,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ارسنال",
+              "ru": "Арсенал",
+              "hi": "आर्सेनल",
+              "bn": "আর্সেনাল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Real Sociedad",
+        "toTeamName": "Arsenal",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1673034,
+        "transferDateTimestamp": 1719705600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kieran Tierney",
+          "firstName": "",
+          "lastName": "",
+          "slug": "kieran-tierney",
+          "shortName": "K. Tierney",
+          "position": "D",
+          "jerseyNumber": "63",
+          "userCount": 5533,
+          "sofascoreId": "kierantierney1",
+          "id": 366592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيران تيرني",
+              "hi": "किरन टियरनी",
+              "bn": "কাইরান টিয়ার্নি"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تيرني",
+              "hi": "के. टियरनी",
+              "bn": "কে. টিয়ার্নি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Arsenal",
+          "slug": "arsenal",
+          "shortName": "Arsenal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2631960,
+          "nameCode": "ARS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 42,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ارسنال",
+              "ru": "Арсенал",
+              "hi": "आर्सेनल",
+              "bn": "আর্সেনাল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Real Sociedad",
+          "slug": "real-sociedad",
+          "shortName": "Real Sociedad",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 491074,
+          "nameCode": "RSO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2824,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0077c7",
+            "text": "#0077c7"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريال سوسيداد",
+              "ru": "Реал Сосьедад",
+              "hi": "रियल सोसियदाद",
+              "bn": "রিয়াল সোসিয়েদাদ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Arsenal",
+        "toTeamName": "Real Sociedad",
+        "type": 1,
+        "transferFee": 1400000,
+        "transferFeeDescription": "1.4M €",
+        "id": 1673035,
+        "transferDateTimestamp": 1693094400,
+        "transferFeeRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kieran Tierney",
+          "firstName": "",
+          "lastName": "",
+          "slug": "kieran-tierney",
+          "shortName": "K. Tierney",
+          "position": "D",
+          "jerseyNumber": "63",
+          "userCount": 5533,
+          "sofascoreId": "kierantierney1",
+          "id": 366592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيران تيرني",
+              "hi": "किरन टियरनी",
+              "bn": "কাইরান টিয়ার্নি"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تيرني",
+              "hi": "के. टियरनी",
+              "bn": "কে. টিয়ার্নি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Arsenal",
+          "slug": "arsenal",
+          "shortName": "Arsenal",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2631960,
+          "nameCode": "ARS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 42,
+          "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ارسنال",
+              "ru": "Арсенал",
+              "hi": "आर्सेनल",
+              "bn": "আর্সেনাল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Celtic",
+        "toTeamName": "Arsenal",
+        "type": 3,
+        "transferFee": 27000000,
+        "transferFeeDescription": "27M €",
+        "id": 1513131,
+        "transferDateTimestamp": 1565222400,
+        "transferFeeRaw": {
+          "value": 27000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Kieran Tierney",
+          "firstName": "",
+          "lastName": "",
+          "slug": "kieran-tierney",
+          "shortName": "K. Tierney",
+          "position": "D",
+          "jerseyNumber": "63",
+          "userCount": 5533,
+          "sofascoreId": "kierantierney1",
+          "id": 366592,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيران تيرني",
+              "hi": "किरन टियरनी",
+              "bn": "কাইরান টিয়ার্নি"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تيرني",
+              "hi": "के. टियरनी",
+              "bn": "কে. টিয়ার্নি"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Celtic U20",
+          "slug": "celtic-u20",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 201,
+          "nameCode": "CEL",
+          "national": false,
+          "type": 0,
+          "id": 163374,
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك تحت 20"
+            },
+            "shortNameTranslation": {
+              "ar": "سلتيك"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Celtic U20",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1513132,
+        "transferDateTimestamp": 1451606400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

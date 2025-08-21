@@ -1,0 +1,1633 @@
+{
+  "success": true,
+  "data": {
+    "transferHistory": [
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Celtic",
+        "type": 3,
+        "transferFee": 7000000,
+        "transferFeeDescription": "7M €",
+        "id": 1493892,
+        "transferDateTimestamp": 1656633600,
+        "transferFeeRaw": {
+          "value": 7000000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Celtic",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493893,
+        "transferDateTimestamp": 1653955200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Celtic",
+          "slug": "celtic",
+          "shortName": "Celtic",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 453949,
+          "nameCode": "CEL",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 2352,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#009933",
+            "text": "#009933"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلتيك",
+              "ru": "Селтик Глазго",
+              "hi": "सेल्टिक",
+              "bn": "সেল্টিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Celtic",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493894,
+        "transferDateTimestamp": 1630368000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Bournemouth",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493895,
+        "transferDateTimestamp": 1622419200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Bournemouth",
+          "slug": "bournemouth",
+          "shortName": "Bournemouth",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 301711,
+          "nameCode": "BOU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 60,
+          "teamColors": {
+            "primary": "#000000",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بورنموث",
+              "ru": "Борнмут",
+              "hi": "बोर्नमाउथ",
+              "bn": "বোর্নেমাউথ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Bournemouth",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493896,
+        "transferDateTimestamp": 1602806400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Luton Town",
+          "slug": "luton-town",
+          "shortName": "Luton",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 120122,
+          "nameCode": "LUT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 72,
+          "teamColors": {
+            "primary": "#ff3300",
+            "secondary": "#000033",
+            "text": "#000033"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوتون تاون",
+              "ru": "Лутон Таун",
+              "hi": "लूटन टाउन"
+            },
+            "shortNameTranslation": {
+              "ar": "لوتون",
+              "hi": "लूटन",
+              "bn": "লুটন"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Luton Town",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493897,
+        "transferDateTimestamp": 1596153600,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Luton Town",
+          "slug": "luton-town",
+          "shortName": "Luton",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 120122,
+          "nameCode": "LUT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 72,
+          "teamColors": {
+            "primary": "#ff3300",
+            "secondary": "#000033",
+            "text": "#000033"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوتون تاون",
+              "ru": "Лутон Таун",
+              "hi": "लूटन टाउन"
+            },
+            "shortNameTranslation": {
+              "ar": "لوتون",
+              "hi": "लूटन",
+              "bn": "লুটন"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Luton Town",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493898,
+        "transferDateTimestamp": 1580342400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Stoke City",
+          "slug": "stoke-city",
+          "shortName": "Stoke",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 29232,
+          "nameCode": "STK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 29,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستوك سيتي",
+              "ru": "Сток Сити",
+              "hi": "स्टोक सिटी"
+            },
+            "shortNameTranslation": {
+              "ar": "ستوك",
+              "hi": "स्टोक",
+              "bn": "স্টোক"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Stoke City",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493899,
+        "transferDateTimestamp": 1577923200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Stoke City",
+          "slug": "stoke-city",
+          "shortName": "Stoke",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 29232,
+          "nameCode": "STK",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 29,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستوك سيتي",
+              "ru": "Сток Сити",
+              "hi": "स्टोक सिटी"
+            },
+            "shortNameTranslation": {
+              "ar": "ستوك",
+              "hi": "स्टोक",
+              "bn": "স্টোক"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Stoke City",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493900,
+        "transferDateTimestamp": 1565222400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Swansea City",
+          "slug": "swansea-city",
+          "shortName": "Swansea",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 27487,
+          "nameCode": "SWA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 74,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سوانزي ستي",
+              "ru": "Суонси Сити",
+              "hi": "स्वानसी सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Swansea City",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493901,
+        "transferDateTimestamp": 1559260800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Swansea City",
+          "slug": "swansea-city",
+          "shortName": "Swansea",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 27487,
+          "nameCode": "SWA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 74,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سوانزي ستي",
+              "ru": "Суонси Сити",
+              "hi": "स्वानसी सिटी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Swansea City",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493902,
+        "transferDateTimestamp": 1535155200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Ipswich Town",
+          "slug": "ipswich-town",
+          "shortName": "Ipswich",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 146390,
+          "nameCode": "IPS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 32,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ايبسويتش تاون",
+              "ru": "Ипсвич Таун",
+              "hi": "इप्स्विच टाउन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Ipswich Town",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493903,
+        "transferDateTimestamp": 1527724800,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Ipswich Town",
+          "slug": "ipswich-town",
+          "shortName": "Ipswich",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 146390,
+          "nameCode": "IPS",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 32,
+          "teamColors": {
+            "primary": "#0000ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ايبسويتش تاون",
+              "ru": "Ипсвич Таун",
+              "hi": "इप्स्विच टाउन"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Ipswich Town",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493904,
+        "transferDateTimestamp": 1516320000,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Sheffield United",
+          "slug": "sheffield-united",
+          "shortName": "Sheffield Utd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 143913,
+          "nameCode": "SUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 15,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيفيلد يونايتد",
+              "ru": "Шеффилд Юнайтед",
+              "hi": "शेफील्ड यूनाइटेड"
+            },
+            "shortNameTranslation": {
+              "bn": "শেফিল্ড ইউ্টিডি"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Sheffield United",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 2,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493905,
+        "transferDateTimestamp": 1515974400,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Sheffield United",
+          "slug": "sheffield-united",
+          "shortName": "Sheffield Utd",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 143913,
+          "nameCode": "SUN",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 15,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيفيلد يونايتد",
+              "ru": "Шеффилд Юнайтед",
+              "hi": "शेफील्ड यूनाइटेड"
+            },
+            "shortNameTranslation": {
+              "bn": "শেফিল্ড ইউ্টিডি"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham Hotspur",
+        "toTeamName": "Sheffield United",
+        "type": 1,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493906,
+        "transferDateTimestamp": 1503619200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "player": {
+          "name": "Cameron Carter-Vickers",
+          "firstName": "",
+          "lastName": "",
+          "slug": "cameron-carter-vickers",
+          "shortName": "C. Carter-Vickers",
+          "position": "D",
+          "jerseyNumber": "20",
+          "userCount": 831,
+          "id": 795972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاميرون كارتر-فيكرز",
+              "hi": "कैमरून कार्टर-विकर्स",
+              "bn": "ক্যামেরন কার্টার-ভিকার্স"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كارتر-فيكرز",
+              "hi": "सी. कार्टर-विकर्स",
+              "bn": "সি. কার্টার-ভিকার্স"
+            }
+          }
+        },
+        "transferFrom": {
+          "name": "Tottenham U21",
+          "slug": "tottenham-u21",
+          "shortName": "Tottenham U21",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 5239,
+          "nameCode": "TOT",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 77865,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام تحت 21",
+              "ru": "Тоттенхэм"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام تحت 21"
+            }
+          }
+        },
+        "transferTo": {
+          "name": "Tottenham Hotspur",
+          "slug": "tottenham-hotspur",
+          "shortName": "Tottenham ",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1421107,
+          "nameCode": "THO",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 33,
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000066",
+            "text": "#000066"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توتنهام هوتسبير",
+              "ru": "Тоттенхэм Хотспур",
+              "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+            },
+            "shortNameTranslation": {
+              "ar": "توتنهام",
+              "hi": "टॉटनहैम",
+              "bn": "টটেনহ্যাম"
+            }
+          }
+        },
+        "fromTeamName": "Tottenham U21",
+        "toTeamName": "Tottenham Hotspur",
+        "type": 3,
+        "transferFee": 0,
+        "transferFeeDescription": "-",
+        "id": 1493907,
+        "transferDateTimestamp": 1467331200,
+        "transferFeeRaw": {
+          "value": 0,
+          "currency": "EUR"
+        }
+      }
+    ]
+  }
+}

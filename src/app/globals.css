@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary-black: #000000;
+  --primary-gold: #FFD700;
+  --primary-red: #DC2626;
+  --gold-light: #FFF8DC;
+  --gold-dark: #B8860B;
+  --red-light: #FCA5A5;
+  --red-dark: #991B1B;
+  --gray-dark: #1F1F1F;
+  --gray-medium: #2D2D2D;
+  --gray-light: #404040;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Custom Professional Color Palette */
+  --color-primary-black: var(--primary-black);
+  --color-primary-gold: var(--primary-gold);
+  --color-primary-red: var(--primary-red);
+  --color-gold-50: #FFFEF7;
+  --color-gold-100: var(--gold-light);
+  --color-gold-200: #F7E98E;
+  --color-gold-300: #F4E072;
+  --color-gold-400: #F1D65A;
+  --color-gold-500: var(--primary-gold);
+  --color-gold-600: var(--gold-dark);
+  --color-gold-700: #9A7209;
+  --color-gold-800: #7C5A07;
+  --color-gold-900: #5E4405;
+  
+  --color-red-50: #FEF2F2;
+  --color-red-100: var(--red-light);
+  --color-red-200: #FECACA;
+  --color-red-300: #FCA5A5;
+  --color-red-400: #F87171;
+  --color-red-500: #EF4444;
+  --color-red-600: var(--primary-red);
+  --color-red-700: #B91C1C;
+  --color-red-800: var(--red-dark);
+  --color-red-900: #7F1D1D;
+  
+  --color-black-50: #F8F8F8;
+  --color-black-100: #E5E5E5;
+  --color-black-200: #CCCCCC;
+  --color-black-300: #B3B3B3;
+  --color-black-400: var(--gray-light);
+  --color-black-500: var(--gray-medium);
+  --color-black-600: var(--gray-dark);
+  --color-black-700: #171717;
+  --color-black-800: #0D0D0D;
+  --color-black-900: var(--primary-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Professional Theme Utilities */
+.bg-professional-black { background-color: var(--primary-black); }
+.bg-professional-gold { background-color: var(--primary-gold); }
+.bg-professional-red { background-color: var(--primary-red); }
+.text-professional-gold { color: var(--primary-gold); }
+.text-professional-red { color: var(--primary-red); }
+.border-professional-gold { border-color: var(--primary-gold); }
+.border-professional-red { border-color: var(--primary-red); }
+
+/* Professional Gradients */
+.gradient-gold-black {
+  background: linear-gradient(135deg, var(--primary-gold) 0%, var(--gray-dark) 100%);
+}
+.gradient-red-black {
+  background: linear-gradient(135deg, var(--primary-red) 0%, var(--primary-black) 100%);
+}
+.gradient-gold-red {
+  background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-red) 100%);
+}
+
+/* Scrollbar Hide Utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
