@@ -22,14 +22,14 @@ export default function DirectoryFilter({ items, type, baseUrl = '' }: Props) {
     return list
   }, [items, query, sort])
 
-  const trialUrl = process.env.NEXT_PUBLIC_TRIAL_URL || '/trial'
+
   const pricingUrl = process.env.NEXT_PUBLIC_PRICING_URL || '/pricing'
 
   function trackEvent(name: string, payload: Record<string, any> = {}) {
     try {
       // Push to dataLayer if available (Google Tag Manager)
-      ;(window as any).dataLayer = (window as any).dataLayer || []
-      ;(window as any).dataLayer.push({ event: name, ...payload })
+      ; (window as any).dataLayer = (window as any).dataLayer || []
+        ; (window as any).dataLayer.push({ event: name, ...payload })
     } catch (e) {
       // ignore
     }
@@ -40,9 +40,9 @@ export default function DirectoryFilter({ items, type, baseUrl = '' }: Props) {
       if (navigator.sendBeacon) {
         navigator.sendBeacon(url, body)
       } else {
-        fetch(url, { method: 'POST', body, headers: { 'Content-Type': 'application/json' } }).catch(() => {})
+        fetch(url, { method: 'POST', body, headers: { 'Content-Type': 'application/json' } }).catch(() => { })
       }
-    } catch (e) {}
+    } catch (e) { }
   }
 
   return (
@@ -68,7 +68,7 @@ export default function DirectoryFilter({ items, type, baseUrl = '' }: Props) {
         </div>
 
         <div className="flex items-center gap-3">
-          <Link href={trialUrl} onClick={() => trackEvent('cta_click', { cta: 'trial', source: type })} className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-4 py-2 text-black font-bold shadow hover:scale-[1.02] transition">Start Free Trial</Link>
+
           <Link href={pricingUrl} onClick={() => trackEvent('cta_click', { cta: 'pricing', source: type })} className="inline-flex items-center gap-2 rounded-lg border border-white/20 px-4 py-2 text-white font-semibold hover:bg-white/5 transition">See Plans</Link>
         </div>
       </div>

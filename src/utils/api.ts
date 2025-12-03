@@ -1,4 +1,4 @@
-export const API_BASE = process.env.API_BASE || 'http://69.197.168.221:8004'
+export const API_BASE = process.env.API_BASE || 'http://155.117.46.251:8004'
 import { cacheWrap } from './cache'
 
 function toUrl(path?: unknown): string {

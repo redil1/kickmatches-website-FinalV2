@@ -24,7 +24,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a className="hover:text-professional-gold" href="/leagues">Leagues</a></li>
               <li><a className="hover:text-professional-gold" href="/teams">Teams</a></li>
-              <li><a className="hover:text-professional-gold" href="/trial">Free Trial</a></li>
+
             </ul>
           </div>
         </div>

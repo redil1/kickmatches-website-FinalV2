@@ -8,8 +8,13 @@ import { getBaseUrl } from '@/utils/url'
 
 import Countdown from '@/components/Countdown'
 import ShareReferral from '@/components/ShareReferral'
-import StartTrial from '@/components/StartTrial'
+
 import MetricBeacon from '@/components/MetricBeacon'
+import WaitingRoom from '@/components/Growth/WaitingRoom'
+import FakeLiveChat from '@/components/Growth/FakeLiveChat'
+import FakeVideoPlayer from '@/components/Growth/FakeVideoPlayer'
+import SalesPopup from '@/components/Growth/SalesPopup'
+import ScarcityBanner from '@/components/Growth/ScarcityBanner'
 import { Suspense } from 'react'
 import { generateMatchSEO, generateHreflangTags } from '@/utils/seo'
 import InternalLinking from '@/components/InternalLinking'
@@ -27,7 +32,7 @@ export const revalidate = 3600
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const resolvedParams = await params
   const [match] = await db.select().from(matches).where(eq(matches.slug, resolvedParams.slug)).limit(1)
-  
+
   if (!match) {
     return {
       title: 'Match Not Found | Kick AI of Matches',
@@ -51,7 +56,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: seoData.title,
     description: seoData.description,
-  keywords: seoData.keywords.join(', '),
+    keywords: seoData.keywords.join(', '),
     robots: {
       index: true,
       follow: true,
@@ -90,7 +95,7 @@ export default async function MatchPage({ params }: PageProps) {
 
   const kickoff = new Date(match.kickoffIso as unknown as string)
   const baseUrl = getBaseUrl()
-  
+
   // Generate comprehensive SEO data
   const seoData = generateMatchSEO({
     slug: match.slug as string,
@@ -101,25 +106,25 @@ export default async function MatchPage({ params }: PageProps) {
     status: match.status as string,
     scorebatEmbed: match.scorebatEmbed as string
   }, baseUrl)
-  
+
 
 
   const isLive = new Date() >= kickoff && new Date() <= new Date(kickoff.getTime() + 120 * 60 * 1000) // 2 hours
   const isUpcoming = new Date() < kickoff
   const timeToKickoff = kickoff.getTime() - new Date().getTime()
   const showCountdown = isUpcoming && timeToKickoff < 24 * 60 * 60 * 1000 // Show countdown if less than 24h
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-black-900 via-black-800 to-black-900">
       <MetricBeacon event="page_view" payload={{ slug: match.slug, league: match.league }} />
-      
+
       {/* Comprehensive Structured Data */}
       {seoData.structuredData.map((schema, index) => (
         <Script key={index} id={`json-ld-${index}`} type="application/ld+json">
           {JSON.stringify(schema)}
         </Script>
       ))}
-      
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-black/20 backdrop-blur-sm border-b border-white/10" aria-label="Breadcrumb">
         <div className="max-w-7xl mx-auto px-4 py-3">
@@ -148,7 +153,7 @@ export default async function MatchPage({ params }: PageProps) {
           </ol>
         </div>
       </nav>
-      
+
       {/* Real-Time Credentials Banner */}
       <div className="bg-gradient-to-r from-gold-600/20 to-gold-500/20 border-b border-gold-500/30">
         <div className="max-w-7xl mx-auto px-4 py-6">
@@ -157,7 +162,7 @@ export default async function MatchPage({ params }: PageProps) {
               ⚡ INSTANT ACTIVATION - NO WAITING
             </div>
             <p className="text-white font-bold text-lg">
-              Your IPTV credentials are delivered in <span className="text-gold-400">real-time</span> - 
+              Your IPTV credentials are delivered in <span className="text-gold-400">real-time</span> -
               <span className="text-gold-400">access within 15 seconds</span> of signup!
             </p>
           </div>
@@ -168,7 +173,7 @@ export default async function MatchPage({ params }: PageProps) {
       <div className="bg-gradient-to-r from-black-800/30 via-gold-600/10 to-red-600/10 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="grid md:grid-cols-2 gap-6">
-            
+
             {/* Simple Alert Button */}
             <div className="flex justify-center mb-16">
               <button className="group bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 disabled:opacity-50">
@@ -177,7 +182,7 @@ export default async function MatchPage({ params }: PageProps) {
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </button>
             </div>
-            
+
             {/* Get Premium Access Section */}
             <div className="bg-gradient-to-br from-red-500/20 to-red-600/30 backdrop-blur-lg rounded-2xl p-6 border border-red-400/20 hover:border-red-400/40 transition-all duration-300 group">
               <div className="flex items-start gap-4">
@@ -189,7 +194,7 @@ export default async function MatchPage({ params }: PageProps) {
                     Premium IPTV Access
                   </h3>
                   <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-                    Unlock 8,000+ live channels, 50,000+ movies & shows with <span className="text-gold-400 font-bold">instant activation</span>. 
+                    Unlock 8,000+ live channels, 50,000+ movies & shows with <span className="text-gold-400 font-bold">instant activation</span>.
                     <span className="text-gold-400 font-bold">Real-time credential delivery</span> - no waiting period!
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -211,16 +216,19 @@ export default async function MatchPage({ params }: PageProps) {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
-      
+
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black-800/40 to-red-600/20"></div>
+
+        <ScarcityBanner />
+
         <div className="relative mx-auto max-w-7xl px-4 py-12">
-          
+
           {/* Live/Upcoming Badge */}
           <div className="mb-6 flex justify-center">
             {isLive ? (
@@ -256,23 +264,33 @@ export default async function MatchPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Countdown Timer */}
+          {/* Countdown Timer / Waiting Room */}
           {showCountdown && (
             <div className="mb-12">
               <div className="text-center mb-4">
-                <h2 className="text-2xl font-bold text-white mb-2">⏰ KICKOFF IN</h2>
+                <h2 className="text-2xl font-bold text-white mb-2">
+                  {timeToKickoff < 60 * 60 * 1000 ? '📡 ESTABLISHING CONNECTION' : '⏰ KICKOFF IN'}
+                </h2>
               </div>
               <div className="flex justify-center">
-                <div className="bg-black/50 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
-                  <Countdown to={kickoff.toISOString()} />
-                </div>
+                {timeToKickoff < 60 * 60 * 1000 ? (
+                  <WaitingRoom
+                    homeTeam={match.homeTeam as string}
+                    awayTeam={match.awayTeam as string}
+                    kickoffIso={kickoff.toISOString()}
+                  />
+                ) : (
+                  <div className="bg-black/50 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+                    <Countdown to={kickoff.toISOString()} />
+                  </div>
+                )}
               </div>
             </div>
           )}
 
           {/* Action Buttons - Centered Trial Section */}
           <div className="flex justify-center items-center mb-12">
-            <StartTrial slug={match.slug as unknown as string} />
+
           </div>
         </div>
       </div>
@@ -280,27 +298,24 @@ export default async function MatchPage({ params }: PageProps) {
       {/* Main Content Grid */}
       <div className="mx-auto max-w-7xl px-4 pb-12">
         <div className="grid lg:grid-cols-3 gap-8">
-          
+
           {/* Left Column - Match Info & Stats */}
           <div className="lg:col-span-2 space-y-8">
-            
+
             {/* Live Score Card (if live) */}
             {isLive && (
-              <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
-                <div className="text-center">
-                  <h3 className="text-white text-2xl font-bold mb-4">🔴 LIVE SCORE</h3>
-                  <div className="flex items-center justify-between text-white">
-                    <div className="text-center">
-                      <div className="text-xl font-bold">{match.homeTeam}</div>
-                      <div className="text-4xl font-black text-gold-400">-</div>
-                    </div>
-                    <div className="text-6xl font-black">VS</div>
-                    <div className="text-center">
-                      <div className="text-xl font-bold">{match.awayTeam}</div>
-                      <div className="text-4xl font-black text-red-400">-</div>
-                    </div>
+              <div className="mb-8">
+                <FakeVideoPlayer
+                  homeTeam={match.homeTeam as string}
+                  awayTeam={match.awayTeam as string}
+                />
+                <div className="mt-4 text-center">
+                  <h3 className="text-white text-2xl font-bold mb-2">🔴 LIVE MATCH</h3>
+                  <div className="flex items-center justify-center gap-4 text-white">
+                    <span className="font-bold text-xl">{match.homeTeam}</span>
+                    <span className="bg-red-600 px-3 py-1 rounded font-mono font-bold">LIVE</span>
+                    <span className="font-bold text-xl">{match.awayTeam}</span>
                   </div>
-                  <div className="mt-4 text-gold-400 font-bold">⚽ Live updates coming soon</div>
                 </div>
               </div>
             )}
@@ -678,7 +693,8 @@ export default async function MatchPage({ params }: PageProps) {
 
             {/* Highlights Section */}
             {match.scorebatEmbed && (
-              <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+              <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10 relative">
+                <FakeVideoPlayer homeTeam={match.homeTeam as string} awayTeam={match.awayTeam as string} />
                 <h3 className="text-white text-2xl font-bold mb-4 flex items-center gap-2">
                   🎬 Official Highlights
                 </h3>
@@ -691,37 +707,9 @@ export default async function MatchPage({ params }: PageProps) {
 
           {/* Right Column - Sidebar */}
           <div className="space-y-6">
-            
+
             {/* Live Chat/Comments */}
-            <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
-              <h3 className="text-white text-xl font-bold mb-4 flex items-center gap-2">
-                💬 Live Discussion
-              </h3>
-              <div className="space-y-3 max-h-96 overflow-y-auto">
-                <div className="bg-gray-800/50 rounded-lg p-3">
-                  <div className="text-gold-400 font-bold text-sm">FanBoy23</div>
-                  <div className="text-white text-sm">This is going to be epic! 🔥</div>
-                  <div className="text-gray-400 text-xs mt-1">2 min ago</div>
-                </div>
-                <div className="bg-gray-800/50 rounded-lg p-3">
-                  <div className="text-red-400 font-bold text-sm">SoccerExpert</div>
-                  <div className="text-white text-sm">Home team has the advantage</div>
-                  <div className="text-gray-400 text-xs mt-1">5 min ago</div>
-                </div>
-                <div className="bg-gray-800/50 rounded-lg p-3">
-                  <div className="text-gold-400 font-bold text-sm">GoalMachine</div>
-                  <div className="text-white text-sm">Expecting 3+ goals tonight!</div>
-                  <div className="text-gray-400 text-xs mt-1">8 min ago</div>
-                </div>
-              </div>
-              <div className="mt-4 pt-4 border-t border-gray-700">
-                <input 
-                  type="text" 
-                  placeholder="Join the conversation..." 
-                  className="w-full bg-gray-800/50 border border-gray-600 rounded-lg px-3 py-2 text-white placeholder-gray-400 focus:border-gold-500 focus:outline-none"
-                />
-              </div>
-            </div>
+            <FakeLiveChat />
 
             {/* Match Predictions */}
             <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
@@ -738,7 +726,7 @@ export default async function MatchPage({ params }: PageProps) {
                     <span className="text-red-400">Away: 30%</span>
                   </div>
                   <div className="mt-2 h-2 bg-gray-700 rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-gold-500 via-gray-500 to-red-500" style={{background: 'linear-gradient(to right, #eab308 45%, #6b7280 45% 70%, #ef4444 70%)'}}></div>
+                    <div className="h-full bg-gradient-to-r from-gold-500 via-gray-500 to-red-500" style={{ background: 'linear-gradient(to right, #eab308 45%, #6b7280 45% 70%, #ef4444 70%)' }}></div>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -767,7 +755,7 @@ export default async function MatchPage({ params }: PageProps) {
       {/* Related Matches - Full Width Bottom Section */}
       <div className="w-full mt-12">
         <Suspense fallback={<div className="text-gray-400 text-center py-8">Loading related content...</div>}>
-          <InternalLinking 
+          <InternalLinking
             currentMatch={{
               slug: match.slug as string,
               homeTeam: match.homeTeam as string,
@@ -789,6 +777,8 @@ export default async function MatchPage({ params }: PageProps) {
           </button>
         </div>
       )}
+
+      <SalesPopup />
     </div>
   )
 }

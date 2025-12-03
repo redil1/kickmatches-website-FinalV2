@@ -13,7 +13,7 @@
     "snapshot": "tsx src/scripts/snapshotApi.ts",
     "populate:trending": "npx tsx src/scripts/populateTrendingPlayers.ts",
     "seed:email-templates": "npx tsx src/scripts/seedEmailTemplates.ts",
-  "seed:matches": "npx tsx src/scripts/seedMatches.ts",
+    "seed:matches": "npx tsx src/scripts/seedMatches.ts",
     "test:email": "npx tsx src/scripts/testEmailNotifications.ts"
   },
   "dependencies": {
@@ -23,7 +23,9 @@
     "date-fns": "^4.1.0",
     "drizzle-kit": "^0.31.4",
     "drizzle-orm": "^0.44.4",
-  "ioredis": "^5.7.0",
+    "framer-motion": "^12.23.25",
+    "got-scraping": "^4.1.2",
+    "ioredis": "^5.7.0",
     "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "node-cron": "^3.0.3",

@@ -10,6 +10,8 @@ create table if not exists public.matches (
   league text,
   kickoff_iso timestamptz not null,
   status text check (status in ('scheduled','live','halftime','finished')) default 'scheduled',
+  home_score integer,
+  away_score integer,
   stripe_payment_link text,
   trial_link text,
   scorebat_embed text

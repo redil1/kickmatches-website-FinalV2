@@ -2,13 +2,13 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  connectionString: 'postgresql://kickai:kickai@localhost:5432/kickai_matches'
+  connectionString: 'postgresql://kickai:kickai@localhost:5433/kickai_matches'
 });
 
 async function testDatabase() {
   try {
     console.log('Testing database connection...');
-    
+
     const result = await pool.query(`
       SELECT 
         p.id,
@@ -24,15 +24,15 @@ async function testDatabase() {
       ORDER BY tp.rating DESC
       LIMIT 3
     `);
-    
+
     console.log('Query successful, found', result.rows.length, 'players');
     if (result.rows.length > 0) {
       console.log('Sample data:', JSON.stringify(result.rows[0], null, 2));
     }
-    
+
     await pool.end();
   } catch (error) {
-    console.error('Database test failed:', error.message);
+    console.error('Database test failed:', error);
     await pool.end();
   }
 }

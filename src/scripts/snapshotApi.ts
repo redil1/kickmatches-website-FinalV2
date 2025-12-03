@@ -3,7 +3,7 @@ import path from 'node:path'
 
 type Json = any
 
-const API_BASE = (process.env.API_BASE || 'http://69.197.168.221:8004').replace(/\/$/, '')
+const API_BASE = (process.env.API_BASE || 'http://155.117.46.251:8004').replace(/\/$/, '')
 const REQUEST_TIMEOUT = Number(process.env.REQUEST_TIMEOUT || 20_000)
 const MAX_EVENTS = Number(process.env.MAX_EVENTS || 6)
 const MAX_PLAYERS_PER_EVENT = Number(process.env.MAX_PLAYERS_PER_EVENT || 6)
@@ -57,7 +57,7 @@ function extractPlayersFromLineups(lineups: Json): number[] {
         }
       }
     }
-  } catch {}
+  } catch { }
   // dedupe and clamp
   const seen = new Set<number>()
   const out: number[] = []
@@ -129,7 +129,7 @@ export async function runSnapshot(): Promise<{ root: string; indexPath: string }
         const videos = await jget(`${API_BASE}/football/tournament/videos`, { tournament_id: tId })
         record('/football/tournament/videos', saveJson(root, `tournaments/${tId}/videos.json`, videos), `tournament_id=${tId}`)
       }
-    } catch {}
+    } catch { }
 
     // player bundles
     const pids = extractPlayersFromLineups(lineups)
@@ -185,7 +185,7 @@ export async function runSnapshotAndRevalidate() {
         body: JSON.stringify({ secret, ...body })
       })
     }
-  } catch {}
+  } catch { }
   return indexPath
 }
 

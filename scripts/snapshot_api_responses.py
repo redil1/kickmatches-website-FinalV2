@@ -37,7 +37,7 @@ import requests
 # -----------------
 # Config
 # -----------------
-API_BASE = os.environ.get("API_BASE", "http://69.197.168.221:8004").rstrip("/")
+API_BASE = os.environ.get("API_BASE", "http://155.117.46.251:8004").rstrip("/")
 REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "20"))
 MAX_EVENTS = int(os.environ.get("MAX_EVENTS", "6"))
 MAX_PLAYERS_PER_EVENT = int(os.environ.get("MAX_PLAYERS_PER_EVENT", "6"))

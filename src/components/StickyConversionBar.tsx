@@ -43,7 +43,7 @@ export default function StickyConversionBar() {
       <div className="bg-gradient-to-r from-red-500 to-pink-600 text-white shadow-2xl border-t-2 border-yellow-400">
         <div className="container mx-auto px-4 py-3">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            
+
             {/* Left side - Offer text */}
             <div className="flex items-center gap-4 text-center md:text-left">
               <div className="text-2xl animate-pulse">🔥</div>
@@ -77,12 +77,7 @@ export default function StickyConversionBar() {
 
             {/* Right side - CTA buttons */}
             <div className="flex items-center gap-3">
-              <a
-                href="/trial"
-                className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105"
-              >
-                🎯 FREE TRIAL
-              </a>
+
               <a
                 href="/pricing"
                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white px-6 py-2 rounded-xl font-bold text-sm transition-all duration-300 border border-white/30"

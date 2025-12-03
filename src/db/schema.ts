@@ -35,6 +35,8 @@ export const matches = pgTable('matches', {
   league: text('league'),
   kickoffIso: timestamp('kickoff_iso', { withTimezone: true }).notNull(),
   status: text('status').default('scheduled'),
+  homeScore: integer('home_score'),
+  awayScore: integer('away_score'),
   stripePaymentLink: text('stripe_payment_link'),
   trialLink: text('trial_link'),
   scorebatEmbed: text('scorebat_embed')

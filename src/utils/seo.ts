@@ -28,7 +28,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
   const isUpcoming = new Date() < kickoff
   const matchDate = format(kickoff, 'PPP')
   const matchTime = format(kickoff, 'p')
-  
+
   // Generate semantic keywords
   const keywords = [
     `${match.homeTeam} vs ${match.awayTeam}`,
@@ -51,17 +51,17 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
     isLive ? 'live now' : isUpcoming ? 'upcoming match' : 'match highlights'
   ]
 
-  const title = isLive 
+  const title = isLive
     ? `🔴 LIVE: ${match.homeTeam} vs ${match.awayTeam} | ${match.league} Live Stream Free`
-    : isUpcoming 
-    ? `Watch ${match.homeTeam} vs ${match.awayTeam} Live | ${match.league} Free IPTV Trial`
-    : `${match.homeTeam} vs ${match.awayTeam} Highlights | ${match.league} Premium IPTV`
+    : isUpcoming
+      ? `Watch ${match.homeTeam} vs ${match.awayTeam} Live | ${match.league} Free IPTV Trial`
+      : `${match.homeTeam} vs ${match.awayTeam} Highlights | ${match.league} Premium IPTV`
 
   const description = isLive
     ? `Watch ${match.homeTeam} vs ${match.awayTeam} LIVE NOW in 4K quality! ${match.league} live stream with instant access. Premium IPTV streaming - no credit card required.`
     : isUpcoming
-    ? `Watch ${match.homeTeam} vs ${match.awayTeam} live on ${matchDate} at ${matchTime}. Premium ${match.league} streaming in 4K. Free 12-hour IPTV trial - instant access!`
-    : `Watch ${match.homeTeam} vs ${match.awayTeam} full match highlights. ${match.league} premium coverage with 4K quality and expert commentary.`
+      ? `Watch ${match.homeTeam} vs ${match.awayTeam} live on ${matchDate} at ${matchTime}. Premium ${match.league} streaming in 4K. Free 12-hour IPTV trial - instant access!`
+      : `Watch ${match.homeTeam} vs ${match.awayTeam} full match highlights. ${match.league} premium coverage with 4K quality and expert commentary.`
 
   const canonicalUrl = `${baseUrl}/watch/${match.slug}`
 
@@ -96,9 +96,9 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
           sport: 'Association Football',
           memberOf: {
             '@type': 'SportsOrganization',
-            name: match.homeTeam.includes('Inter Miami') ? 'Major League Soccer' : 
-                  match.homeTeam.includes('FC Barcelona') ? 'La Liga' : 
-                  match.homeTeam.includes('Manchester') ? 'Premier League' : 'Professional Football League'
+            name: match.homeTeam.includes('Inter Miami') ? 'Major League Soccer' :
+              match.homeTeam.includes('FC Barcelona') ? 'La Liga' :
+                match.homeTeam.includes('Manchester') ? 'Premier League' : 'Professional Football League'
           },
           athlete: match.homeTeam.includes('Inter Miami') ? [
             {
@@ -108,14 +108,14 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
               nationality: 'Argentina'
             },
             {
-              '@type': 'Person', 
+              '@type': 'Person',
               name: 'Jordi Alba',
               jobTitle: 'Defender',
               nationality: 'Spain'
             },
             {
               '@type': 'Person',
-              name: 'Sergio Busquets', 
+              name: 'Sergio Busquets',
               jobTitle: 'Midfielder',
               nationality: 'Spain'
             }
@@ -139,9 +139,9 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
           sport: 'Association Football',
           memberOf: {
             '@type': 'SportsOrganization',
-            name: match.awayTeam.includes('Tigres') ? 'Liga MX' : 
-                  match.awayTeam.includes('Real Madrid') ? 'La Liga' : 
-                  match.awayTeam.includes('Liverpool') ? 'Premier League' : 'Professional Football League'
+            name: match.awayTeam.includes('Tigres') ? 'Liga MX' :
+              match.awayTeam.includes('Real Madrid') ? 'La Liga' :
+                match.awayTeam.includes('Liverpool') ? 'Premier League' : 'Professional Football League'
           },
           athlete: match.awayTeam.includes('Tigres') ? [
             {
@@ -153,7 +153,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
             {
               '@type': 'Person',
               name: 'Nahuel Guzmán',
-              jobTitle: 'Goalkeeper', 
+              jobTitle: 'Goalkeeper',
               nationality: 'Argentina'
             },
             {
@@ -182,7 +182,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
             sport: 'Football'
           },
           {
-            '@type': 'SportsTeam', 
+            '@type': 'SportsTeam',
             name: match.awayTeam,
             sport: 'Football'
           }
@@ -207,7 +207,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
       videoFormat: 'application/x-mpegURL',
       encodingFormat: 'video/mp4',
       embedUrl: canonicalUrl,
-      broadcastDisplayName: `${match.homeTeam} vs ${match.awayTeam} - ${match.league}`,
+      broadcastDisplayName: `🔴 LIVE: ${match.homeTeam} vs ${match.awayTeam} - Free Stream`,
       broadcaster: {
         '@type': 'Organization',
         name: 'Kick AI of Matches',
@@ -215,7 +215,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
         logo: `${baseUrl}/logo.png`
       }
     },
-    
+
     // VideoObject Schema
     {
       '@context': 'https://schema.org',
@@ -285,7 +285,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
             item: baseUrl
           },
           {
-            '@type': 'ListItem', 
+            '@type': 'ListItem',
             position: 2,
             name: 'Live Matches',
             item: `${baseUrl}/live`
@@ -347,7 +347,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
           }
         },
         {
-          '@type': 'ListItem', 
+          '@type': 'ListItem',
           position: 2,
           item: {
             '@type': 'Person',
@@ -381,7 +381,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
     {
       '@context': 'https://schema.org',
       '@type': 'ItemList',
-      '@id': `${canonicalUrl}#lineup-away`, 
+      '@id': `${canonicalUrl}#lineup-away`,
       name: `${match.awayTeam} Starting Lineup`,
       description: `Starting eleven and formation for ${match.awayTeam} in today's match`,
       itemListElement: match.awayTeam.includes('Tigres') ? [
@@ -396,7 +396,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
         },
         {
           '@type': 'ListItem',
-          position: 2, 
+          position: 2,
           item: {
             '@type': 'Person',
             name: 'Diego Reyes',
@@ -407,7 +407,7 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
           '@type': 'ListItem',
           position: 3,
           item: {
-            '@type': 'Person', 
+            '@type': 'Person',
             name: 'André-Pierre Gignac',
             jobTitle: 'Forward'
           }
@@ -436,9 +436,9 @@ export function generateMatchSEO(match: MatchData, baseUrl: string): SEOData {
       endDate: new Date(kickoff.getTime() + 120 * 60 * 1000).toISOString(),
       organizer: {
         '@type': 'SportsOrganization',
-        name: match.league.includes('Champions League') ? 'UEFA' : 
-              match.league.includes('Leagues Cup') ? 'CONCACAF' : 
-              match.league.includes('Premier League') ? 'Premier League' : 'Football Association'
+        name: match.league.includes('Champions League') ? 'UEFA' :
+          match.league.includes('Leagues Cup') ? 'CONCACAF' :
+            match.league.includes('Premier League') ? 'Premier League' : 'Football Association'
       },
       location: {
         '@type': 'StadiumOrArena',

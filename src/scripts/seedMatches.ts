@@ -12,7 +12,7 @@ type ScheduledEvent = {
   awayTeam?: { name?: string }
 }
 
-const API_BASE = (process.env.API_BASE || 'http://69.197.168.221:8004').replace(/\/$/, '')
+const API_BASE = (process.env.API_BASE || 'http://155.117.46.251:8004').replace(/\/$/, '')
 const DAYS_AHEAD = Number(process.env.SEED_MATCHES_DAYS_AHEAD || 14)
 const SCOREBAT_TIMEOUT_MS = Number(process.env.SCOREBAT_TIMEOUT_MS || 8000)
 

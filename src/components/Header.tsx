@@ -23,9 +23,9 @@ const Header = () => {
     { href: '/upcoming', label: 'Upcoming' },
     { href: '/leagues', label: 'Leagues' },
     { href: '/teams', label: 'Teams' },
-  { href: '/players/trending', label: 'Players' },
+    { href: '/players/trending', label: 'Players' },
     { href: '/matches', label: 'All Matches' },
-    { href: '/trial', label: 'Free Trial' },
+
   ];
 
   const isActive = (href: string) => {
@@ -34,10 +34,10 @@ const Header = () => {
   };
 
   const handlePremiumAccess = () => {
-  const url = process.env.NEXT_PUBLIC_PRICING_URL || 'https://www.iptv.shopping/pricing'
-  // Simple tracking push
-  try { (window as any).dataLayer = (window as any).dataLayer || []; (window as any).dataLayer.push({ event: 'cta_click', cta: 'premium_header' }) } catch(e) {}
-  window.location.href = url;
+    const url = process.env.NEXT_PUBLIC_PRICING_URL || 'https://www.iptv.shopping/pricing'
+    // Simple tracking push
+    try { (window as any).dataLayer = (window as any).dataLayer || []; (window as any).dataLayer.push({ event: 'cta_click', cta: 'premium_header' }) } catch (e) { }
+    window.location.href = url;
   };
 
   return (
@@ -64,7 +64,7 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-            
+
             {/* Premium Access Button */}
             <button
               onClick={handlePremiumAccess}
@@ -99,7 +99,7 @@ const Header = () => {
                   {link.label}
                 </Link>
               ))}
-              
+
               {/* Mobile Premium Access Button */}
               <button
                 onClick={() => {
@@ -115,8 +115,8 @@ const Header = () => {
           </div>
         )}
       </div>
-  {/* aria-live region for announcements */}
-  <div id="site-announcements" aria-live="polite" className="sr-only" />
+      {/* aria-live region for announcements */}
+      <div id="site-announcements" aria-live="polite" className="sr-only" />
     </header>
   );
 };

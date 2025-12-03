@@ -20,12 +20,12 @@ export default function SocialProofNotifications() {
     {
       id: '1',
       type: 'signup',
-      message: 'John from New York just started his free trial',
+      message: 'John from New York just upgraded to Premium',
       location: 'New York, NY',
       time: '2 minutes ago'
     },
     {
-      id: '2', 
+      id: '2',
       type: 'watching',
       message: 'Sarah from London is watching Premier League live',
       location: 'London, UK',
@@ -75,7 +75,7 @@ export default function SocialProofNotifications() {
 
   useEffect(() => {
     setMounted(true)
-    
+
     const showNotification = () => {
       const randomNotification = notifications[Math.floor(Math.random() * notifications.length)]
       setCurrentNotification(randomNotification)
@@ -130,26 +130,25 @@ export default function SocialProofNotifications() {
   return (
     <ClientOnly>
       {mounted && currentNotification && (
-        <div className={`fixed bottom-6 left-6 z-40 transition-all duration-500 transform ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
-        }`}>
+        <div className={`fixed bottom-6 left-6 z-40 transition-all duration-500 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
+          }`}>
           <div className={`bg-gradient-to-r ${getColor(currentNotification.type)} backdrop-blur-lg rounded-2xl p-4 border border-white/20 shadow-2xl max-w-sm`}>
             <div className="flex items-start gap-3">
               <div className="text-2xl flex-shrink-0">
                 {getIcon(currentNotification.type)}
               </div>
-              
+
               <div className="flex-1 min-w-0">
                 <p className="text-white font-semibold text-sm leading-tight">
                   {currentNotification.message}
                 </p>
-                
+
                 {currentNotification.location && (
                   <div className="flex items-center gap-2 mt-1">
                     <span className="text-white/80 text-xs">📍 {currentNotification.location}</span>
                   </div>
                 )}
-                
+
                 {currentNotification.time && (
                   <p className="text-white/60 text-xs mt-1">
                     {currentNotification.time}
