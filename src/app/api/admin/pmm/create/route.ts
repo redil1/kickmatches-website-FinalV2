@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { queues } from '@/worker/queue'
 
-export async function POST(req: NextRequest) {
+async function handleRequest(req: NextRequest) {
   // In dev, allow without secret for convenience
   const isDev = process.env.NODE_ENV !== 'production'
 
@@ -20,4 +20,12 @@ export async function POST(req: NextRequest) {
 
   await queues.create.add('tick', {}, { removeOnComplete: true })
   return NextResponse.json({ ok: true, enqueued: 'pmm-create:tick' })
+}
+
+export async function POST(req: NextRequest) {
+  return handleRequest(req)
+}
+
+export async function GET(req: NextRequest) {
+  return handleRequest(req)
 }
