@@ -54,76 +54,14 @@ async function pmmCreateHandler() {
 
   console.log(`📊 Total events collected: ${allEvents.length}`)
 
-  // Top leagues mapping by tournament name
-  const topLeagues = new Set([
-    // English leagues
-    'Premier League',
-    'Championship',
-    'League One',
-    'League Two',
-    'FA Cup',
-    'EFL Cup',
-    'Community Shield',
-
-    // Spanish leagues
-    'La Liga',
-    'Segunda División',
-    'Copa del Rey',
-
-    // Italian leagues
-    'Serie A',
-    'Serie B',
-    'Coppa Italia',
-
-    // German leagues
-    'Bundesliga',
-    '2. Bundesliga',
-    'DFB Pokal',
-
-    // French leagues
-    'Ligue 1',
-    'Ligue 2',
-    'Coupe de France',
-
-    // European competitions
-    'Champions League',
-    'Europa League',
-    'Europa Conference League',
-
-    // Dutch leagues
-    'VriendenLoterij Eredivisie',
-    'Keuken Kampioen Divisie',
-    'KNVB Cup',
-
-    // Portuguese leagues
-    'Liga Portugal Betclic',
-    'Liga Portugal 2',
-    'Taça de Portugal',
-
-    // Other major leagues
-    'Scottish Premiership',
-    'Belgian Pro League',
-    'Turkish Süper Lig',
-    'Russian Premier League',
-    'Ukrainian Premier League'
-  ])
-
-  console.log(`🎯 Filtering for ${topLeagues.size} supported tournaments`)
-
   // Track tournament statistics
   const tournamentStats = new Map()
-  const filteredTournaments = new Set()
 
   for (const event of allEvents) {
     const tournamentName = event.tournament?.name
 
     // Track all tournaments we see
     tournamentStats.set(tournamentName, (tournamentStats.get(tournamentName) || 0) + 1)
-
-    if (!topLeagues.has(tournamentName)) {
-      filteredTournaments.add(tournamentName)
-      continue
-    }
 
     // Only process upcoming/scheduled matches
     if (event.status?.type !== 'notstarted' && event.status?.code !== 0) continue
@@ -176,16 +114,10 @@ async function pmmCreateHandler() {
 
   // Log tournament statistics
   console.log('\n📊 Tournament Statistics:')
-  console.log('✅ Included tournaments:')
+  console.log(`✅ Processed ${tournamentStats.size} tournaments:`)
   Array.from(tournamentStats.entries())
-    .filter(([name]) => topLeagues.has(name))
     .sort((a, b) => b[1] - a[1])
     .forEach(([name, count]) => console.log(`  - ${name}: ${count} events`))
-
-  console.log('\n❌ Filtered out tournaments:')
-  Array.from(filteredTournaments)
-    .sort()
-    .forEach(name => console.log(`  - ${name}: ${tournamentStats.get(name)} events`))
 
   console.log('\n✅ PMM Create Handler completed - all fixtures processed!')
 }
