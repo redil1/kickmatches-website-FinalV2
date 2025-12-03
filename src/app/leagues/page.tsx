@@ -48,7 +48,7 @@ async function getFeaturedLeagues(limit: number) {
       order by c desc nulls last
       limit ${limit}
     `)
-  return (rows as any).rows.map((r: any) => ({ name: r.league as string, count: Number(r.c || 0), slug: (r.league || '').toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'') }))
+    return (rows as any).rows.map((r: any) => ({ name: r.league as string, count: Number(r.c || 0), slug: (r.league || '').toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '') }))
   } catch (err) {
     console.error('Error loading featured leagues:', err)
     return []
@@ -79,7 +79,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ p
   const itemListJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-  itemListElement: items.map((name: string, idx: number) => ({
+    itemListElement: items.map((name: string, idx: number) => ({
       '@type': 'ListItem',
       position: (page - 1) * pageSize + idx + 1,
       url: `${baseUrl}/leagues/${slugify(name)}`,
@@ -135,8 +135,8 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ p
             Fixtures, live streams, and results for the top football leagues. Start your free trial and be ready before kick-off.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href={trialUrl} className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-5 py-3 font-bold text-black shadow hover:from-gold-600 hover:to-gold-700">
-              {variant === 'A' ? 'Start Free Trial' : 'Unlock Premium Access'}
+            <a href="https://www.iptv.shopping/pricing" className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-5 py-3 font-bold text-black shadow hover:from-gold-600 hover:to-gold-700">
+              Get premium access instantly
             </a>
             <a href={pricingUrl} className="inline-flex items-center justify-center rounded-lg border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/10">
               {variant === 'A' ? 'Explore Matches' : 'See What’s Live'}
@@ -165,14 +165,14 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ p
         </ul>
       </section>
 
-    {/* Directory with search, thumbnails and prioritized CTAs */}
-    <DirectoryFilter items={items} type="league" baseUrl={baseUrl} />
+      {/* Directory with search, thumbnails and prioritized CTAs */}
+      <DirectoryFilter items={items} type="league" baseUrl={baseUrl} />
 
       {/* Pagination */}
       <nav className="flex items-center justify-center gap-2">
-        <a className={`px-3 py-1 rounded border border-gray-800 text-sm ${page<=1?'opacity-50 pointer-events-none':''}`} href={`/leagues?page=${page-1}`}>Prev</a>
+        <a className={`px-3 py-1 rounded border border-gray-800 text-sm ${page <= 1 ? 'opacity-50 pointer-events-none' : ''}`} href={`/leagues?page=${page - 1}`}>Prev</a>
         <span className="text-xs text-gray-400">Page {page} of {pages}</span>
-        <a className={`px-3 py-1 rounded border border-gray-800 text-sm ${page>=pages?'opacity-50 pointer-events-none':''}`} href={`/leagues?page=${page+1}`}>Next</a>
+        <a className={`px-3 py-1 rounded border border-gray-800 text-sm ${page >= pages ? 'opacity-50 pointer-events-none' : ''}`} href={`/leagues?page=${page + 1}`}>Next</a>
       </nav>
 
       {/* Conversion Footer */}
@@ -180,8 +180,8 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ p
         <h3 className="text-xl font-bold text-white">Ready to watch?</h3>
         <p className="mt-1 text-gray-300">Start your free trial and unlock premium streams in under a minute.</p>
         <div className="mt-4">
-          <a href="/trial" className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-5 py-3 font-bold text-black shadow hover:from-gold-600 hover:to-gold-700">
-            Start Free Trial
+          <a href="https://www.iptv.shopping/pricing" className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-5 py-3 font-bold text-black shadow hover:from-gold-600 hover:to-gold-700">
+            Get premium access instantly
           </a>
         </div>
       </section>

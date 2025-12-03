@@ -72,7 +72,7 @@ async function UpcomingMatches() {
       ORDER BY kickoff_iso ASC 
       LIMIT 50
     `)
-    
+
     const upcomingMatches = result.rows.map(row => ({
       id: row.id,
       slug: row.slug,
@@ -147,7 +147,7 @@ async function UpcomingMatches() {
                         </span>
                       )}
                     </div>
-                    
+
                     <div className="text-center mb-4">
                       <h4 className="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors">
                         {match.homeTeam}
@@ -157,7 +157,7 @@ async function UpcomingMatches() {
                         {match.awayTeam}
                       </h4>
                     </div>
-                    
+
                     <div className="text-center space-y-2">
                       <div className="text-gold-400 font-bold">
                         {format(kickoff, 'h:mm a')}
@@ -190,7 +190,7 @@ async function UpcomingMatches() {
       name: error instanceof Error ? error.name : 'Unknown',
       cause: error instanceof Error ? error.cause : 'No cause'
     })
-    
+
     // Test basic database connectivity
     try {
       const testQuery = await pool.query('SELECT 1 as test')
@@ -198,7 +198,7 @@ async function UpcomingMatches() {
     } catch (dbError) {
       console.error('Database connectivity test failed:', dbError)
     }
-    
+
     return (
       <div className="text-center py-12">
         <div className="text-6xl mb-4">⚠️</div>
@@ -253,12 +253,12 @@ export default function UpcomingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black-900 via-black-800 to-black-900">
       <MetricBeacon event="upcoming_page_view" />
-      
+
       {/* Structured Data */}
       <Script id="upcoming-structured-data" type="application/ld+json">
         {JSON.stringify(structuredData)}
       </Script>
-      
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-black/20 backdrop-blur-sm border-b border-white/10" aria-label="Breadcrumb">
         <div className="max-w-7xl mx-auto px-4 py-3">
@@ -279,7 +279,7 @@ export default function UpcomingPage() {
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-gold-500/10 to-red-600/10"></div>
-        
+
         <div className="relative mx-auto max-w-7xl px-4 py-16">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
@@ -291,19 +291,19 @@ export default function UpcomingPage() {
                 Football Matches
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Never miss a match! Browse upcoming fixtures from <span className="text-gold-400 font-bold">Premier League, Champions League, La Liga</span> and more. 
+              Never miss a match! Browse upcoming fixtures from <span className="text-gold-400 font-bold">Premier League, Champions League, La Liga</span> and more.
               <span className="text-gold-400 font-bold">Set reminders and get instant access</span> to premium IPTV streaming.
             </p>
 
             {/* CTA Section */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
               <Link
-                href="/trial"
+                href="https://www.iptv.shopping/pricing"
                 className="bg-gradient-to-r from-gold-500 to-gold-600 text-black px-8 py-4 rounded-xl font-bold text-lg hover:from-gold-600 hover:to-gold-700 transition-all transform hover:scale-105 shadow-2xl"
               >
-                ⚡ Start Free Trial
+                Get premium access instantly
               </Link>
               <Link
                 href="/live"
@@ -346,11 +346,11 @@ export default function UpcomingPage() {
             Ready to Watch Every Match?
           </h2>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Get instant access to all upcoming matches with our premium IPTV service. 
+            Get instant access to all upcoming matches with our premium IPTV service.
             Real-time credentials delivered within 15 seconds!
           </p>
           <Link
-            href="/trial"
+            href="https://www.iptv.shopping/pricing"
             className="bg-gradient-to-r from-gold-500 to-gold-600 text-black px-12 py-6 rounded-2xl font-black text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-gold-500/25 inline-flex items-center gap-3"
           >
             ⚡ GET INSTANT ACCESS NOW
