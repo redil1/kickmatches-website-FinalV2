@@ -8,6 +8,7 @@ WORKDIR /app
 # Copy package files
 COPY package.json package-lock.json* pnpm-lock.yaml* ./
 
+# Cache bust: 2025-12-03-22:18 - dotenv added to deps
 # Install dependencies
 RUN \
   if [ -f pnpm-lock.yaml ]; then \
