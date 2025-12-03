@@ -9,7 +9,13 @@ async function handleRequest(req: NextRequest) {
   const url = new URL(req.url)
   const headerSecret = req.headers.get('x-admin-secret')
   const querySecret = url.searchParams.get('secret')
-  const bodySecret = (await req.json().catch(() => ({})))?.secret
+
+  // Only try to read body for POST requests
+  let bodySecret = null
+  if (req.method === 'POST') {
+    bodySecret = (await req.json().catch(() => ({})))?.secret
+  }
+
   const secret = headerSecret || querySecret || bodySecret
 
   if (!isDev) {
