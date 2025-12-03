@@ -80,6 +80,8 @@ COPY --chown=nextjs:nodejs ./src/services ./src/services
 COPY --chown=nextjs:nodejs ./src/utils ./src/utils
 COPY --chown=nextjs:nodejs ./init.sql ./init.sql
 COPY --chown=nextjs:nodejs ./drizzle.config.ts ./drizzle.config.ts
+COPY --from=builder /app/tsconfig.json ./tsconfig.json
+COPY --from=builder /app/next.config.ts ./next.config.ts
 
 # Copy package.json for dependencies
 COPY --from=builder /app/package.json ./package.json
