@@ -38,7 +38,8 @@
     "redis": "^5.8.0",
     "tsx": "^4.20.3",
     "web-push": "^3.6.7",
-    "zod": "^4.0.17"
+    "zod": "^4.0.17",
+    "dotenv": "^17.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -49,7 +50,6 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/web-push": "^3.6.4",
-    "dotenv": "^17.2.1",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
     "tailwindcss": "^4",
