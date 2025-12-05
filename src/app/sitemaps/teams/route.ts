@@ -41,6 +41,18 @@ export async function GET() {
     const urls = [createSitemapUrl('/teams')]
     const currentYear = new Date().getFullYear()
 
+    // Pre-calculate opponents map for O(1) lookup
+    const opponentsMap = new Map<string, Set<string>>()
+    matchups.forEach((m: any) => {
+      if (m.home_team && m.away_team) {
+        if (!opponentsMap.has(m.home_team)) opponentsMap.set(m.home_team, new Set())
+        if (!opponentsMap.has(m.away_team)) opponentsMap.set(m.away_team, new Set())
+
+        opponentsMap.get(m.home_team)?.add(m.away_team)
+        opponentsMap.get(m.away_team)?.add(m.home_team)
+      }
+    })
+
     teams.forEach(t => {
       const slug = slugify(t)
       const base = createSitemapUrl(`/teams/${slug}`)
@@ -59,16 +71,13 @@ export async function GET() {
       )
 
       // VS Pages (Find opponents for this team)
-      const opponents = new Set<string>()
-      matchups.forEach((m: any) => {
-        if (m.home_team === t) opponents.add(m.away_team)
-        if (m.away_team === t) opponents.add(m.home_team)
-      })
-
-      opponents.forEach(opp => {
-        const oppSlug = slugify(opp)
-        urls.push(`${base}/vs/${oppSlug}`)
-      })
+      const opponents = opponentsMap.get(t)
+      if (opponents) {
+        opponents.forEach(opp => {
+          const oppSlug = slugify(opp)
+          urls.push(`${base}/vs/${oppSlug}`)
+        })
+      }
     })
 
     const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url>\n    <loc>${xmlEscape(u)}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.5</priority>\n  </url>`).join('\n')}\n</urlset>`
