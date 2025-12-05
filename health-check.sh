@@ -35,7 +35,7 @@ check_postgresql() {
     fi
     
     # Check if PostgreSQL is accepting connections
-    if ! pg_isready -h localhost -p 5432 -U kickai > /dev/null 2>&1; then
+    if ! pg_isready -h localhost -p 5432 -U kickai -d kickai_matches > /dev/null 2>&1; then
         log_error "PostgreSQL is not accepting connections"
         return 1
     fi
