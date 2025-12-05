@@ -5,114 +5,30 @@
 
 set -e
 
-# Logging functions
+# Direct logging to container stdout (PID 1) to ensure visibility in Coolify
+LOG_OUTPUT="/proc/1/fd/1"
+
 log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] $1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] $1" > "$LOG_OUTPUT"
 }
 
 log_success() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✓ $1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✓ $1" > "$LOG_OUTPUT"
 }
 
 log_error() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✗ $1" >&2
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✗ $1" > "$LOG_OUTPUT"
 }
 
 log_warning() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ⚠ $1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ⚠ $1" > "$LOG_OUTPUT"
 }
 
 # PostgreSQL data directory
 PGDATA="/var/lib/postgresql/data"
 
-# Function to wait for PostgreSQL to be ready
-wait_for_postgres_ready() {
-    local max_attempts=30
-    local attempt=1
-    
-    log "Waiting for PostgreSQL to be ready..."
-    
-    while [ $attempt -le $max_attempts ]; do
-        if su-exec postgres pg_isready -d postgres >/dev/null 2>&1; then
-            log_success "PostgreSQL is ready!"
-            return 0
-        fi
-        
-        log "Attempt $attempt/$max_attempts: PostgreSQL not ready yet, waiting..."
-        sleep 2
-        attempt=$((attempt + 1))
-    done
-    
-    log_error "PostgreSQL failed to become ready within expected time"
-    return 1
-}
-
-# Function to create user and database with retry logic
-create_user_and_database() {
-    local max_attempts=3
-    local attempt=1
-    
-    log "Creating application user and database..."
-    
-    # Create user with retry
-    while [ $attempt -le $max_attempts ]; do
-        if su-exec postgres psql -c "CREATE USER kickai WITH SUPERUSER PASSWORD 'kickai';" >/dev/null 2>&1; then
-            log_success "User kickai created successfully"
-            break
-        elif su-exec postgres psql -c "SELECT 1 FROM pg_user WHERE usename = 'kickai';" | grep -q "1 row"; then
-            log_warning "User kickai already exists, continuing..."
-            break
-        else
-            log_warning "Failed to create user kickai, attempt $attempt/$max_attempts"
-            if [ $attempt -lt $max_attempts ]; then
-                sleep 2
-            fi
-        fi
-        attempt=$((attempt + 1))
-    done
-    
-    # Create database with retry
-    attempt=1
-    while [ $attempt -le $max_attempts ]; do
-        if su-exec postgres psql -c "CREATE DATABASE kickai_matches OWNER kickai;" >/dev/null 2>&1; then
-            log_success "Database kickai_matches created successfully"
-            break
-        elif su-exec postgres psql -lqt | cut -d \| -f 1 | grep -qw kickai_matches; then
-            log_warning "Database kickai_matches already exists, continuing..."
-            break
-        else
-            log_warning "Failed to create database kickai_matches, attempt $attempt/$max_attempts"
-            if [ $attempt -lt $max_attempts ]; then
-                sleep 2
-            fi
-        fi
-        attempt=$((attempt + 1))
-    done
-}
-
-# Function to load initial schema with error handling
-load_initial_schema() {
-    local max_attempts=3
-    local attempt=1
-    
-    while [ $attempt -le $max_attempts ]; do
-        if su-exec postgres psql -d kickai_matches -f /app/init.sql >/dev/null 2>&1; then
-            log_success "Initial schema loaded successfully"
-            return 0
-        else
-            log_warning "Failed to load initial schema, attempt $attempt/$max_attempts"
-            if [ $attempt -lt $max_attempts ]; then
-                sleep 2
-            fi
-        fi
-        attempt=$((attempt + 1))
-    done
-    
-    log_error "Failed to load initial schema after $max_attempts attempts"
-    return 1
-}
-
 log "Starting PostgreSQL initialization..."
+log "PGDATA is $PGDATA"
 
 # Create PostgreSQL directories if they don't exist
 log "Creating PostgreSQL directories..."
@@ -122,7 +38,7 @@ mkdir -p /var/log/postgresql
 
 # Set proper ownership
 log "Setting directory ownership..."
-chown -R postgres:postgres "$PGDATA"
+chown -R postgres:postgres /var/lib/postgresql
 chown -R postgres:postgres /var/run/postgresql
 chown -R postgres:postgres /var/log/postgresql
 
@@ -134,10 +50,21 @@ chmod 755 /var/run/postgresql
 if [ ! -f "$PGDATA/PG_VERSION" ]; then
     log "Initializing PostgreSQL database..."
     
-    # Initialize the database as postgres user
-    su-exec postgres initdb -D "$PGDATA" --auth-local=trust --auth-host=md5
+    # Check if directory is not empty (e.g. lost+found)
+    if [ "$(ls -A $PGDATA)" ]; then
+        log_warning "Data directory is not empty. Cleaning up..."
+        # Be careful here, only remove if we are sure it's not a valid DB
+        # But since PG_VERSION is missing, it's likely debris or lost+found
+        rm -rf "$PGDATA"/*
+    fi
     
-    log_success "PostgreSQL database initialized"
+    # Initialize the database as postgres user
+    if su-exec postgres initdb -D "$PGDATA" --auth-local=trust --auth-host=md5 > "$LOG_OUTPUT" 2>&1; then
+        log_success "PostgreSQL database initialized"
+    else
+        log_error "initdb failed"
+        exit 1
+    fi
     
     # Configure PostgreSQL
     log "Configuring PostgreSQL..."
@@ -161,4 +88,6 @@ fi
 
 log_success "PostgreSQL initialization script finished"
 touch /var/run/postgresql/init-success
+# Ensure postgres user can read the sentinel file
+chown postgres:postgres /var/run/postgresql/init-success
 exit 0
