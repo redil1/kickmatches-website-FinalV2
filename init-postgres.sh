@@ -159,45 +159,5 @@ else
     log "PostgreSQL already initialized, checking application setup..."
 fi
 
-# Always ensure application database and user exist
-log "Waiting for PostgreSQL to be available..."
-
-# Wait for PostgreSQL to be ready (either started by us or by supervisor)
-max_wait=60
-wait_count=0
-while [ $wait_count -lt $max_wait ]; do
-    if su-exec postgres pg_isready -d postgres >/dev/null 2>&1; then
-        log_success "PostgreSQL is ready!"
-        break
-    fi
-    
-    # Check if PostgreSQL process exists but not ready yet
-    if pgrep -f "postgres" > /dev/null; then
-        log "PostgreSQL is starting, waiting for it to be ready..."
-    else
-        log "PostgreSQL not running, starting temporarily..."
-        su-exec postgres pg_ctl -D "$PGDATA" -l /var/log/postgresql/setup.log start >/dev/null 2>&1 || true
-    fi
-    
-    sleep 1
-    wait_count=$((wait_count + 1))
-done
-
-if [ $wait_count -ge $max_wait ]; then
-    log_error "PostgreSQL failed to become ready within $max_wait seconds"
-    exit 1
-fi
-
-# Create application user and database with retry logic
-create_user_and_database
-
-# Load initial schema if it exists
-if [ -f "/app/init.sql" ]; then
-    log "Loading initial database schema..."
-    load_initial_schema
-fi
-
-log_success "Database and user setup completed"
-
 log_success "PostgreSQL initialization script finished"
 exit 0
