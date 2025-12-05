@@ -92,9 +92,10 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY --chown=root:root ./docker-entrypoint.sh /app/docker-entrypoint.sh
 COPY --chown=root:root ./init-postgres.sh /app/init-postgres.sh
 COPY --chown=root:root ./configure-postgres.sh /app/configure-postgres.sh
+COPY --chown=root:root ./start-postgres.sh /app/start-postgres.sh
 COPY --chown=root:root ./migrate-database.sh /app/migrate-database.sh
 COPY --chown=root:root ./health-check.sh /app/health-check.sh
-RUN chmod +x /app/docker-entrypoint.sh /app/init-postgres.sh /app/configure-postgres.sh /app/migrate-database.sh /app/health-check.sh
+RUN chmod +x /app/docker-entrypoint.sh /app/init-postgres.sh /app/configure-postgres.sh /app/start-postgres.sh /app/migrate-database.sh /app/health-check.sh
 
 # Create PostgreSQL user and directories
 RUN adduser -D -s /bin/sh postgres || true

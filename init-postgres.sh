@@ -160,4 +160,5 @@ else
 fi
 
 log_success "PostgreSQL initialization script finished"
+touch /var/run/postgresql/init-success
 exit 0
