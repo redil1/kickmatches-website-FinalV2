@@ -7,7 +7,7 @@ export const revalidate = 1800
 export const dynamic = 'force-dynamic'
 
 function xmlEscape(s: string) {
-  return s.replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c] as string))
+  return s.replace(/[<>&"']/g, c => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' }[c] as string))
 }
 
 function slugify(input: string): string {
@@ -26,7 +26,19 @@ export async function GET() {
     const res = await db.execute(sql`select distinct league from matches where league is not null order by league`)
     const leagues: string[] = (res as any).rows.map((r: any) => r.league as string)
 
-    const urls = [createSitemapUrl('/leagues'), ...leagues.map(l => createSitemapUrl(`/leagues/${slugify(l)}`))]
+    const urls = [createSitemapUrl('/leagues')]
+
+    leagues.forEach(l => {
+      const slug = slugify(l)
+      const base = createSitemapUrl(`/leagues/${slug}`)
+      urls.push(
+        base,
+        `${base}/fixtures`,
+        `${base}/results`,
+        `${base}/standings`
+      )
+    })
+
     const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url>\n    <loc>${xmlEscape(u)}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.6</priority>\n  </url>`).join('\n')}\n</urlset>`
 
     return new NextResponse(body, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
