@@ -55,14 +55,26 @@ if [ -f "$PGDATA/PG_VERSION" ]; then
     
     if [ "$DB_VERSION" != "$INSTALLED_VERSION" ]; then
         log_warning "Version mismatch detected! Data is from Postgres $DB_VERSION but running $INSTALLED_VERSION."
-        log_warning "Archiving incompatible data directory to $PGDATA.bak_$(date +%s)..."
+        log_warning "Archiving incompatible data directory..."
         
-        # Create backup of incompatible data
-        BACKUP_DIR="$PGDATA.bak_$(date +%s)"
-        mv "$PGDATA" "$BACKUP_DIR"
+        # Create backup directory name
+        BACKUP_DIR="${PGDATA}_bak_$(date +%s)"
         
-        # Re-create empty data directory
-        mkdir -p "$PGDATA"
+        # Try to move the directory first (fastest)
+        if mv "$PGDATA" "$BACKUP_DIR" 2>/dev/null; then
+            log_success "Moved data directory to $BACKUP_DIR"
+            # Re-create empty data directory
+            mkdir -p "$PGDATA"
+        else
+            log_warning "Could not move directory (likely a mount point). Moving contents to $BACKUP_DIR..."
+            mkdir -p "$BACKUP_DIR"
+            # Move all visible files
+            mv "$PGDATA"/* "$BACKUP_DIR"/ 2>/dev/null || true
+            # Move hidden files (excluding . and ..)
+            mv "$PGDATA"/.[!.]* "$BACKUP_DIR"/ 2>/dev/null || true
+        fi
+        
+        # Ensure permissions on new/emptied directory
         chown -R postgres:postgres "$PGDATA"
         chmod 700 "$PGDATA"
         
