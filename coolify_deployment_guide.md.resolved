@@ -1,0 +1,146 @@
+# 🚀 Ultimate Beginner's Guide: Deploying on Coolify
+
+This guide will take you by the hand and walk you through deploying your **KickAI Matches** application on Coolify. We will use the **Docker Compose** method, which is the easiest and most reliable way to get everything (App, Database, Redis) running together.
+
+---
+
+## ✅ Prerequisites
+
+Before we start, make sure you have:
+1.  **Coolify Installed**: You should have access to your Coolify dashboard (e.g., `http://your-ip:8000`).
+2.  **Git Repository**: Your code must be pushed to a Git provider (GitHub, GitLab, etc.).
+3.  **Domain Name (Optional)**: If you want your site to be accessible via a real domain (e.g., `kickmatches.com`).
+
+---
+
+## 🛠️ Step 1: Prepare Your Project in Coolify
+
+1.  **Login** to your Coolify Dashboard.
+2.  Click on **"Projects"** in the sidebar.
+3.  Click **"+ Add"** to create a new project (or select an existing one).
+4.  Give it a name (e.g., `KickAI`) and click **"Continue"**.
+5.  Click on the **"Default"** environment (or create a new one).
+6.  Click **"+ Add Resource"**.
+
+---
+
+## 🔗 Step 2: Connect Your Repository
+
+1.  Select **"Git Repository"** (Public or Private).
+    *   *If Private:* You will need to add the "Coolify Deploy Key" to your GitHub/GitLab repo settings first. Coolify will show you this key.
+2.  Select **"GitHub"** (or your provider).
+3.  **Repository URL**: Paste the link to your repository.
+4.  **Branch**: Usually `main` or `master`.
+5.  Click **"Check Repository"**.
+
+---
+
+## ⚙️ Step 3: Configure the Application
+
+Coolify will ask how you want to build the app.
+
+1.  **Build Pack**: Select **Docker Compose**.
+    *   *Why?* Your project uses a [docker-compose.yml](file:///Users/mac/Desktop/kickmatches-website-FinalV2/docker-compose.yml) file that automatically sets up the Database and Redis for you. This is the "Autopilot" mode.
+2.  Click **"Continue"**.
+
+You will now see the configuration screen.
+
+### 1. General Settings
+*   **Name**: `KickAI App`
+*   **Domains**: Enter your domain (e.g., `https://kickmatches.com`).
+    *   *If you don't have a domain yet, you can leave this blank or use the IP.*
+
+### 2. Docker Compose File
+Coolify should automatically detect your [docker-compose.yml](file:///Users/mac/Desktop/kickmatches-website-FinalV2/docker-compose.yml).
+*   Click on the **"Docker Compose"** tab.
+*   Ensure the content looks like your local file.
+*   **IMPORTANT CHANGE**: In Coolify, we need to make sure the ports don't conflict.
+    *   Look for `ports: - "3000:3000"`.
+    *   **Remove** the `ports` section for the `kickai-app` service. Coolify handles routing automatically via the domain you set.
+    *   *Keep* the ports for the database if you want to access it externally, but for security, it's better to remove them too. The app can talk to the DB internally using the service names.
+
+### 3. Environment Variables (The Most Important Part!)
+Go to the **"Environment Variables"** tab. You need to add **ALL** of these.
+
+**Copy and paste these keys and values:**
+
+| Key | Value (Example) | Description |
+| :--- | :--- | :--- |
+| `NODE_ENV` | `production` | Tells the app it's live. |
+| `DATABASE_URL` | `postgresql://kickai:kickai@postgres:5432/kickai_matches` | **Note:** Use [postgres](file:///Users/mac/Desktop/kickmatches-website-FinalV2/migrate-database.sh#33-53) (service name) instead of `localhost`. |
+| `REDIS_URL` | `redis://redis:6379` | **Note:** Use `redis` (service name) instead of `localhost`. |
+| `POSTGRES_DB` | `kickai_matches` | Database name. |
+| `POSTGRES_USER` | `kickai` | Database user. |
+| `POSTGRES_PASSWORD` | `kickai` | **Add this!** Password for DB. |
+| `ADMIN_BASIC_AUTH` | `admin:yourpassword` | Login for admin panel. |
+| `REVALIDATE_SECRET` | `super-secret-key` | Security key for updates. |
+| `TELEGRAM_BOT_TOKEN` | `your-bot-token` | From BotFather. |
+| `TELEGRAM_CHAT_ID` | `your-chat-id` | For admin alerts. |
+| `NEXT_PUBLIC_SITE_URL`| `https://yourdomain.com` | Your actual URL. |
+| `NEXT_PUBLIC_VAPID_PUBLIC_KEY` | [(Your Key)](file:///Users/mac/Desktop/kickmatches-website-FinalV2/init-postgres.sh#9-12) | For Push Notifications. |
+| `VAPID_PRIVATE_KEY` | [(Your Key)](file:///Users/mac/Desktop/kickmatches-website-FinalV2/init-postgres.sh#9-12) | For Push Notifications. |
+| `PUSH_API_SECRET` | [(Your Secret)](file:///Users/mac/Desktop/kickmatches-website-FinalV2/init-postgres.sh#9-12) | For Push Notifications. |
+
+**⚠️ Critical Fix for Docker Compose in Coolify:**
+In your [docker-compose.yml](file:///Users/mac/Desktop/kickmatches-website-FinalV2/docker-compose.yml) inside Coolify, you must change `localhost` to the service names defined in the file.
+*   Change `DATABASE_URL` host from `localhost` to `kickai-app` (if running in same container) or better yet, let Coolify manage the DB.
+*   **Actually, the best way for Coolify:**
+    1.  Use the [docker-compose.yml](file:///Users/mac/Desktop/kickmatches-website-FinalV2/docker-compose.yml) provided in the repo.
+    2.  Coolify will spin up `kickai-app`, [postgres](file:///Users/mac/Desktop/kickmatches-website-FinalV2/migrate-database.sh#33-53), and `redis` containers.
+    3.  They communicate via the internal Docker network.
+    4.  So `DATABASE_URL` should be: `postgresql://kickai:kickai@kickai-app:5432/kickai_matches` (Wait, the DB is *inside* the `kickai-app` container in your setup? **YES**).
+    5.  **Correction:** Your [Dockerfile](file:///Users/mac/Desktop/kickmatches-website-FinalV2/Dockerfile) installs Postgres and Redis *inside* the single container (`kickai-all-in-one`).
+    6.  **Therefore:** Keep `localhost` in your Environment Variables!
+        *   `DATABASE_URL=postgresql://kickai:kickai@localhost:5432/kickai_matches`
+        *   `REDIS_URL=redis://localhost:6379`
+
+**Verdict:** Since you are using an "All-in-One" Dockerfile, you can keep `localhost`. It makes deployment much simpler.
+
+---
+
+## 🚀 Step 4: Deploy
+
+1.  Click the **"Deploy"** button in the top right corner.
+2.  Click **"Show Debug Logs"** to watch the magic happen.
+
+**What will happen?**
+1.  Coolify will pull your code.
+2.  It will build the Docker image (this takes 2-5 minutes).
+3.  It will start the container.
+4.  Your [init-postgres.sh](file:///Users/mac/Desktop/kickmatches-website-FinalV2/init-postgres.sh) script will run automatically to set up the DB.
+5.  Your [migrate-database.sh](file:///Users/mac/Desktop/kickmatches-website-FinalV2/migrate-database.sh) script will run to seed the data.
+6.  The app will go live!
+
+---
+
+## 🔍 Step 5: Verify Deployment
+
+1.  Wait for the logs to say **"Healthy"** or **"Deployed"**.
+2.  Click the **Open** link (the arrow icon) next to your domain.
+3.  **Check the Match Page:** Go to a match URL.
+    *   Does it load?
+    *   Do you see the "Fake Player"?
+4.  **Check the Logs:**
+    *   Go to the "Logs" tab in Coolify.
+    *   You should see: `[INIT] ✓ Database and user setup completed`.
+    *   You should see: `Worker started: PMM.Create...`.
+
+---
+
+## 🆘 Troubleshooting
+
+**"Application Error" or 502 Bad Gateway?**
+*   **Cause:** The app hasn't finished starting yet.
+*   **Fix:** Wait 60 seconds. The database initialization takes a moment on the first run.
+
+**"Database Connection Failed"?**
+*   **Cause:** The `DATABASE_URL` is wrong.
+*   **Fix:** Ensure you are using `localhost` if using the All-in-One Dockerfile.
+
+**"Push Notifications Not Working"?**
+*   **Cause:** Missing VAPID keys.
+*   **Fix:** Generate them (`npx web-push generate-vapid-keys`) and add them to Environment Variables.
+
+---
+
+**🎉 Congratulations! Your Money-Making Machine is Live!**

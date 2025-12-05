@@ -21,8 +21,9 @@ function slugify(input: string): string {
     .replace(/^-|-$/g, '')
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const host = request.headers.get('host') || undefined
     // Get all teams
     const rows = await db.execute(sql`
       select name from (
@@ -38,7 +39,7 @@ export async function GET() {
     `)
     const matchups = (matchupsRows as any).rows
 
-    const urls = [createSitemapUrl('/teams')]
+    const urls = [createSitemapUrl('/teams', host)]
     const currentYear = new Date().getFullYear()
 
     // Pre-calculate opponents map for O(1) lookup
@@ -55,37 +56,23 @@ export async function GET() {
 
     teams.forEach(t => {
       const slug = slugify(t)
-      const base = createSitemapUrl(`/teams/${slug}`)
+      const base = createSitemapUrl(`/teams/${slug}`, host)
 
       // Basic pages
       urls.push(
         base,
         `${base}/fixtures`,
-        `${base}/results`
+        `${base}/results`,
+        `${base}/squad`
       )
-
-      // Season pages (Current and Last Year)
-      urls.push(
-        `${base}/season/${currentYear}`,
-        `${base}/season/${currentYear - 1}`
-      )
-
-      // VS Pages (Find opponents for this team)
-      const opponents = opponentsMap.get(t)
-      if (opponents) {
-        opponents.forEach(opp => {
-          const oppSlug = slugify(opp)
-          urls.push(`${base}/vs/${oppSlug}`)
-        })
-      }
     })
 
-    const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url>\n    <loc>${xmlEscape(u)}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.5</priority>\n  </url>`).join('\n')}\n</urlset>`
+    const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url>\n    <loc>${xmlEscape(u)}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.6</priority>\n  </url>`).join('\n')}\n</urlset>`
 
     return new NextResponse(body, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   } catch (e) {
-    console.error('Sitemap error:', e)
-    const fallback = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${xmlEscape(createSitemapUrl('/teams'))}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.5</priority>\n  </url>\n</urlset>`
+    const host = request.headers.get('host') || undefined
+    const fallback = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${xmlEscape(createSitemapUrl('/teams', host))}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.6</priority>\n  </url>\n</urlset>`
     return new NextResponse(fallback, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   }
 }

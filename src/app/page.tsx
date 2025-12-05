@@ -7,8 +7,8 @@ import { desc, and, gte, sql } from "drizzle-orm";
 import { format } from "date-fns";
 import { Metadata } from 'next';
 
-// Prefer ISR to leverage CDN caching for high QPS
-export const revalidate = 60;
+// Force dynamic rendering to ensure fresh data
+export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: "Live Football Streaming Free | Watch Premier League, Champions League Matches Online",
@@ -38,41 +38,24 @@ export const metadata: Metadata = {
 // Featured Matches Component
 async function FeaturedMatches() {
   let featuredMatches: any[] = []
-  
+
   try {
-    const today = new Date()
-    const todayStr = today.toISOString().split('T')[0]
-    
-    // First try to get today's matches
+    const now = new Date()
+    // Simple robust strategy: Get next 15 upcoming matches
     featuredMatches = await db.select()
       .from(matches)
-      .where(sql`DATE(kickoff_iso) = ${todayStr}`)
+      .where(sql`kickoff_iso >= ${now.toISOString()}`)
       .orderBy(sql`kickoff_iso ASC`)
       .limit(15)
-    
-    // If we have fewer than 10 matches today, add upcoming matches to reach 15 total
-    if (featuredMatches.length < 10) {
-      const tomorrow = new Date(today)
-      tomorrow.setDate(tomorrow.getDate() + 1)
-      const tomorrowStr = tomorrow.toISOString().split('T')[0]
-      
-      const upcomingMatches = await db.select()
-        .from(matches)
-        .where(sql`DATE(kickoff_iso) >= ${tomorrowStr}`)
-        .orderBy(sql`kickoff_iso ASC`)
-        .limit(15 - featuredMatches.length)
-      
-      featuredMatches = [...featuredMatches, ...upcomingMatches]
-    }
-    
-    // If still no matches, get any upcoming matches
+
+    // If no upcoming matches, try to get recent past matches (for testing/demo)
     if (featuredMatches.length === 0) {
       featuredMatches = await db.select()
         .from(matches)
-        .where(sql`kickoff_iso > NOW()`)
-        .orderBy(sql`kickoff_iso ASC`)
+        .orderBy(sql`kickoff_iso DESC`)
         .limit(15)
     }
+
   } catch (error) {
     // Enhanced error logging for debugging
     console.error('Featured Matches Error Details:', {
@@ -82,7 +65,7 @@ async function FeaturedMatches() {
       cause: error instanceof Error ? error.cause : undefined,
       timestamp: new Date().toISOString()
     });
-    
+
     // Test database connectivity
     try {
       await db.select().from(matches).limit(1);
@@ -90,10 +73,10 @@ async function FeaturedMatches() {
     } catch (dbError) {
       console.error('Database connection test: FAILED', dbError);
     }
-    
+
     featuredMatches = []
   }
-    
+
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {featuredMatches.map((match) => (
@@ -110,7 +93,7 @@ async function FeaturedMatches() {
               {format(new Date(match.kickoffIso as string), 'MMM dd')}
             </span>
           </div>
-          
+
           <div className="text-center mb-4">
             <h3 className="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors">
               {match.homeTeam}
@@ -120,7 +103,7 @@ async function FeaturedMatches() {
               {match.awayTeam}
             </h3>
           </div>
-          
+
           <div className="text-center">
             <div className="text-gray-300 text-sm">
               {format(new Date(match.kickoffIso as string), 'PPpp')}
@@ -157,18 +140,18 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black">
       <MetricBeacon event="home_view" />
-      
+
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-gold-500/10 to-red-600/10"></div>
-        
+
         {/* Floating particles effect */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-4 h-4 bg-gold-500/30 rounded-full animate-ping"></div>
           <div className="absolute top-40 right-20 w-3 h-3 bg-red-500/30 rounded-full animate-ping animation-delay-1000"></div>
           <div className="absolute bottom-40 left-1/4 w-2 h-2 bg-gold-500/30 rounded-full animate-ping animation-delay-2000"></div>
         </div>
-        
+
         <div className="relative mx-auto max-w-7xl px-4 py-16">
           {/* Limited Time Banner */}
           <div className="text-center mb-8">
@@ -193,9 +176,9 @@ export default function Home() {
               <br />
               <span className="text-white">Live & Free</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Get <span className="text-gold-400 font-bold">instant access</span> to <span className="text-gold-400 font-bold">Premier League, Champions League, La Liga</span> and more. 
+              Get <span className="text-gold-400 font-bold">instant access</span> to <span className="text-gold-400 font-bold">Premier League, Champions League, La Liga</span> and more.
               <span className="text-gold-400 font-bold">Real-time credentials delivered within seconds</span> - <span className="text-gold-400 font-bold"> 15,000+ channels in 4K quality.</span>
             </p>
 
@@ -229,12 +212,12 @@ export default function Home() {
             {/* Primary CTA - Trial Only */}
             <div className="flex justify-center items-center mb-12">
               <a
-              href="/trial"
-              className="group bg-gradient-to-r from-professional-gold to-professional-gold hover:from-yellow-600 hover:to-yellow-700 text-black px-12 py-6 rounded-2xl font-black text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-professional-gold/25 flex items-center gap-3"
-            >
-              ⚡ GET INSTANT ACCESS NOW
-              <span className="group-hover:translate-x-2 transition-transform">→</span>
-            </a>
+                href="/trial"
+                className="group bg-gradient-to-r from-professional-gold to-professional-gold hover:from-yellow-600 hover:to-yellow-700 text-black px-12 py-6 rounded-2xl font-black text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-professional-gold/25 flex items-center gap-3"
+              >
+                ⚡ GET INSTANT ACCESS NOW
+                <span className="group-hover:translate-x-2 transition-transform">→</span>
+              </a>
             </div>
 
             {/* Social Proof */}
@@ -289,31 +272,31 @@ export default function Home() {
               <span className="text-gold-400">Instant Access</span> - No Waiting Period
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-              Your IPTV credentials are generated and delivered in <span className="text-gold-400 font-bold">real-time</span>. 
+              Your IPTV credentials are generated and delivered in <span className="text-gold-400 font-bold">real-time</span>.
               No queues, no delays, no waiting - <span className="text-gold-400 font-bold">access within 15 seconds</span>.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-gold-600/20 to-black-800/20 rounded-2xl p-8 border border-gold-500/30 text-center">
               <div className="text-5xl mb-4">⚡</div>
               <h3 className="text-2xl font-bold text-white mb-3">15 Second Setup</h3>
               <p className="text-gray-300">Fastest credential delivery in the industry. Your access is ready before you finish reading this.</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-gold-600/20 to-black-800/20 rounded-2xl p-8 border border-gold-500/30 text-center">
               <div className="text-5xl mb-4">🔄</div>
               <h3 className="text-2xl font-bold text-white mb-3">Real-Time Processing</h3>
               <p className="text-gray-300">Advanced automation ensures your credentials are generated instantly upon request.</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-gold-600/20 to-black-800/20 rounded-2xl p-8 border border-gold-500/30 text-center">
               <div className="text-5xl mb-4">🚀</div>
               <h3 className="text-2xl font-bold text-white mb-3">Zero Wait Time</h3>
               <p className="text-gray-300">No manual processing, no business hours delays. Available 24/7 with instant activation.</p>
             </div>
           </div>
-          
+
           <div className="text-center mt-12">
             <div className="bg-gold-500/10 border border-gold-500/30 rounded-2xl p-6 max-w-2xl mx-auto">
               <div className="flex items-center justify-center gap-4 mb-4">
@@ -321,7 +304,7 @@ export default function Home() {
                 <span className="text-white font-bold text-lg">Live Credential Generation</span>
               </div>
               <p className="text-gray-300">
-                Watch our system generate your unique IPTV credentials in real-time. 
+                Watch our system generate your unique IPTV credentials in real-time.
                 <span className="text-gold-400 font-bold">No human intervention required</span> - fully automated for instant delivery.
               </p>
             </div>
@@ -382,13 +365,13 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-3">Premium Sports</h3>
               <p className="text-gray-300">All major leagues: Premier League, Champions League, La Liga, Serie A, Bundesliga and more</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-professional-red/20 to-professional-black/20 rounded-2xl p-8 border border-professional-red/30">
               <div className="text-4xl mb-4">📱</div>
               <h3 className="text-2xl font-bold text-white mb-3">Multi-Device</h3>
               <p className="text-gray-300">Watch on Smart TV, phone, tablet, computer. Perfect sync across all devices</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-professional-gold/20 to-professional-red/20 rounded-2xl p-8 border border-professional-gold/30">
               <div className="text-4xl mb-4">🎬</div>
               <h3 className="text-2xl font-bold text-white mb-3">HD Highlights</h3>
@@ -410,10 +393,10 @@ export default function Home() {
                 Never Miss a <span className="text-professional-gold">Goal Again</span>
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Get instant alerts for goals, red cards, and key moments from your favorite teams. 
+                Get instant alerts for goals, red cards, and key moments from your favorite teams.
                 <span className="text-professional-gold font-bold">Join 75,000+ fans</span> who never miss the action.
               </p>
-              
+
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
@@ -434,7 +417,7 @@ export default function Home() {
                   <span className="text-gray-300">Personalized team updates</span>
                 </div>
               </div>
-              
+
               <a
                 href="https://t.me/IPTVAccess_bot"
                 target="_blank"
@@ -445,7 +428,7 @@ export default function Home() {
                 <span className="group-hover:translate-x-2 transition-transform">→</span>
               </a>
             </div>
-            
+
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl p-8 border border-white/10">
                 <div className="text-center mb-6">
@@ -453,7 +436,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold text-white mb-2">Smart Alerts</h3>
                   <p className="text-gray-300">Never miss a moment</p>
                 </div>
-                
+
                 <div className="space-y-3">
                   <div className="bg-green-500/20 border border-green-500/30 rounded-lg p-3">
                     <div className="flex items-center gap-2">
@@ -494,31 +477,31 @@ export default function Home() {
               Unlock <span className="text-gold-400">Premium Access</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Get unlimited access to all matches, exclusive content, and premium features. 
+              Get unlimited access to all matches, exclusive content, and premium features.
               <span className="text-gold-400 font-bold">Join the elite football experience.</span>
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-gradient-to-br from-gold-600/20 to-black-800/20 rounded-2xl p-6 border border-gold-500/30 text-center">
               <div className="text-4xl mb-4">🏆</div>
               <h3 className="text-xl font-bold text-white mb-3">All Leagues</h3>
               <p className="text-gray-300">Premier League, Champions League, La Liga, Serie A, Bundesliga & more</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-red-600/20 to-black-800/20 rounded-2xl p-6 border border-red-500/30 text-center">
               <div className="text-4xl mb-4">📺</div>
               <h3 className="text-xl font-bold text-white mb-3">4K Quality</h3>
               <p className="text-gray-300">Ultra HD streaming with crystal clear picture and surround sound</p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-gold-600/20 to-red-600/20 rounded-2xl p-6 border border-gold-500/30 text-center">
               <div className="text-4xl mb-4">🎬</div>
               <h3 className="text-xl font-bold text-white mb-3">Exclusive Content</h3>
               <p className="text-gray-300">Match highlights, player interviews, and behind-the-scenes footage</p>
             </div>
           </div>
-          
+
           <div className="text-center">
             <div className="bg-gradient-to-r from-gold-600/10 to-red-600/10 rounded-3xl p-8 border border-gold-500/30 max-w-2xl mx-auto">
               <div className="flex items-center justify-center gap-4 mb-6">
@@ -526,9 +509,9 @@ export default function Home() {
                 <span className="text-4xl font-black text-gold-400">$9.99</span>
                 <span className="bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">67% OFF</span>
               </div>
-              
+
               <p className="text-gray-300 mb-6">Limited time offer - First month only</p>
-              
+
               <a
                 href="/pricing"
                 className="group bg-gradient-to-r from-gold-500 to-red-600 hover:from-gold-600 hover:to-red-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-3 w-fit mx-auto"
@@ -536,7 +519,7 @@ export default function Home() {
                 💳 GET PREMIUM ACCESS
                 <span className="group-hover:translate-x-2 transition-transform">→</span>
               </a>
-              
+
               <div className="text-gray-400 text-sm mt-4">
                 ✅ 30-day money-back guarantee • 🔒 Secure payment • ⚡ Live in 15 seconds
               </div>
@@ -553,10 +536,10 @@ export default function Home() {
               Ready to Experience <span className="text-gold-400">Football</span> Like Never Before?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Join thousands of fans who've already upgraded their football experience. 
+              Join thousands of fans who've already upgraded their football experience.
               <span className="text-gold-400 font-bold">Start watching today!</span>
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/trial"

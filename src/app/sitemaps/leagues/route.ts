@@ -21,16 +21,17 @@ function slugify(input: string): string {
     .replace(/^-|-$/g, '')
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const host = request.headers.get('host') || undefined
     const res = await db.execute(sql`select distinct league from matches where league is not null order by league`)
     const leagues: string[] = (res as any).rows.map((r: any) => r.league as string)
 
-    const urls = [createSitemapUrl('/leagues')]
+    const urls = [createSitemapUrl('/leagues', host)]
 
     leagues.forEach(l => {
       const slug = slugify(l)
-      const base = createSitemapUrl(`/leagues/${slug}`)
+      const base = createSitemapUrl(`/leagues/${slug}`, host)
       urls.push(
         base,
         `${base}/fixtures`,
@@ -44,7 +45,8 @@ export async function GET() {
     return new NextResponse(body, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   } catch (e) {
     // Fallback minimal sitemap so build doesn't fail
-    const fallback = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${xmlEscape(createSitemapUrl('/leagues'))}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.6</priority>\n  </url>\n</urlset>`
+    const host = request.headers.get('host') || undefined
+    const fallback = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${xmlEscape(createSitemapUrl('/leagues', host))}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.6</priority>\n  </url>\n</urlset>`
     return new NextResponse(fallback, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   }
 }

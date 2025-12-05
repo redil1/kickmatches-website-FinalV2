@@ -1,4 +1,5 @@
-  import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from 'next'
+import { headers } from 'next/headers'
 import { db } from '@/db/client'
 import { matches } from '@/db/schema'
 import { sql } from 'drizzle-orm'
@@ -18,12 +19,14 @@ function createUrlSafeSlug(text: string): string {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = getSitemapBaseUrl()
+  const headersList = await headers()
+  const host = headersList.get('host') || undefined
+  const base = getSitemapBaseUrl(host)
   const now = new Date()
   const today = now.toISOString().split('T')[0]
-  
+
   let allMatches: any[] = []
-  
+
   try {
     // Get all matches with their kickoff times
     console.log('Sitemap: Attempting to fetch matches from database...')
@@ -51,7 +54,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'hourly',
       priority: 1.0
     },
-    
+
     // Main pages
     {
       url: `${base}/matches`,
@@ -96,11 +99,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const isUpcoming = now < kickoff
     const isToday = kickoff.toISOString().split('T')[0] === today
     const isThisWeek = kickoff.getTime() - now.getTime() < 7 * 24 * 60 * 60 * 1000
-    
+
     // Dynamic priority based on match timing and importance
     let priority = 0.5
     let changeFrequency: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' = 'daily'
-    
+
     if (isLive) {
       priority = 0.95
       changeFrequency = 'always'
@@ -118,17 +121,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority = 0.6
       changeFrequency = 'weekly'
     }
-    
+
     // Boost priority for major leagues
     const majorLeagues = ['Premier League', 'Champions League', 'La Liga', 'Serie A', 'Bundesliga', 'Ligue 1']
     if (majorLeagues.includes(match.league as string)) {
       priority = Math.min(priority + 0.1, 1.0)
     }
-    
+
     // Canonical event detail page if eventId exists
     if (match.eventId) {
       sitemapEntries.push({
-        url: createSitemapUrl(`/m/${match.eventId}-${match.slug}`),
+        url: createSitemapUrl(`/m/${match.eventId}-${match.slug}`, host),
         lastModified: isLive ? now : kickoff,
         changeFrequency,
         priority: Math.min((priority || 0.5) + 0.05, 1.0),
@@ -136,7 +139,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
     // Keep watch page as well
     sitemapEntries.push({
-      url: createSitemapUrl(`/watch/${match.slug}`),
+      url: createSitemapUrl(`/watch/${match.slug}`, host),
       lastModified: isLive ? now : kickoff,
       changeFrequency,
       priority

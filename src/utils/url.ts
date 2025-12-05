@@ -23,7 +23,7 @@ export function getBaseUrl(req?: { headers: { host?: string; 'x-forwarded-proto'
   if (req && req.headers) {
     const host = req.headers['x-forwarded-host'] || req.headers.host;
     const protocol = req.headers['x-forwarded-proto'] || 'https';
-    
+
     if (host) {
       return `${protocol}://${host}`;
     }
@@ -62,9 +62,20 @@ export function getBaseUrl(req?: { headers: { host?: string; 'x-forwarded-proto'
 /**
  * Get the base URL specifically for sitemap generation
  * This function tries to use production-friendly detection methods
+ * @param host - Optional host string from request headers
  * @returns The base URL for sitemap
  */
-export function getSitemapBaseUrl(): string {
+export function getSitemapBaseUrl(host?: string): string {
+  // 1. If host is provided (from request headers), use it
+  if (host) {
+    const protocol = process.env.HTTPS === 'true' || process.env.SSL === 'true' ? 'https' : 'http';
+    // Check if host already includes protocol
+    if (host.startsWith('http')) {
+      return host.replace(/\/$/, '');
+    }
+    return `${protocol}://${host}`;
+  }
+
   console.log('🗺️ Sitemap URL Detection - Environment variables:', {
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
     VERCEL_URL: process.env.VERCEL_URL,
@@ -145,12 +156,10 @@ export function getSitemapBaseUrl(): string {
       return url;
     }
 
-    // If we're in production but can't detect URL, warn and use a placeholder
+    // If we're in production but can't detect URL, warn but fallback to localhost or empty
+    // Do NOT use a hardcoded domain that might be incorrect
     console.warn('⚠️ Production environment detected but no valid URL found for sitemap!');
-    console.warn('⚠️ Please set NEXT_PUBLIC_SITE_URL environment variable to: https://fixture.iptv.shopping');
-    
-    // Return the expected production URL as fallback
-    return 'https://fixture.iptv.shopping';
+    console.warn('⚠️ Please set NEXT_PUBLIC_SITE_URL environment variable.');
   }
 
   if (process.env.HOST && process.env.HOST !== '0.0.0.0' && process.env.HOST !== 'localhost') {
@@ -272,10 +281,11 @@ export function createEmailUrl(path: unknown): string {
 /**
  * Create a full URL for sitemap
  * @param path - The path to append
+ * @param host - Optional host string from request headers
  * @returns Full URL for sitemap
  */
-export function createSitemapUrl(path: unknown): string {
-  const baseUrl = getSitemapBaseUrl();
+export function createSitemapUrl(path: unknown, host?: string): string {
+  const baseUrl = getSitemapBaseUrl(host);
   const p = typeof path === 'string' ? path : String(path ?? '')
   const cleanPath = p.charAt(0) === '/' ? p : `/${p}`;
   return `${baseUrl}${cleanPath}`;

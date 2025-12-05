@@ -51,17 +51,26 @@ wait_for_postgres() {
     return 1
 }
 
-# Function to test database connection
+# Function to test database connection with retry
 test_database_connection() {
+    local max_attempts=30
+    local attempt=1
+    
     log "Testing database connection..."
     
-    if psql -h localhost -p 5432 -U kickai -d kickai_matches -c "SELECT 1;" >/dev/null 2>&1; then
-        log_success "Database connection successful"
-        return 0
-    else
-        log_error "Database connection failed"
-        return 1
-    fi
+    while [ $attempt -le $max_attempts ]; do
+        if psql -h localhost -p 5432 -U kickai -d kickai_matches -c "SELECT 1;" >/dev/null 2>&1; then
+            log_success "Database connection successful"
+            return 0
+        fi
+        
+        log "Attempt $attempt/$max_attempts: Database not ready or user/db not created yet, waiting..."
+        sleep 2
+        attempt=$((attempt + 1))
+    done
+    
+    log_error "Database connection failed after $max_attempts attempts"
+    return 1
 }
 
 # Function to run database migrations
