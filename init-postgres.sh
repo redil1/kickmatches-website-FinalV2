@@ -5,23 +5,21 @@
 
 set -e
 
-# Direct logging to container stdout (PID 1) to ensure visibility in Coolify
-LOG_OUTPUT="/proc/1/fd/1"
-
+# Logging functions
 log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] $1" > "$LOG_OUTPUT"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] $1"
 }
 
 log_success() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✓ $1" > "$LOG_OUTPUT"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✓ $1"
 }
 
 log_error() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✗ $1" > "$LOG_OUTPUT"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ✗ $1" >&2
 }
 
 log_warning() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ⚠ $1" > "$LOG_OUTPUT"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INIT] ⚠ $1"
 }
 
 # PostgreSQL data directory
@@ -59,7 +57,7 @@ if [ ! -f "$PGDATA/PG_VERSION" ]; then
     fi
     
     # Initialize the database as postgres user
-    if su-exec postgres initdb -D "$PGDATA" --auth-local=trust --auth-host=md5 > "$LOG_OUTPUT" 2>&1; then
+    if su-exec postgres initdb -D "$PGDATA" --auth-local=trust --auth-host=md5; then
         log_success "PostgreSQL database initialized"
     else
         log_error "initdb failed"
