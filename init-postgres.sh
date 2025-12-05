@@ -44,7 +44,35 @@ chown -R postgres:postgres /var/log/postgresql
 chmod 700 "$PGDATA"
 chmod 755 /var/run/postgresql
 
-# Check if PostgreSQL is already initialized
+# Check for version mismatch if data exists
+if [ -f "$PGDATA/PG_VERSION" ]; then
+    DB_VERSION=$(cat "$PGDATA/PG_VERSION")
+    INSTALLED_VERSION=$(postgres --version | awk '{print $3}' | cut -d. -f1)
+    
+    log "Checking PostgreSQL version compatibility..."
+    log "Data directory version: $DB_VERSION"
+    log "Installed PostgreSQL version: $INSTALLED_VERSION"
+    
+    if [ "$DB_VERSION" != "$INSTALLED_VERSION" ]; then
+        log_warning "Version mismatch detected! Data is from Postgres $DB_VERSION but running $INSTALLED_VERSION."
+        log_warning "Archiving incompatible data directory to $PGDATA.bak_$(date +%s)..."
+        
+        # Create backup of incompatible data
+        BACKUP_DIR="$PGDATA.bak_$(date +%s)"
+        mv "$PGDATA" "$BACKUP_DIR"
+        
+        # Re-create empty data directory
+        mkdir -p "$PGDATA"
+        chown -R postgres:postgres "$PGDATA"
+        chmod 700 "$PGDATA"
+        
+        log_success "Incompatible data archived. Proceeding with fresh initialization."
+    else
+        log_success "PostgreSQL versions match."
+    fi
+fi
+
+# Check if PostgreSQL is already initialized (might be empty now if we just moved it)
 if [ ! -f "$PGDATA/PG_VERSION" ]; then
     log "Initializing PostgreSQL database..."
     
