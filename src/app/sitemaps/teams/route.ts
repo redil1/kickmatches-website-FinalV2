@@ -23,6 +23,7 @@ function slugify(input: string): string {
 
 export async function GET() {
   try {
+    // Get all teams
     const rows = await db.execute(sql`
       select name from (
         select distinct home_team as name from matches
@@ -31,22 +32,50 @@ export async function GET() {
       ) t where name is not null order by name`)
     const teams: string[] = (rows as any).rows.map((r: any) => r.name as string)
 
+    // Get all unique matchups for VS pages
+    const matchupsRows = await db.execute(sql`
+      select distinct home_team, away_team from matches
+    `)
+    const matchups = (matchupsRows as any).rows
+
     const urls = [createSitemapUrl('/teams')]
+    const currentYear = new Date().getFullYear()
 
     teams.forEach(t => {
       const slug = slugify(t)
       const base = createSitemapUrl(`/teams/${slug}`)
+
+      // Basic pages
       urls.push(
         base,
         `${base}/fixtures`,
         `${base}/results`
       )
+
+      // Season pages (Current and Last Year)
+      urls.push(
+        `${base}/season/${currentYear}`,
+        `${base}/season/${currentYear - 1}`
+      )
+
+      // VS Pages (Find opponents for this team)
+      const opponents = new Set<string>()
+      matchups.forEach((m: any) => {
+        if (m.home_team === t) opponents.add(m.away_team)
+        if (m.away_team === t) opponents.add(m.home_team)
+      })
+
+      opponents.forEach(opp => {
+        const oppSlug = slugify(opp)
+        urls.push(`${base}/vs/${oppSlug}`)
+      })
     })
 
     const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url>\n    <loc>${xmlEscape(u)}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.5</priority>\n  </url>`).join('\n')}\n</urlset>`
 
     return new NextResponse(body, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   } catch (e) {
+    console.error('Sitemap error:', e)
     const fallback = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${xmlEscape(createSitemapUrl('/teams'))}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>0.5</priority>\n  </url>\n</urlset>`
     return new NextResponse(fallback, { headers: { 'content-type': 'application/xml; charset=utf-8' } })
   }

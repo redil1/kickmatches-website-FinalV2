@@ -11,7 +11,7 @@ function isoDateOnly(date: string) {
 }
 
 function xmlEscape(s: string) {
-  return s.replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c] as string))
+  return s.replace(/[<>&"']/g, c => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' }[c] as string))
 }
 
 export async function GET(_: Request, { params }: { params: { date: string } }) {
@@ -27,7 +27,19 @@ export async function GET(_: Request, { params }: { params: { date: string } }) 
     const urls = items.map(m => {
       const lastMod = isoDateOnly(m.kickoff_iso)
       const path = m.event_id ? `/m/${m.event_id}-${m.slug}` : `/watch/${m.slug}`
-      return `  <url>\n    <loc>${xmlEscape(createSitemapUrl(path))}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>hourly</changefreq>\n    <priority>0.8</priority>\n  </url>`
+      const base = createSitemapUrl(path)
+
+      // Base match page
+      let xml = `  <url>\n    <loc>${xmlEscape(base)}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>hourly</changefreq>\n    <priority>0.8</priority>\n  </url>`
+
+      // Subpages (only for /watch/ URLs)
+      if (!m.event_id) {
+        xml += `\n  <url>\n    <loc>${xmlEscape(base + '/preview')}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.7</priority>\n  </url>`
+        xml += `\n  <url>\n    <loc>${xmlEscape(base + '/stats')}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.6</priority>\n  </url>`
+        xml += `\n  <url>\n    <loc>${xmlEscape(base + '/lineups')}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>hourly</changefreq>\n    <priority>0.7</priority>\n  </url>`
+      }
+
+      return xml
     }).join('\n')
 
     const xml = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n${urls}\n</urlset>`
