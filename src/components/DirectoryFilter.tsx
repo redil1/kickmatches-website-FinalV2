@@ -77,15 +77,16 @@ export default function DirectoryFilter({ items, type, baseUrl = '' }: Props) {
         {filtered.map((name) => {
           const slug = slugify(name)
           const href = type === 'league' ? `/leagues/${slug}` : `/teams/${slug}`
-          // Use OG route params supported by /api/og
-          const ogSrc = type === 'league'
-            ? `${baseUrl || ''}/api/og?league=${encodeURIComponent(name)}`
-            : `${baseUrl || ''}/api/og?home=${encodeURIComponent(name)}`
 
           return (
             <li key={name} className="rounded-xl border border-gold-500/10 bg-black/40 p-3 hover:border-gold-500/30 hover:bg-black/50 transition">
               <Link href={href} className="flex items-center gap-3">
-                <img src={ogSrc} alt={`${name} thumbnail`} width={96} height={54} className="w-24 h-14 rounded-md object-cover flex-shrink-0 bg-gray-800" />
+                {/* Removed heavy OG image generation - use simple placeholder for better performance */}
+                <div className="w-24 h-14 rounded-md bg-gradient-to-br from-gold-500/20 to-red-600/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">
+                    {type === 'league' ? '⚽' : '🏟️'}
+                  </span>
+                </div>
                 <div className="min-w-0">
                   <div className="font-semibold text-white truncate">{name}</div>
                   <div className="mt-1 text-xs text-gray-400">Fixtures, results & premium streams</div>
